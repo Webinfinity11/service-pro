@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import GalleryGrid from "./GalleryGrid";
 import ProductCta from "./ProductCta";
+import ProductViewer from "./ProductViewer";
 import Reveal from "./Reveal";
 import { getContent } from "@/lib/content";
 import type { Catalog, Item } from "@/lib/catalog";
@@ -168,7 +169,12 @@ export default async function ServiceDetail({ item: s, catalog: c }: { item: Ite
                 <p className="tag text-slate">{t.common.photos(s.gallery.length)}</p>
               </div>
               <span className="mt-5 block h-0.5 w-12 bg-red" />
-              <div className="mt-8">
+              {/* Phones get the product-page viewer — one large photo with a thumbnail
+                  strip reads far better than a grid of tiny tiles. */}
+              <div className="mt-8 lg:hidden">
+                <ProductViewer images={s.gallery} title={s.t} contain={s.fit === "contain"} />
+              </div>
+              <div className="mt-8 hidden lg:block">
                 <GalleryGrid images={s.gallery} fit={s.fit} compact />
               </div>
             </div>
