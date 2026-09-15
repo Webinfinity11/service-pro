@@ -63,10 +63,6 @@ export const productsEn: Record<string, ItemText> = {
     t: "Thermal Insulation",
     d: "Complete building insulation (roof, walls, floor) with polyurethane (PIR) spray foam or boards; insulation of steam, hot and chilled water pipelines, heat exchangers and process equipment with prefabricated pipe sections and metal cladding. Insulation of shut-off and control valves with quick-release removable jackets.",
   },
-  "decorative-glass": {
-    t: "Decorative Glass (Decomina)",
-    d: "Decorative corrugated glass (Decomina).",
-  },
   "steam-units": {
     t: "Heat Supply Units",
     d: "Steam boilers, steam plant equipment and water treatment systems.",
@@ -149,7 +145,7 @@ export const productsEn: Record<string, ItemText> = {
     d: "Insulation of shut-off and control valves, heat exchangers and process equipment with quick-release removable jackets.",
   },
   "pir-spray-foam": {
-    t: "PIR and PUR Spray Foam",
+    t: "Polyurethane (PUR) and Polyisocyanurate (PIR) Spray Foam Insulation — Roofs, Walls, Floors",
     d: "Polyisocyanurate (PIR) and polyurethane (PUR) spray foam — complete building insulation for roofs, walls and floors.",
   },
   "pir-boards": {

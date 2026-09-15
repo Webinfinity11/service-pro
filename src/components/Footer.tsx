@@ -105,7 +105,7 @@ export default async function Footer() {
       <div className="border-t border-white/10">
         <div className="wrap flex flex-col gap-2 py-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="tag text-white/60">
-            © {FOUNDED}–{year} SERVICE PRO — {t.footer.rights}
+            © {FOUNDED}–{year} Service-Pro — {t.footer.rights}
           </p>
           <p className="tag text-white/60">
             {tagline}

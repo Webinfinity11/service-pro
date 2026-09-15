@@ -103,11 +103,12 @@ export default async function ServiceDetail({ item: s, catalog: c }: { item: Ite
           <div>
             <h2 className="display-ge text-[clamp(1.4rem,2.6vw,2rem)] text-ink">{t.services.description}</h2>
             <span className="mt-5 block h-0.5 w-12 bg-red" />
-            {s.content ? (
+            {s.content && (
               <div className="mt-8">
                 <ProductArticle blocks={s.content} />
               </div>
-            ) : s.intro ? (
+            )}
+            {s.intro ? (
               <div className="mt-8 space-y-9">
                 {s.intro.map((b, i) => (
                   <Reveal key={i}>
@@ -130,7 +131,7 @@ export default async function ServiceDetail({ item: s, catalog: c }: { item: Ite
                 ))}
               </div>
             ) : (
-              <p className="mt-8 text-[1.0625rem] leading-[1.85] text-slate">{s.d}</p>
+              !s.content && <p className="mt-8 text-[1.0625rem] leading-[1.85] text-slate">{s.d}</p>
             )}
             {s.gallery.length === 0 && (
               <Reveal className="relative mt-10 aspect-video overflow-hidden rounded-cta bg-ink">

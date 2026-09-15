@@ -12,11 +12,11 @@ export const servicesEn: Record<string, ItemText> = {
   },
   insulation: {
     t: "Thermal Insulation",
-    d: "Thermal insulation, waterproofing and soundproofing works.",
+    d: "Thermal insulation of buildings, pipelines and process equipment.",
   },
   "deck-flooring": {
-    t: "Decking",
-    d: "Installation of decking, complete with the supporting substructure.",
+    t: "Decking and Raised Access Floors",
+    d: "Installation of decking and technical raised access floors, complete with the substructure.",
   },
   "floor-preparation": {
     t: "Floor Substrate Preparation",
@@ -73,10 +73,6 @@ export const servicesEn: Record<string, ItemText> = {
       },
     ],
   },
-  "decorative-glass": {
-    t: "Corrugated and Decorative Glass (Decomina)",
-    d: "Supply and installation of corrugated glass and construction of glass block walls.",
-  },
   hvac: {
     t: "HVAC — Heating, Ventilation and Air Conditioning",
     d: "Design and installation of HVAC (heating, ventilation and air conditioning) systems.",
@@ -130,8 +126,8 @@ export const servicesEn: Record<string, ItemText> = {
     },
   },
   "steam-units": {
-    t: "Heat Supply Units",
-    d: "Design and installation of heat supply units — steam boilers, steam plant equipment and water treatment systems.",
+    t: "Industrial Steam Generation and Control Systems",
+    d: "Complete service for industrial steam systems: concept development, design, supply, installation and after-sales service including diagnostics.",
   },
   "suspended-ceilings": {
     t: "Suspended Ceilings: Supply and Installation",
@@ -182,8 +178,8 @@ export const servicesEn: Record<string, ItemText> = {
     d: "Interior and facade painting works.",
   },
   electrical: {
-    t: "Electrical Works",
-    d: "Electrical systems: design and installation.",
+    t: "Automation",
+    d: "Fully automated control of HVAC, water supply, filtration and steam systems — BMS / SCADA.",
   },
   "design-renovation": {
     t: "Design / Renovation",
@@ -192,10 +188,6 @@ export const servicesEn: Record<string, ItemText> = {
   "medical-planning": {
     t: "Medical Facility Technology Planning",
     d: "Technology planning for medical facilities: concept development, design and implementation.",
-  },
-  "industrial-planning": {
-    t: "Industrial Facility Technology Planning",
-    d: "Technology planning for industrial facilities: concept development, design, implementation and service.",
   },
   "water-sewage": {
     t: "Water Supply and Sewerage",
@@ -214,6 +206,14 @@ export const servicesEn: Record<string, ItemText> = {
   "self-leveling": {
     t: "Self-Leveling Compound",
     d: "Pouring of self-leveling compound.",
+  },
+  "water-treatment": {
+    t: "Water Treatment Systems",
+    d: "Selection, supply, installation and service of water filtration, softening and treatment systems.",
+  },
+  "x-ray-protection": {
+    t: "X-ray Shielding",
+    d: "Supply and installation of X-ray shielding for medical facilities — lead sheets, protective screens and doors.",
   },
 };
 

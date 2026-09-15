@@ -27,11 +27,11 @@ const showcase = [
 /** Six services picked to cover the main directions; the rest live on /services. */
 const featuredSlugs = [
   "hvac",
+  "steam-units",
   "water-sewage",
   "insulation",
   "suspended-ceilings",
   "floor-preparation",
-  "concrete-drilling",
 ];
 
 export default async function Home() {

@@ -5,6 +5,7 @@
  */
 import type { ContentBlock, ItemText } from "./catalog";
 import type { Lang } from "./i18n";
+import { serviceDocs } from "./service-docs";
 
 const refrigerationStages: ContentBlock = {
   type: "image",
@@ -164,7 +165,33 @@ const dropLocalized = (list: Record<string, Partial<ItemText>>) =>
     ])
   );
 
+/** The client wants every flooring service to repeat the full list of floors we lay
+ *  (kept in one place: the floor-preparation intro). */
+const floorTypes = {
+  ka: {
+    h: "ჩვენ გთავაზობთ იატაკის შემდეგ სახეობებს",
+    items: ["რბილი იატაკი რულონური ტიპის", "რბილი იატაკის ფილები", "ვინილის იატაკის საფარი რულონებში", "ვინილის იატაკის ფილები", "დეკის იატაკი", "იმიტირებული იატაკი", "ლამინირებული პარკეტი (ლამინატი)", "ნატურალური ხის იატაკი", "კერამიკული და კერამგრანიტის ფილები", "ინდუსტრიული იატაკები"],
+  },
+  en: {
+    h: "Types of flooring we install",
+    items: ["Soft flooring in rolls", "Soft flooring tiles", "Vinyl flooring in rolls", "Vinyl floor tiles", "Decking", "Imitation flooring", "Laminate flooring", "Natural wood flooring", "Ceramic and porcelain stoneware tiles", "Industrial floors"],
+  },
+};
+const FLOOR_SERVICES = ["vinyl-flooring", "soft-flooring", "deck-flooring", "laminate", "industrial-floors", "ceramic-tiles"];
+
+function withFloors(list: Record<string, Partial<ItemText>>, lang: Lang) {
+  const out = { ...list };
+  for (const slug of FLOOR_SERVICES) {
+    const block: ContentBlock[] = [
+      { type: "h2", text: floorTypes[lang].h },
+      { type: "list", items: floorTypes[lang].items },
+    ];
+    out[slug] = { ...out[slug], content: [...(out[slug]?.content ?? []), ...block] };
+  }
+  return out;
+}
+
 export const serviceArticles: Record<Lang, Record<string, Partial<ItemText>>> = {
-  ka,
-  en: dropLocalized(en),
+  ka: withFloors({ ...serviceDocs, ...ka }, "ka"),
+  en: withFloors(dropLocalized(en), "en"),
 };
