@@ -4,11 +4,11 @@ import { dicts } from "./dict";
 import { defaultLang, isLang, localize, type Lang } from "./i18n";
 import * as site from "./site";
 import { productCatalog, products, subProducts } from "./products";
-import { projects } from "./projects";
+import { highlightProjects, ongoingProjects, projects } from "./projects";
 import { serviceCatalog, services, subServices } from "./services";
 import * as siteEn from "./en/site";
 import { productCatalogEn, productsEn } from "./en/products";
-import { projectsEn } from "./en/projects";
+import { highlightProjectsEn, ongoingProjectsEn, projectsEn } from "./en/projects";
 import { serviceCatalogEn, servicesEn } from "./en/services";
 
 /** Georgian items with English text laid over them; photos and slugs stay shared. */
@@ -87,7 +87,10 @@ function build(lang: Lang) {
     tagline: en ? siteEn.taglineEn : site.tagline,
     safety: en ? siteEn.safetyEn : site.safety,
     cooperation: en ? siteEn.cooperationEn : site.cooperation,
-    projects: en ? projectsEn : projects,
+    projects: {
+      completed: en ? [...highlightProjectsEn, ...projectsEn] : [...highlightProjects, ...projects],
+      ongoing: en ? ongoingProjectsEn : ongoingProjects,
+    },
     services: catalogFor(
       serviceCatalog, services, subServices, lang,
       en ? serviceCatalogEn : undefined, en ? servicesEn : undefined

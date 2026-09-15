@@ -149,6 +149,11 @@ const ka = {
     ctaText: "აღწერეთ ობიექტი და სამუშაოები — მოგიმზადებთ შეთავაზებას და ვადებს.",
     quote: (name: string) => `„${name}“`,
     fullName: (form: string, name: string) => `${form} „${name}“`,
+    completed: "დასრულებული",
+    ongoing: "მიმდინარე",
+    ongoingProject: "მიმდინარე პროექტი",
+    scope: "სამუშაოების ფარგლები",
+    tabs: "პროექტების სტატუსი",
   },
   gallery: {
     title: "გალერეა",
@@ -330,6 +335,11 @@ const en: Dict = {
     ctaText: "Describe the site and the work, and we will prepare a quote and timeline.",
     quote: (name) => name,
     fullName: (form, name) => `${name} ${form}`,
+    completed: "Completed",
+    ongoing: "Ongoing",
+    ongoingProject: "Ongoing project",
+    scope: "Scope of work",
+    tabs: "Project status",
   },
   gallery: {
     title: "Gallery",

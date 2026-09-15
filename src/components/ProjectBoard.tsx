@@ -8,10 +8,28 @@ import type { Project } from "@/lib/projects";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
-/** Client blocks; clicking one opens a popup with the scope of works —
- *  the same behaviour as the old site's /icons/ page. */
-export default function ProjectBoard({ projects }: { projects: Project[] }) {
+/** Title as shown: client names get quotation marks, site titles (no legal form) do not. */
+function title(p: Project, t: ReturnType<typeof useI18n>["t"], withForm = false) {
+  if (!p.form) return p.name;
+  return withForm ? t.projects.fullName(p.form, p.name) : t.projects.quote(p.name);
+}
+
+/** Client blocks under "completed" / "ongoing" tabs; clicking one opens a popup
+ *  with the scope of works — the same behaviour as the old site's /icons/ page. */
+export default function ProjectBoard({
+  completed,
+  ongoing,
+}: {
+  completed: Project[];
+  ongoing: Project[];
+}) {
   const { t } = useI18n();
+  const tabs = [
+    { key: "completed", label: t.projects.completed, items: completed },
+    { key: "ongoing", label: t.projects.ongoing, items: ongoing },
+  ];
+  const [tab, setTab] = useState(0);
+  const projects = tabs[tab].items;
   const [active, setActive] = useState<number | null>(null);
   const close = useCallback(() => setActive(null), []);
   const step = useCallback(
@@ -22,7 +40,46 @@ export default function ProjectBoard({ projects }: { projects: Project[] }) {
 
   return (
     <>
-      <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div role="tablist" aria-label={t.projects.tabs} className="mb-10 flex flex-wrap gap-2">
+        {tabs.map((x, i) => {
+          const on = i === tab;
+          return (
+            <button
+              key={x.key}
+              type="button"
+              role="tab"
+              id={`projects-tab-${x.key}`}
+              aria-selected={on}
+              aria-controls="projects-panel"
+              onClick={() => {
+                setTab(i);
+                setActive(null);
+              }}
+              className={`tag flex items-center gap-2.5 rounded-cta border px-5 py-3.5 transition-colors ${
+                on ? "border-steel bg-steel text-white" : "border-line bg-white text-ink hover:border-steel"
+              }`}
+            >
+              {x.key === "ongoing" && (
+                <span className={`h-2 w-2 rounded-full ${on ? "bg-red-soft" : "bg-red"} animate-pulse`} aria-hidden="true" />
+              )}
+              {x.label}
+              <span
+                className={`rounded-full px-2 py-0.5 text-[0.65rem] ${on ? "bg-white/15 text-white" : "bg-paper text-slate"}`}
+              >
+                {x.items.length}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      <ul
+        key={tabs[tab].key}
+        id="projects-panel"
+        role="tabpanel"
+        aria-labelledby={`projects-tab-${tabs[tab].key}`}
+        className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      >
         {projects.map((p, i) => (
           <Reveal as="li" key={i} delay={(i % 4) * 60} className="h-full">
             <button
@@ -38,7 +95,7 @@ export default function ProjectBoard({ projects }: { projects: Project[] }) {
                 )}
               </span>
               <span className="display-ge mt-5 text-[1.0625rem] leading-snug text-ink">
-                {t.projects.quote(p.name)}
+                {title(p, t)}
               </span>
               <span className="mt-2 line-clamp-2 text-sm leading-relaxed text-slate">
                 {p.scope[0]}
@@ -58,6 +115,7 @@ export default function ProjectBoard({ projects }: { projects: Project[] }) {
       {active !== null && (
         <ProjectModal
           project={projects[active]}
+          ongoing={tabs[tab].key === "ongoing"}
           index={active}
           total={projects.length}
           onClose={close}
@@ -70,12 +128,14 @@ export default function ProjectBoard({ projects }: { projects: Project[] }) {
 
 function ProjectModal({
   project: p,
+  ongoing,
   index,
   total,
   onClose,
   onStep,
 }: {
   project: Project;
+  ongoing: boolean;
   index: number;
   total: number;
   onClose: () => void;
@@ -119,10 +179,10 @@ function ProjectModal({
           <div className="min-w-0">
             <p className="tag flex items-center gap-3 text-slate">
               <span className="h-px w-6 bg-red" />
-              {t.projects.project} <span className="text-red-ink">{pad(index + 1)}</span> / {total}
+              {ongoing ? t.projects.ongoingProject : t.projects.project} <span className="text-red-ink">{pad(index + 1)}</span> / {total}
             </p>
             <h2 id="project-title" className="display-ge mt-4 text-[clamp(1.25rem,3vw,1.6rem)] leading-snug text-ink">
-              {t.projects.fullName(p.form, p.name)}
+              {title(p, t, true)}
             </h2>
           </div>
           <button
@@ -137,7 +197,7 @@ function ProjectModal({
         </div>
 
         <div className="overflow-y-auto px-6 py-6 sm:px-8">
-          <p className="tag text-slate">{t.projects.works}</p>
+          <p className="tag text-slate">{ongoing ? t.projects.scope : t.projects.works}</p>
           <ul className="mt-4 space-y-3">
             {p.scope.map((s, i) => (
               <li key={i} className="flex gap-3 leading-relaxed text-ink">

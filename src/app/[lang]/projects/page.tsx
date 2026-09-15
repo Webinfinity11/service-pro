@@ -19,7 +19,7 @@ export default async function Projects() {
         title={t.projects.title}
         lead={t.projects.lead}
         image="/img/hero/hero-2.jpg"
-        count={String(projects.length)}
+        count={String(projects.completed.length + projects.ongoing.length)}
       />
 
       <section className="wrap py-20 lg:py-24">
@@ -30,7 +30,7 @@ export default async function Projects() {
           lead={t.projects.hint}
         />
         <div className="mt-14">
-          <ProjectBoard projects={projects} />
+          <ProjectBoard completed={projects.completed} ongoing={projects.ongoing} />
         </div>
       </section>
 

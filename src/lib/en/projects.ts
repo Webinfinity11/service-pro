@@ -172,3 +172,89 @@ export const projectsEn: Project[] = [
     ],
   },
 ];
+
+/** English version of highlightProjects, same order. */
+export const highlightProjectsEn: Project[] = [
+  {
+    "form": "",
+    "name": "Nikora — meat products and delicatessen plant",
+    "scope": [
+      "Industrial energy supply for Nikora's new meat products and delicatessen plant, equipped with state-of-the-art technology",
+      "Design, supply, installation and servicing of a fully automated 6 MW steam plant and boiler room, the steam distribution network to the production equipment, shut-off and control valves, an automatic / remote management and control system, and the condensate drainage and return network with its own automatic control system",
+      "Process and domestic hot water supply: a water treatment / softening and hot water preparation station with a 2 MW boiler room",
+      "The work covered design, supply, installation, commissioning and ongoing service"
+    ]
+  },
+  {
+    "form": "",
+    "name": "ATM Terminals — special-purpose marine vessel",
+    "scope": [
+      "The most complex of several projects for ATM Terminals, and one only we carry out in Georgia: a heating / cooling / ventilation system on a special-purpose vessel at Poti Sea Port",
+      "To meet the vessel's specific technical requirements, a central air conditioner with a seawater-cooled condenser was custom-built",
+      "It was manufactured to a design developed by our company"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Poti Sea Port — battery charging facility",
+    "scope": [
+      "Ventilation and temperature control system for the battery charging facility",
+      "The charging station was fitted with a specially designed, explosion-proof, acid-resistant ventilation system"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Poti Sea Port — central server room",
+    "scope": [
+      "Dismantling, reconstruction and installation of precision air conditioners in the central server room",
+      "Supply and installation of refrigerant pressure and temperature control devices"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Poti Sea Port — customer service terminal",
+    "scope": [
+      "HVAC (heating / ventilation / air conditioning) system for the customer service terminal"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Poti Sea Port — catering block",
+    "scope": [
+      "HVAC (heating / ventilation / air conditioning) system for the catering block of the customer service and clearance zone"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Poti Sea Port — transformer substation",
+    "scope": [
+      "Ventilation and air temperature control system for the power grid's transformer substation"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Hilton Batumi",
+    "scope": [
+      "Dismantling, reconstruction and replacement of shut-off / control and monitoring devices on the steam generation system, distribution network and condensate drainage system",
+      "Adjustment, commissioning and balancing of steam-consuming equipment"
+    ]
+  }
+];
+
+/** Work in progress — shown under the "ongoing" tab. */
+export const ongoingProjectsEn: Project[] = [
+  {
+    "form": "",
+    "name": "Nuclear pharmaceutical plant, Tbilisi",
+    "scope": [
+      "Construction and fit-out of Georgia's first nuclear pharmaceutical plant, built with state-of-the-art technology and due for completion within a few months"
+    ]
+  },
+  {
+    "form": "",
+    "name": "Jo Ann Medical Centre — multi-profile university hospital",
+    "scope": [
+      "Lead-sheet X-ray shielding for the cardiac surgery operating block"
+    ]
+  }
+];
