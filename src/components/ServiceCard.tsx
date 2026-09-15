@@ -6,7 +6,8 @@ import { getContent } from "@/lib/content";
 
 /**
  * Service row: photo on the left, number, name and one line of scope on the
- * right. Deliberately unlike the shop-style product tile.
+ * right. On phones the photo sits on top at full width, so it is not cropped
+ * to a sliver. Deliberately unlike the shop-style product tile.
  */
 export default async function ServiceCard({
   item: s,
@@ -26,14 +27,14 @@ export default async function ServiceCard({
     <Reveal as="li" delay={delay} className="h-full">
       <Link
         href={c.href(s)}
-        className="group relative grid h-full grid-cols-[6.5rem_1fr] overflow-hidden rounded-cta border border-line bg-white transition-colors duration-300 hover:border-steel sm:grid-cols-[10.5rem_1fr]"
+        className="group relative grid h-full grid-cols-1 overflow-hidden rounded-cta border border-line bg-white transition-colors duration-300 hover:border-steel sm:grid-cols-[10.5rem_1fr]"
       >
-        <div className="relative min-h-36 overflow-hidden bg-ink">
+        <div className="relative aspect-video overflow-hidden bg-ink sm:aspect-auto sm:min-h-36">
           <Image
             src={s.img}
             alt={s.t}
             fill
-            sizes="(min-width: 640px) 168px, 104px"
+            sizes="(min-width: 640px) 168px, 92vw"
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
           <span className="absolute inset-0 bg-steel/25 transition-colors duration-500 group-hover:bg-steel/0" />
