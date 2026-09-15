@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Archivo, IBM_Plex_Mono, Noto_Sans_Georgian } from "next/font/google";
+import { Archivo, IBM_Plex_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LangProvider from "@/components/LangProvider";
@@ -13,10 +14,17 @@ const archivo = Archivo({
   weight: ["500", "600", "700", "800", "900"],
 });
 
-const notoGe = Noto_Sans_Georgian({
-  variable: "--font-noto-ge",
-  subsets: ["georgian", "latin"],
-  weight: ["400", "500", "600", "700", "800"],
+/** TBC Contractica — Georgian and Latin, for body copy and headlines. */
+const contractica = localFont({
+  variable: "--font-ge",
+  display: "swap",
+  src: [
+    { path: "../../fonts/TBCContractica-Light.ttf", weight: "300", style: "normal" },
+    { path: "../../fonts/TBCContractica-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../../fonts/TBCContractica-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../../fonts/TBCContractica-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../../fonts/TBCContractica-Black.ttf", weight: "900", style: "normal" },
+  ],
 });
 
 const plexMono = IBM_Plex_Mono({
@@ -66,7 +74,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   return (
     <html lang={lang} data-scroll-behavior="smooth">
       <body
-        className={`${archivo.variable} ${notoGe.variable} ${plexMono.variable} antialiased`}
+        className={`${archivo.variable} ${contractica.variable} ${plexMono.variable} antialiased`}
       >
         <LangProvider lang={lang}>
           <Header nav={c.nav} />

@@ -12,7 +12,7 @@
   --sp-max-width: 1512px;
   --sp-gutter: clamp(24px, 4.55vw, 88px);
   --sp-header-height: 100px;
-  --sp-font: var(--font-noto-ge), "Noto Sans Georgian", Arial, sans-serif;
+  --sp-font: var(--font-ge), Arial, sans-serif;
   font-family: var(--sp-font);
   font-size: 16px;
   color: var(--sp-ink);

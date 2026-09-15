@@ -20,7 +20,7 @@
   --radius-cta: 4px;
 
   --font-display: var(--font-archivo), system-ui, sans-serif;
-  --font-sans: var(--font-noto-ge), system-ui, sans-serif;
+  --font-sans: var(--font-ge), system-ui, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, monospace;
 
   --breakpoint-xs: 30rem;
@@ -102,7 +102,7 @@
   line-height: 0.95;
 }
 
-/* Headline set in Georgian: Archivo has no Georgian, so Noto carries it
+/* Headline set in Georgian: Archivo has no Georgian, so TBC Contractica carries it
    at heavy weight and tight tracking to keep the same voice. */
 @utility display-ge {
   font-family: var(--font-sans);
