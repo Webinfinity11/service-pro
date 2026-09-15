@@ -406,9 +406,10 @@ export const subProducts: Product[] = [
     slug: "insulation-jackets",
     t: "თბოსაიზოლაციო ჯეკეტები",
     d: "ჩამკეტ-მარეგულირებელი არმატურის, თბომცვლელებისა და ტექნოლოგიური მოწყობილობების თბოიზოლირება სწრაფად მოხსნადი „ჯეკეტებით“.",
-    img: "/img/products/insulation-jackets/01.jpg",
+    img: "/img/products/insulation-jackets/doc-02.jpeg",
     parent: "thermal-insulation",
     gallery: [
+      { src: "/img/products/insulation-jackets/doc-02.jpeg" },
       { src: "/img/products/insulation-jackets/01.jpg" },
       { src: "/img/products/insulation-jackets/02.jpg" },
       { src: "/img/products/insulation-jackets/03.jpg" },

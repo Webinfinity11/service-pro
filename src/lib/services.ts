@@ -12,7 +12,7 @@ export const services: Item[] = [
     slug: "vinyl-flooring",
     t: "ნებისმიერი ტიპის ვინილის საფარის მოწყობა",
     d: "იატაკის ტიპის, კედლის ტიპის, PVC კედლის პანელების და დეკორატიული PVC ფილების (LVT). ასევე ამ საფარებისთვის შესაბამისი საფუძვლის მომზადება.",
-    img: "/img/services/vinyl-flooring.jpg",
+    img: "/img/products/vinyl-floors/02.jpg",
     gallery: [
       { src: "/img/products/vinyl-floors/02.jpg" },
       { src: "/img/products/vinyl-floors/03.jpg" },

@@ -94,7 +94,7 @@ export const safetyEn = {
   title: "Occupational safety comes first",
   lead: "We foster a culture built around meeting safety standards, which in turn creates a strong, well-organised and mature safe working environment.",
   staff:
-    "Our highly qualified engineering, construction and occupational safety staff, together with modern equipment, fully meet the standards for construction, installation and renovation works.",
+    "Our highly qualified engineering, construction and occupational safety staff, together with modern equipment, fully meet modern standards for construction, installation and renovation equipment.",
 };
 
 export const cooperationEn = {
