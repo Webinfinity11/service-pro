@@ -11,6 +11,7 @@ import { productCatalogEn, productsEn } from "./en/products";
 import { highlightProjectsEn, ongoingProjectsEn, projectsEn } from "./en/projects";
 import { serviceCatalogEn, servicesEn } from "./en/services";
 import { productArticles } from "./product-articles";
+import { serviceArticles } from "./service-articles";
 
 /** Georgian items with English text laid over them; photos and slugs stay shared. */
 function translate(items: Item[], text: Record<string, Partial<ItemText>>): Item[] {
@@ -97,7 +98,7 @@ function build(lang: Lang) {
     },
     services: catalogFor(
       serviceCatalog, services, subServices, lang,
-      en ? serviceCatalogEn : undefined, [en ? servicesEn : undefined]
+      en ? serviceCatalogEn : undefined, [en ? servicesEn : undefined, serviceArticles[lang]]
     ),
     products: catalogFor(
       productCatalog, products, subProducts, lang,

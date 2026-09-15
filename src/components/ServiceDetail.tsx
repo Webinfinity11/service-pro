@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import GalleryGrid from "./GalleryGrid";
+import ProductArticle from "./ProductArticle";
 import ProductCta from "./ProductCta";
 import ProductViewer from "./ProductViewer";
 import Reveal from "./Reveal";
@@ -102,7 +103,11 @@ export default async function ServiceDetail({ item: s, catalog: c }: { item: Ite
           <div>
             <h2 className="display-ge text-[clamp(1.4rem,2.6vw,2rem)] text-ink">{t.services.description}</h2>
             <span className="mt-5 block h-0.5 w-12 bg-red" />
-            {s.intro ? (
+            {s.content ? (
+              <div className="mt-8">
+                <ProductArticle blocks={s.content} />
+              </div>
+            ) : s.intro ? (
               <div className="mt-8 space-y-9">
                 {s.intro.map((b, i) => (
                   <Reveal key={i}>
