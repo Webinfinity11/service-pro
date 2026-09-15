@@ -17,7 +17,7 @@ export const navEn: Record<string, string> = {
 };
 
 export const heroEn = {
-  title: ["We build", "more than", "buildings."],
+  title: ["A multidisciplinary", "engineering & construction", "company"],
   description: [
     "Reliable engineering and construction solutions",
     "for stronger businesses and a better future.",

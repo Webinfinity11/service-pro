@@ -29,7 +29,7 @@ export const hero = {
   photo: "/img/hero/hero-construction.webp",
   facade: "/img/hero/facade.webp",
   eyebrow: ["ENGINEERING", "CONSTRUCTION", "BETTER TOMORROW"],
-  title: ["ვაშენებთ", "მეტს, ვიდრე", "შენობებს."],
+  title: ["მულტიპროფილური", "საინჟინრო-სამშენებლო", "კომპანია"],
   description: [
     "სანდო საინჟინრო და სამშენებლო გადაწყვეტილებები",
     "ძლიერი ბიზნესისთვის და უკეთესი მომავლისთვის.",

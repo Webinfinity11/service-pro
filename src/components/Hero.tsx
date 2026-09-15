@@ -53,9 +53,11 @@ export default async function Hero() {
               ))}
             </p>
 
-            <h1 className="sp-hero__title sp-reveal sp-reveal--2" id="sp-hero-title">
-              {hero.title.map((line) => (
-                <span key={line}>{line}</span>
+            <h1 className="sp-hero__title sp-hero__title--long sp-reveal sp-reveal--2" id="sp-hero-title">
+              {hero.title.map((line, i) => (
+                <span key={line} className={i === 1 ? "sp-hero__accent" : undefined}>
+                  {line}
+                </span>
               ))}
             </h1>
 
