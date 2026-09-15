@@ -10,17 +10,19 @@ import * as siteEn from "./en/site";
 import { productCatalogEn, productsEn } from "./en/products";
 import { highlightProjectsEn, ongoingProjectsEn, projectsEn } from "./en/projects";
 import { serviceCatalogEn, servicesEn } from "./en/services";
+import { productArticles } from "./product-articles";
 
 /** Georgian items with English text laid over them; photos and slugs stay shared. */
-function translate(items: Item[], text: Record<string, ItemText>): Item[] {
+function translate(items: Item[], text: Record<string, Partial<ItemText>>): Item[] {
   return items.map((it) => {
     const tr = text[it.slug];
     if (!tr) return it;
     return {
       ...it,
-      t: tr.t,
-      d: tr.d,
+      t: tr.t ?? it.t,
+      d: tr.d ?? it.d,
       intro: tr.intro ?? it.intro,
+      content: tr.content ?? it.content,
       gallery: it.gallery.map((g) =>
         g.caption && tr.captions?.[g.src] ? { ...g, caption: tr.captions[g.src] } : g
       ),
@@ -33,18 +35,20 @@ function catalogFor(
   top: Item[],
   sub: Item[],
   lang: Lang,
-  text?: CatalogText,
-  items?: Record<string, ItemText>
+  text: CatalogText | undefined,
+  /** Text layers applied in order, e.g. English names first, then long-form articles. */
+  layers: (Record<string, Partial<ItemText>> | undefined)[]
 ): Catalog {
   const t = text ?? base;
+  const apply = (list: Item[]) => layers.reduce((acc, l) => (l ? translate(acc, l) : acc), list);
   return makeCatalog({
     base: localize(lang, base.base),
     label: t.label,
     noun: t.noun,
     features: t.features,
     copy: t.copy,
-    top: items ? translate(top, items) : top,
-    sub: items ? translate(sub, items) : sub,
+    top: apply(top),
+    sub: apply(sub),
   });
 }
 
@@ -93,11 +97,11 @@ function build(lang: Lang) {
     },
     services: catalogFor(
       serviceCatalog, services, subServices, lang,
-      en ? serviceCatalogEn : undefined, en ? servicesEn : undefined
+      en ? serviceCatalogEn : undefined, [en ? servicesEn : undefined]
     ),
     products: catalogFor(
       productCatalog, products, subProducts, lang,
-      en ? productCatalogEn : undefined, en ? productsEn : undefined
+      en ? productCatalogEn : undefined, [en ? productsEn : undefined, productArticles[lang]]
     ),
   };
 }

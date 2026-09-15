@@ -9,6 +9,17 @@ export type Shot = { src: string; caption?: string };
 
 export type IntroBlock = { h?: string; p?: string; list?: string[] };
 
+/** Interactive pieces a long-form article can embed. */
+export type WidgetName = "steam-calculator" | "jacket-calculator" | "recuperator-curve";
+
+/** Long-form article block, from the client's product documents. Text may use `**bold**`. */
+export type ContentBlock =
+  | { type: "h2" | "h3" | "p" | "note"; text: string }
+  | { type: "list"; items: string[] }
+  | { type: "table"; head: string[]; rows: string[][] }
+  | { type: "image"; src: string; alt: string; width: number; height: number; localized?: boolean }
+  | { type: "widget"; name: WidgetName };
+
 export type Item = {
   slug: string;
   t: string;
@@ -22,6 +33,8 @@ export type Item = {
   /** Cut-out shots on white read better uncropped. */
   fit?: "cover" | "contain";
   intro?: IntroBlock[];
+  /** Long-form article; replaces `intro` on the page when present. */
+  content?: ContentBlock[];
   video?: string;
   gallery: Shot[];
 };
@@ -49,7 +62,7 @@ export type Catalog = {
 };
 
 /** Translatable text of one item; everything else (slug, photos) is shared. */
-export type ItemText = Pick<Item, "t" | "d" | "intro"> & {
+export type ItemText = Pick<Item, "t" | "d" | "intro" | "content"> & {
   /** Gallery captions keyed by photo `src`. */
   captions?: Record<string, string>;
 };

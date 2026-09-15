@@ -1,6 +1,7 @@
 import Link from "next/link";
 import GalleryGrid from "./GalleryGrid";
 import ProductCard from "./ProductCard";
+import ProductArticle from "./ProductArticle";
 import ProductCta from "./ProductCta";
 import ProductViewer from "./ProductViewer";
 import Reveal from "./Reveal";
@@ -132,7 +133,15 @@ export default async function ProductDetail({ item: p, catalog: c }: { item: Ite
       </section>
 
       {/* ── Long description ─────────────────────────────────── */}
-      {p.intro && (
+      {p.content && (
+        <section className="wrap py-20 lg:py-24">
+          <SectionHead index={idx()} eyebrow={t.products.description} title={t.products.details} />
+          <div className="mt-14">
+            <ProductArticle blocks={p.content} />
+          </div>
+        </section>
+      )}
+      {!p.content && p.intro && (
         <section className="wrap py-20 lg:py-24">
           <SectionHead index={idx()} eyebrow={t.products.description} title={t.products.details} />
           <div className="mt-12 grid gap-x-16 gap-y-10 md:grid-cols-2">

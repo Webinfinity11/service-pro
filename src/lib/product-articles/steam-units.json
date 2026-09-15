@@ -1,0 +1,404 @@
+{
+  "ka": {
+    "t": "ორთქლის ქვაბები და თბოუზრუნველყოფის სხვა მოწყობილობები",
+    "d": "ინდუსტრიული ორთქლის წარმოებისა და მართვის თანამედროვე სისტემები: ორთქლის ქვაბები, წნევის დამგდები სარქველები, კონდენსატმჭერები და ენერგიის უკან დაბრუნების ტექნოლოგიები.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "ინდუსტრიული ორთქლის წარმოებისა და მართვის თანამედროვე სისტემები"
+      },
+      {
+        "type": "p",
+        "text": "ორთქლი თანამედროვე ინდუსტრიული ენერგო სექტორის ერთ-ერთი მთავარი მამოძრავებელი ძალაა. ტემპერატურის ზუსტი კონტროლის, უსაფრთხოებისა და ენერგიის გადაცემის მაღალი ეფექტურობის გამო, ის შეუცვლელი რესურსია ისეთ სფეროებში, როგორიცაა ფარმაცია, ქიმიური მრეწველობა, კვების ინდუსტრია და მძიმე მრეწველობა. თუმცა, ორთქლის სისტემების ეფექტური მუშაობა მოითხოვს გენერაციის, განაწილებისა და მართვის პროცესების სრულყოფილ სინქრონიზაციას."
+      },
+      {
+        "type": "h2",
+        "text": "ორთქლის სასიცოცხლო ციკლი და ინფრასტრუქტურა"
+      },
+      {
+        "type": "p",
+        "text": "ინდუსტრიული ორთქლის ქსელი რთული საინჟინრო სისტემაა, რომელიც რამდენიმე საკვანძო ეტაპისგან შედგება:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**ორთქლის მწარმოებელი სადგურები (გენერაცია):** სისტემის \"გული\", სადაც თანამედროვე, მაღალი მარგი ქმედების კოეფიციენტის (მქკ) მქონე ინდუსტრიული საქვაბეები უზრუნველყოფენ წყლის ფაზურ გარდაქმნას. ტექნოლოგიური პროცესი მოითხოვს საწვავის წვის ოპტიმიზაციასა და წყლის ქიმიურ მომზადებას სისტემის ხანგრძლივი ექსპლუატაციისთვის.",
+          "**გამანაწილებელი ქსელები:** მაღალი წნევის მილსადენების სისტემა, რომელიც ორთქლს საწარმოო წერტილებამდე აწვდის. აქ კრიტიკულია იდეალური თბოიზოლაცია და წნევის რედუცირების სადგურების (PRV) გამართული მუშაობა, რათა მომხმარებლამდე მივიდეს ზუსტი პარამეტრების მქონე ენერგია დანაკარგების გარეშე.",
+          "**კონდენსატის ხაზები და ორთქლმჭერები (Steam Traps):** მას შემდეგ, რაც ორთქლი გასცემს სითბურ ენერგიას და კონდენსირდება, სპეციალური კონდენსატმჭერები (კონდენსტოპები) უზრუნველყოფენ მის გამოყოფას სისტემიდან ისე, რომ არ მოხდეს ძვირადღირებული ცოცხალი ორთქლის გაპარვა."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "პროცესების მართვისა და კონტროლის თანამედროვე სისტემები"
+      },
+      {
+        "type": "p",
+        "text": "დღეს ინდუსტრიული სისტემების ეფექტურობა წარმოუდგენელია მაღალტექნოლოგიური ავტომატიზაციის გარეშე. თანამედროვე ინდუსტრიულ სადგურებში ინტეგრირებულია **SCADA** და **BMS** (Building Management System) სისტემები, PLCs (პროგრამირებადი ლოგიკური კონტროლერები) და ჭკვიანი სარქველები. ტელემეტრიული სენსორები რეალურ დროში აკონტროლებენ წნევას, ტემპერატურასა და ხარჯს. ეს ოპერატორებს აძლევს საშუალებას, მყისიერად მოახდინონ რეაგირება ცვლილებებზე, თავიდან აირიდონ ჰიდრავლიკური დარტყმები, შეამცირონ ავარიული გაჩერების რისკები (Downtime) და მართონ პროცესები უმაღლესი სიზუსტით."
+      },
+      {
+        "type": "h2",
+        "text": "ენერგოდაზოგვა და ენერგიის უკან დაბრუნება (Heat Recovery)"
+      },
+      {
+        "type": "p",
+        "text": "ორთქლის სისტემებში ყველაზე დიდი პოტენციალი სწორედ ენერგიის უკან დაბრუნებასა და მის ხელახალ გამოყენებაშია. მეორადი (გაფართოების) ორთქლის უტილიზაცია (Flash steam recovery), კონდენსატის ტუმბოებით ცხელი წყლის ქვაბში უკან დაბრუნება და საკვამლე აირების ენერგიის გამომყენებელი ეკონომაიზერები უმნიშვნელოვანეს როლს თამაშობს სისტემის საერთო ეფექტურობაში."
+      },
+      {
+        "type": "h3",
+        "text": "რატომ არის ეს კრიტიკულად მნიშვნელოვანი"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**საწარმოსთვის (ლოკალური მასშტაბი):** ცხელი კონდენსატის ქვაბში დაბრუნება მნიშვნელოვნად ამცირებს როგორც შესავსები ცივი წყლის (Make-up water), ისე მის გასაცხელებლად საჭირო საწვავის მოხმარებას. ენერგოდამზოგავი ტექნოლოგიების დანერგვა პირდაპირ აისახება ოპერაციული ხარჯების (OPEX) დრამატულ შემცირებაზე, ზრდის საწარმოს რენტაბელობას და ახანგრძლივებს ინფრასტრუქტურის სიცოცხლისუნარიანობას.",
+          "**გლობალური მასშტაბით:** ინდუსტრიული ენერგოეფექტურობა აღარ არის მხოლოდ ფინანსური საკითხი. საწვავის მოხმარების შემცირება ნიშნავს ნახშირბადის (CO2) ემისიების პირდაპირ, მასშტაბურ კლებას. ორთქლის სისტემების ოპტიმიზაციით, მძიმე მრეწველობა მნიშვნელოვან ნაბიჯს დგამს დეკარბონიზაციისა და გლობალური ეკოლოგიური გამოწვევების დაძლევისკენ, რითაც პასუხობს საერთაშორისო გარემოსდაცვით სტანდარტებს."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**მოდით უფრო ღრმად ჩავიდეთ ინდუსტრიული ორთქლის სისტემების ტექნიკურ დეტალებში:**"
+      },
+      {
+        "type": "h2",
+        "text": "ნაწილი 1: ორთქლის წარმოების, განაწილებისა და კონტროლის მოწყობილობები (ტიპები)"
+      },
+      {
+        "type": "p",
+        "text": "ორთქლის სისტემა შედგება მრავალი კრიტიკული კვანძისგან. თითოეულ მათგანს აქვს კონკრეტული დანიშნულება და შეირჩევა საწარმოო პროცესის მოთხოვნების (წნევა, ტემპერატურა, ხარჯი) შესაბამისად."
+      },
+      {
+        "type": "h3",
+        "text": "1. ორთქლის გენერაცია: ინდუსტრიული საქვაბეები (Steam Boilers)"
+      },
+      {
+        "type": "p",
+        "text": "ინდუსტრიაში ძირითადად ორი ტიპის ორთქლის ქვაბი გამოიყენება, რომელთა შორის არჩევანი დამოკიდებულია საჭირო წნევასა და წარმადობაზე:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**ცეცხლ-მილოვანი / Fire-tube ქვაბები:** ამ ტიპის ქვაბებში ცხელი აირები (წვის პროცესიდან) გაივლის მილებში, რომლებიც ჩაძირულია წყლით სავსე რეზერვუარში. გამოირჩევა დიდი მოცულობით, რისი მეშვეობითაც ის კარგად უმკლავდება ორთქლის მოთხოვნის მკვეთრ, პიკურ ცვლილებებს. გამოიყენება დაბალი და საშუალო წნევის (25 ბარამდე) სისტემებში.",
+          "**წყალ-მილოვანი / Water-tube ქვაბები:** აქ პირიქითაა — წყალი მოძრაობს მილებში, ხოლო მათ გარედან აცხელებს ცეცხლი და ცხელი აირები. ეს დიზაინი იძლევა ძალიან მაღალი წნევის (100+ ბარი) და უზარმაზარი წარმადობის მიღწევის საშუალებას. ხშირად გვხვდება თბოელექტროსადგურებსა და მძიმე ქიმიურ მრეწველობაში."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. გამანაწილებელი სისტემები და წნევის რედუცირება"
+      },
+      {
+        "type": "p",
+        "text": "ქვაბი ორთქლს გამოიმუშავებს მაღალ წნევაზე (ორთქლის ტრანსპორტირებისას მილების დიამეტრის შესამცირებლად), თუმცა ორთქლის მომხმარებელ მოწყობილობებთან (მაგ. ამაორთქლებელთან, თბომცვლელთან) ორთქლი დაბალ წნევაზე უფრო ეფექტურია, რადგან დაბალ წნევაზე ორთქლს მეტი ფარული სითბოს (Latent Heat) გაცემა შეუძლია."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**წნევის დამგდები (სარედუციო) სარქველები (PRV - Pressure Reducing Valves):** მოწყობილობა, რომელიც ამცირებს და ასტაბილურებს ორთქლის წნევას მომხმარებელ მოწყობილობებზე მიწოდებამდე. არსებობს პირდაპირი მოქმედების (მარტივი, მცირე ხარჯებისთვის) და პილოტური მართვის (მაღალი სიზუსტისა და დიდი ხარჯებისთვის) სარქველები."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. კონდენსატმჭერები / ორთქლმჭერები (Steam Traps)"
+      },
+      {
+        "type": "p",
+        "text": "სისტემის ერთ-ერთი ყველაზე მნიშვნელოვანი ელემენტი. მათი მიზანია სისტემიდან გამოუშვან წარმოქმნილი კონდენსატი (წყალი) და ჰაერი ისე, რომ არ გაატარონ \"ცოცხალი\" (სასარგებლო) ორთქლი. იყოფა 3 ძირითად კატეგორიად:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**მექანიკური (ეს ტიპი ორ ქვე ტიპად იყოფა: ტივტივიანი ტიპისა და გადაბრუნებული ჭიქის ტიპის - Float type and Inverted Bucket type):** მუშაობს სიმკვრივეებს შორის სხვაობაზე. იდეალურია დიდი რაოდენობით კონდენსატის უწყვეტი გაყვანისთვის.",
+          "**თერმოდინამიკური:** მუშაობს დინამიკური წნევის ცვლილებაზე. არის კომპაქტური, უძლებს ჰიდრავლიკურ დარტყმებს და იყინება რთულად (გამოიყენება გარე ქსელებში ტრასების დრენაჟისთვის).",
+          "**თერმოსტატიკური:** მუშაობს ტემპერატურის სხვაობაზე ორთქლსა და კონდენსატს შორის."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "ნაწილი 2: ენერგოეფექტურობა, კონდენსატის დაბრუნება და ენერგიის დაზოგვის ტექნოლოგიები"
+      },
+      {
+        "type": "p",
+        "text": "ორთქლის ინდუსტრიულ სისტემებში ენერგიის დანაკარგების შემცირება პირდაპირ კავშირშია კომპანიის მოგებიანობასთან და ეკოლოგიასთან. ენერგიის უკან დაბრუნების (Heat Recovery) მთავარი მიმართულება **ცხელი კონდენსატის მართვაა**."
+      },
+      {
+        "type": "p",
+        "text": "როდესაც ორთქლი სითბოს გასცემს, ის იქცევა კონდენსატად — უაღრესად სუფთა, დემინერალიზებულ და ცხელ წყლად (ხშირად 90°C - 100°C). მისი კანალიზაციაში ჩაშვება არის როგორც თბური ენერგიის, ისე ძვირადღირებული ქიმიურად დამუშავებული წყლის ფლანგვა."
+      },
+      {
+        "type": "h3",
+        "text": "ტექნიკური საშუალებები კონდენსატის უტილიზაციისთვის"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**კონდენსატის შემკრები და დასაბრუნებელი სადგურები (Condensate Recovery Units):** ჩვეულებრივი ელექტრო ტუმბოები ცხელ წყალთან (90°C+) მუშაობისას ხშირად განიცდიან კავიტაციას (დუღილს ტუმბოს შიგნით), რაც აზიანებს მათ. ამიტომ გამოიყენება სპეციალური კონსტრუქციის ელექტრო ტუმბოები ან **მექანიკური (ორთქლით მართვადი) ტუმბოები**. მექანიკური ტუმბო იყენებს თავად ორთქლის (ან შეკუმშული ჰაერის) წნევას კონდენსატის საქვაბეში დასაბრუნებლად და არ საჭიროებს ელექტროენერგიას.",
+          "**მეორადი (გაფართოების) ორთქლის უტილიზაცია (Flash Steam Recovery):** მაღალი წნევის კონდენსატის დაბალ წნევაზე გადასვლისას, წყლის ნაწილი მყისიერად დუღდება და გარდაიქმნება ე.წ. \"Flash Steam\"-ად. სპეციალური სეპარატორული ავზების (Flash Vessels) მეშვეობით ხდება ამ ორთქლის შეგროვება და დაბალი წნევის მომხმარებლებისთვის (მაგ. შენობის გათბობა, წყლის წინასწარი გაცხელება) მიწოდება.",
+          "**ეკონომაიზერები (Economizers):** საქვაბის საკვამლე მილიდან გამავალი აირების ტემპერატურა ხშირად 200°C-300°C აღწევს. ეკონომაიზერი არის თბომცვლელი, რომელიც ამ დაკარგულ ენერგიას იყენებს ქვაბში შესაშვები (Make-up) ან დაბრუნებული წყლის წინასწარ გასაცხელებლად. ქვაბის მკვებავი წყლის ტემპერატურის ყოველი 6°C-ით გაზრდა, საწვავის მოხმარებას დაახლოებით 1%-ით ამცირებს."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "ნაწილი 3: ეკონომიკური სარგებელი (კონკრეტული მაგალითი)"
+      },
+      {
+        "type": "p",
+        "text": "განვიხილოთ საშუალო ზომის საწარმო, სადაც მუშაობს **10 ტონა/სთ (10,000 კგ/სთ)** წარმადობის ორთქლის ქვაბი. სისტემა მუშაობს წელიწადში 6,000 საათი."
+      },
+      {
+        "type": "p",
+        "text": "**სცენარი ა (არაეფექტური):** კონდენსატი არ ბრუნდება. ქვაბი იკვებება 15°C ტემპერატურის მქონე ცივი, ახალი წყლით, რომელიც საჭიროებს მექანიკურ წმენდას, ქიმიურ დამუშავებასა და გაცხელებას."
+      },
+      {
+        "type": "p",
+        "text": "**სცენარი ბ (ენერგოეფექტური):** წარმოქმნილი კონდენსატის 80% (8,000 კგ/სთ) ბრუნდება უკან ქვაბში. დაბრუნებული წყლის ტემპერატურაა 90°C."
+      },
+      {
+        "type": "table",
+        "head": [
+          "პარამეტრი",
+          "სცენარი ა (კონდენსატის გარეშე)",
+          "სცენარი ბ (80% უკან დაბრუნებით)",
+          "სხვაობა (ეკონომია)"
+        ],
+        "rows": [
+          [
+            "დასამატებელი (ცივი) წყალი 15°C",
+            "10,000 კგ/სთ",
+            "2,000 კგ/სთ",
+            "**8,000 ლიტრი / საათში დაზოგილი წყალი**"
+          ],
+          [
+            "წყლის გასაცხელებლად (15°C-დან 90°C-მდე) საჭირო ენერგია",
+            "იხარჯება სრულ მოცულობაზე",
+            "დაზოგილია 80% მოცულობაზე",
+            "**~700 კვტ. თბური ენერგია (ყოველ საათში)**"
+          ],
+          [
+            "წყლის წლიური დანაზოგი (6000 სთ)",
+            "0 მ³",
+            "48,000 მ³",
+            "**48,000 ტონა სუფთა წყლის დაზოგვა**"
+          ],
+          [
+            "ენერგიის წლიური დანაზოგი",
+            "0 კვტ.სთ",
+            "~4,200,000 კვტ.სთ",
+            "**უზარმაზარი ეკონომია ბუნებრივ აირზე (იხ. კალკულატორი ქვემოთ)**"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "(გარდა ამისა, მცირდება წყლის ქიმიური დამუშავების (რეაგენტების) ხარჯი მინიმუმ 80%-ით და ქვაბის ფსკერისა და ზედაპირის განბერვის (Blowdown) აუცილებლობა, რაც კიდევ უფრო ზრდის მქკ-ს)."
+      },
+      {
+        "type": "p",
+        "text": "ძვირფასო ვიზიტორებო (ინჟინრებო, საწარმოების მენეჯერებო) იმისათვის, რომ უკეთ აღიქვათ, თუ რამხელა ფინანსურ სარგებელზეა საუბარი, გთხოვთ ქვემოთ იხილოთ **ინტერაქტიული კალკულატორი**. შეგიძლიათ შეცვალოთ მონაცემები თქვენი ჰიპოთეტური ან რეალური საწარმოს პარამეტრების მიხედვით და რეალურ დროში ნახოთ დაზოგილი ენერგიისა და თანხის მოცულობა:"
+      },
+      {
+        "type": "widget",
+        "name": "steam-calculator"
+      }
+    ]
+  },
+  "en": {
+    "t": "Steam Boilers and Other Heat Supply Equipment",
+    "d": "Modern industrial steam generation and management systems: steam boilers, pressure reducing valves, steam traps and heat recovery technologies.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Modern Industrial Steam Generation and Management Systems"
+      },
+      {
+        "type": "p",
+        "text": "Steam is one of the main driving forces of the modern industrial energy sector. Thanks to precise temperature control, safety and high energy-transfer efficiency, it is an indispensable resource in sectors such as pharmaceuticals, the chemical industry, food processing and heavy industry. However, efficient operation of steam systems requires complete synchronization of the generation, distribution and control processes."
+      },
+      {
+        "type": "h2",
+        "text": "The Steam Life Cycle and Infrastructure"
+      },
+      {
+        "type": "p",
+        "text": "An industrial steam network is a complex engineering system consisting of several key stages:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Steam generating plants (generation):** the \"heart\" of the system, where modern, high-efficiency industrial boiler houses carry out the phase change of water. The process requires optimized fuel combustion and chemical water treatment to ensure long system service life.",
+          "**Distribution networks:** a system of high-pressure pipelines that delivers steam to the points of use. Flawless thermal insulation and properly functioning pressure reducing stations (PRV) are critical here, so that energy reaches the consumer at precise parameters and without losses.",
+          "**Condensate lines and steam traps:** once the steam has given up its heat and condensed, special condensate traps discharge it from the system without letting expensive live steam escape."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Modern Process Management and Control Systems"
+      },
+      {
+        "type": "p",
+        "text": "Today, the efficiency of industrial systems is unthinkable without high-tech automation. Modern industrial plants integrate **SCADA** and **BMS** (Building Management System) systems, PLCs (programmable logic controllers) and smart valves. Telemetry sensors monitor pressure, temperature and flow in real time. This allows operators to respond to changes instantly, prevent water hammer, reduce the risk of unplanned shutdowns (downtime) and manage processes with the highest precision."
+      },
+      {
+        "type": "h2",
+        "text": "Energy Saving and Heat Recovery"
+      },
+      {
+        "type": "p",
+        "text": "The greatest potential in steam systems lies precisely in recovering energy and reusing it. Flash steam recovery, returning condensate to the boiler with condensate pumps, and economizers that use the energy of flue gases play a vital role in the overall efficiency of the system."
+      },
+      {
+        "type": "h3",
+        "text": "Why This Is Critically Important"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**For the plant (local scale):** returning hot condensate to the boiler significantly reduces the consumption of both cold make-up water and the fuel needed to heat it. Implementing energy-saving technologies translates directly into a dramatic reduction in operating expenses (OPEX), increases the plant's profitability and extends the service life of the infrastructure.",
+          "**On a global scale:** industrial energy efficiency is no longer just a financial matter. Lower fuel consumption means a direct, large-scale reduction in carbon (CO2) emissions. By optimizing steam systems, heavy industry takes a significant step toward decarbonization and toward meeting global environmental challenges, thereby complying with international environmental standards."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**Let's take a deeper look at the technical details of industrial steam systems:**"
+      },
+      {
+        "type": "h2",
+        "text": "Part 1: Steam Generation, Distribution and Control Equipment (Types)"
+      },
+      {
+        "type": "p",
+        "text": "A steam system consists of many critical components. Each has a specific purpose and is selected according to the requirements of the production process (pressure, temperature, flow rate)."
+      },
+      {
+        "type": "h3",
+        "text": "1. Steam Generation: Industrial Steam Boilers"
+      },
+      {
+        "type": "p",
+        "text": "Industry mainly uses two types of steam boiler; the choice between them depends on the required pressure and capacity:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Fire-tube boilers:** in this type of boiler, hot gases (from combustion) pass through tubes immersed in a water-filled vessel. They are distinguished by a large water volume, which allows them to cope well with sharp peak changes in steam demand. They are used in low- and medium-pressure systems (up to 25 bar).",
+          "**Water-tube boilers:** here it is the other way around — water flows inside the tubes, while the flame and hot gases heat them from the outside. This design makes it possible to achieve very high pressures (100+ bar) and enormous capacities. They are commonly found in thermal power plants and heavy chemical industry."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Distribution Systems and Pressure Reduction"
+      },
+      {
+        "type": "p",
+        "text": "The boiler produces steam at high pressure (to reduce pipe diameters during steam transport); however, at the steam-using equipment (e.g. an evaporator or heat exchanger), steam is more efficient at low pressure, because at low pressure steam can release more latent heat."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Pressure reducing valves (PRV):** a device that reduces and stabilizes steam pressure before it is supplied to the consuming equipment. There are direct-acting valves (simple, for small flow rates) and pilot-operated valves (for high accuracy and large flow rates)."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Condensate Traps / Steam Traps"
+      },
+      {
+        "type": "p",
+        "text": "One of the most important elements of the system. Their purpose is to discharge the condensate (water) and air formed in the system without passing \"live\" (useful) steam. They fall into 3 main categories:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Mechanical (this type has two sub-types: float type and inverted bucket type):** operate on the difference in density. Ideal for continuous discharge of large amounts of condensate.",
+          "**Thermodynamic:** operate on changes in dynamic pressure. They are compact, withstand water hammer and are hard to freeze (used for draining outdoor steam mains).",
+          "**Thermostatic:** operate on the temperature difference between steam and condensate."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Part 2: Energy Efficiency, Condensate Return and Energy-Saving Technologies"
+      },
+      {
+        "type": "p",
+        "text": "In industrial steam systems, reducing energy losses is directly linked to a company's profitability and to the environment. The main focus of heat recovery is the **management of hot condensate**."
+      },
+      {
+        "type": "p",
+        "text": "When steam gives up its heat, it turns into condensate — extremely pure, demineralized hot water (often 90°C – 100°C). Discharging it to the sewer wastes both thermal energy and expensive chemically treated water."
+      },
+      {
+        "type": "h3",
+        "text": "Technical Means for Condensate Recovery"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Condensate Recovery Units:** conventional electric pumps handling hot water (90°C+) often suffer from cavitation (boiling inside the pump), which damages them. That is why specially designed electric pumps or **mechanical (steam-driven) pumps** are used. A mechanical pump uses the pressure of the steam itself (or compressed air) to return condensate to the boiler house and requires no electricity.",
+          "**Flash Steam Recovery:** when high-pressure condensate passes to a lower pressure, part of the water instantly boils and turns into so-called \"flash steam\". Special separator vessels (flash vessels) collect this steam and supply it to low-pressure consumers (e.g. space heating, water preheating).",
+          "**Economizers:** the temperature of the gases leaving the boiler stack often reaches 200°C–300°C. An economizer is a heat exchanger that uses this otherwise lost energy to preheat make-up or returned water before it enters the boiler. Every 6°C increase in boiler feedwater temperature reduces fuel consumption by approximately 1%."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Part 3: Economic Benefit (A Worked Example)"
+      },
+      {
+        "type": "p",
+        "text": "Consider a medium-sized plant operating a steam boiler with a capacity of **10 tonnes/h (10,000 kg/h)**. The system operates 6,000 hours per year."
+      },
+      {
+        "type": "p",
+        "text": "**Scenario A (inefficient):** condensate is not returned. The boiler is fed with cold, fresh water at 15°C, which requires mechanical filtration, chemical treatment and heating."
+      },
+      {
+        "type": "p",
+        "text": "**Scenario B (energy-efficient):** 80% of the condensate produced (8,000 kg/h) is returned to the boiler. The temperature of the returned water is 90°C."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Parameter",
+          "Scenario A (no condensate return)",
+          "Scenario B (80% return)",
+          "Difference (savings)"
+        ],
+        "rows": [
+          [
+            "Make-up (cold) water at 15°C",
+            "10,000 kg/h",
+            "2,000 kg/h",
+            "**8,000 litres of water saved per hour**"
+          ],
+          [
+            "Energy required to heat the water (from 15°C to 90°C)",
+            "Spent on the full volume",
+            "Saved on 80% of the volume",
+            "**~700 kW of thermal energy (every hour)**"
+          ],
+          [
+            "Annual water savings (6,000 h)",
+            "0 m³",
+            "48,000 m³",
+            "**48,000 tonnes of clean water saved**"
+          ],
+          [
+            "Annual energy savings",
+            "0 kWh",
+            "~4,200,000 kWh",
+            "**Huge savings on natural gas (see the calculator below)**"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "(In addition, the cost of chemical water treatment (reagents) falls by at least 80%, as does the need for bottom and surface blowdown of the boiler, which further increases efficiency.)"
+      },
+      {
+        "type": "p",
+        "text": "Dear visitors (engineers, plant managers), to give you a better sense of the scale of the financial benefit involved, please see the **interactive calculator** below. You can change the inputs to match the parameters of your hypothetical or real plant and see the amount of energy and money saved in real time:"
+      },
+      {
+        "type": "widget",
+        "name": "steam-calculator"
+      }
+    ]
+  }
+}

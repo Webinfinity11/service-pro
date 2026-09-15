@@ -1,0 +1,312 @@
+{
+  "ka": {
+    "t": "ავტომატიზაცია და ავტომატური კონტროლი",
+    "d": "HVAC, სამაცივრე, ორთქლისა და წყალმომარაგების სისტემების ავტომატიზაცია (BMS, SCADA) — ენერგოეფექტურობა, უსაფრთხოება და ეკონომიკური ზრდა.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "ინდუსტრიული სისტემების ავტომატიზაცია: ენერგოეფექტურობა, უსაფრთხოება და ეკონომიკური ზრდა"
+      },
+      {
+        "type": "p",
+        "text": "თანამედროვე ინდუსტრიულ და კომერციულ ობიექტებზე **HVAC (გათბობა, ვენტილაცია, კონდიცირება), სამაცივრე, ორთქლისა და წყალმომარაგების სისტემები** საწარმოს „გულისცემას“ წარმოადგენს. ამ სისტემების უწყვეტი და ზუსტი მუშაობა პირდაპირ კავშირშია პროდუქციის ხარისხთან (მაგ: ფარმაცევტული GDP სტანდარტები, კვების მრეწველობა) და საოპერაციო ხარჯებთან."
+      },
+      {
+        "type": "p",
+        "text": "დღეს, მენეჯერებისა და მთავარი ინჟინრების წინაშე დგას მთავარი კითხვა: **როგორ შევამციროთ ენერგოხარჯები ისე, რომ გავზარდოთ წარმადობა და უსაფრთხოება?** პასუხი ინტეგრირებულ ავტომატიზაციასა და შენობის/პროცესების მართვის თანამედროვე სისტემებშია (BMS, SCADA), როგორიცაა, მაგალითად, Tridium Niagara 4 ან თანამედროვე DDC კონტროლერებზე დაფუძნებული არქიტექტურა."
+      },
+      {
+        "type": "h2",
+        "text": "1. ტექნოლოგიური პროცესების მართვის თანამედროვე საშუალებები"
+      },
+      {
+        "type": "p",
+        "text": "ავტომატიზაცია აღარ გულისხმობს მხოლოდ სისტემის „ჩართვა/გამორთვის“ ფუნქციას. თანამედროვე ავტომატიკა არის ინტელექტუალური ქსელი, რომელიც რეალურ დროში აანალიზებს დატვირთვას:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**HVAC და კლიმატკონტროლი:** სიხშირული გარდამქმნელების (VSD/VFD) გამოყენება სავენტილაციო დანადგარების (AHU) ძრავებზე; CAV და VAV (ცვლადი ხარჯის) სისტემების ინტეგრაცია, რაც უზრუნველყოფს ჰაერის მიწოდებას მხოლოდ იქ და იმ მოცულობით, რაც კონკრეტულ მომენტშია საჭირო.",
+          "**სამაცივრე სექტორი:** კომპრესორების მუშაობის ავტომატური მოდულაცია სითბური დატვირთვის (Heat Load) მიხედვით. მცოცავი წნევის (Floating head pressure) კონტროლი და ჭკვიანი გალღობის (Smart Defrost) რეჟიმები, რომლებიც ზოგავენ ელექტროენერგიას და ახანგრძლივებენ კომპრესორის სიცოცხლეს.",
+          "**ინდუსტრიული ორთქლი:** ორთქლის ქვაბებზე მოდულაციური სანთურების (Burners) სრული ავტომატიზაცია, O2 ტრიმინგი საწვავის იდეალური წვისთვის და კონდენსატის უკუბრუნების სისტემების (Condensate recovery) ზუსტი მართვა.",
+          "**წყალმომარაგება და წყალმომზადება:** უკუკოსმოსის (RO) სისტემების, ფილტრაციისა და რეცირკულაციის სრული ავტომატიზაცია (მაგ: დიფერენციალური წნევის სენსორებით ფილტრების რეცხვის ავტომატური დაწყება)."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. ავტომატიზაციის ეკონომიკური მნიშვნელობა და დასაბუთება (ROI)"
+      },
+      {
+        "type": "p",
+        "text": "მენეჯმენტისთვის ყველაზე საინტერესო ნაწილი ციფრებია. ავტომატიზაციაში ჩადებული ინვესტიცია (CAPEX) საოპერაციო ხარჯების (OPEX) შემცირების ხარჯზე უმოკლეს დროში იხდის საკუთარ თავს."
+      },
+      {
+        "type": "h3",
+        "text": "ცხრილი 1: ტრადიციული vs. ავტომატიზებული მართვის ეკონომიკური ეფექტი"
+      },
+      {
+        "type": "table",
+        "head": [
+          "სისტემა / მიმართულება",
+          "ტრადიციული მართვა (არაეფექტური)",
+          "ავტომატიზებული მართვა (BMS/IoT)",
+          "ეკონომიკური ეფექტი და სარგებელი"
+        ],
+        "rows": [
+          [
+            "**სავენტილაციო სისტემები (AHU)**",
+            "მუდმივი ბრუნი (100% დატვირთვა), ხელით ჩართვა/გამორთვა.",
+            "VSD ძრავები, VAV ტერმინალები და CO2/ტემპერატურის სენსორებით მართვა.",
+            "ელექტროენერგიის მოხმარების **30-50%-ით შემცირება**."
+          ],
+          [
+            "**ინდუსტრიული ქვაბები (Steam/Hot Water)**",
+            "მექანიკური რეგულირება, კონდენსატის დაკარგვა სადრენაჟოში.",
+            "სანთურის ციფრული მართვა, კონდენსატის 80%+ ავტომატური დაბრუნება ქვაბში.",
+            "ბუნებრივი აირის **10-15%-იანი დაზოგვა**; წყლის ქიმიის ხარჯების კლება."
+          ],
+          [
+            "**სამაცივრე დანადგარები**",
+            "ფიქსირებული კონდენსაციის წნევა ტემპერატურის მიუხედავად.",
+            "„Floating Head Pressure“ მართვა, გარე ტემპერატურის მიხედვით.",
+            "ენერგოხარჯის **20%-იანი კლება** ზამთარში და გარდამავალ სეზონებზე."
+          ],
+          [
+            "**წყალმომზადება (RO / ფილტრაცია)**",
+            "ტაიმერებზე დაფუძნებული ხელით რეცხვა (Backwash).",
+            "სენსორული მართვა (TDS, წნევის ვარდნა). გამოსავლიანობის ზუსტი კონტროლი.",
+            "წყლის დანაკარგის მინიმიზაცია მოცდენის დროის შემცირება."
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "კონკრეტული მაგალითები ინვესტიციის უკუგებაზე (ROI)"
+      },
+      {
+        "type": "h3",
+        "text": "მაგალითი 1: სავენტილაციო სისტემების (AHU) ავტომატიზაცია ვენტილატორების კანონის გამოყენებით"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**მოცემულობა:** საწარმოში მუშაობს 4 ცალი 15 კვტ სიმძლავრის ჰაერგამანაწილებელი დანადგარი (AHU), რომელიც ძველი სისტემით მუშაობს სრული დატვირთვით 24/7 (წელიწადში 8760 სთ).",
+          "**პრობლემა:** ელ. ენერგიის წლიური ხარჯი (ტარიფით 0.30 ლარი/კვტ.სთ) შეადგენს დაახლოებით 157,000 ლარს.",
+          "**გადაწყვეტა:** DDC კონტროლერებისა და მიწოდების ვენტილატორებზე VSD (სიხშირული გარდამქმნელი) სისტემის ინტეგრაცია. დატვირთვის მიხედვით სისტემა იმუშავებს საშუალოდ 70-80% სიმძლავრით.",
+          "**შედეგი:** აეროდინამიკის კანონის მიხედვით, ძრავის სიჩქარის 20%-ით შემცირება, ენერგომოხმარებას ამცირებს თითქმის 50%-ით. ახალი წლიური ხარჯი ჩამოდის ~80,000 ლარამდე.",
+          "**ეკონომიკური დასაბუთება:** წლიური დანაზოგი წარმოადგენს **~77,000 ლარს**. სისტემის მოდერნიზაციის ხარჯი ანაზღაურდება **1 წელზე ნაკლებ დროში**."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "მაგალითი 2: ინდუსტრიული ორთქლისა და კონდენსატის სისტემის ოპტიმიზაცია"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**მოცემულობა:** ქარხანა იყენებს 5 ტ/სთ ორთქლის ქვაბს. კონდენსატი ნაწილობრივ იკარგება, ხოლო ორთქლის ხაფანგების (Steam traps) მდგომარეობა ხელით მოწმდება.",
+          "**პრობლემა:** ქვაბში მკვებავი წყალი შედის 20°C ტემპერატურით, რაც ითხოვს უზარმაზარ ენერგიას მის ასადუღებლად.",
+          "**გადაწყვეტა:** კონდენსატის უკუბრუნების ავტომატური სადგურის დამონტაჟება და სკადა სისტემაში ორთქლის ხაფანგების მონიტორინგის ინტეგრაცია.",
+          "**შედეგი:** ქვაბში ბრუნდება 85-90°C-იანი კონდენსატი. ყოველი 6°C-ით მკვებავი წყლის ტემპერატურის მატება ზოგავს საწვავის 1%-ს.",
+          "**ეკონომიკური დასაბუთება:** ბუნებრივი აირის მოხმარება მცირდება დაახლოებით 10-12%-ით. საშუალო საწარმოში ეს წლიურად ათეულობით ათასი ლარის პირდაპირი ეკონომიაა."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "3. უსაფრთხოება და საიმედოობა (Predictive Maintenance)"
+      },
+      {
+        "type": "p",
+        "text": "ეკონომიის გარდა, ავტომატიზაცია არის უსაფრთხოების მთავარი გარანტი:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**ავარიების პრევენცია და მონიტორინგი:** BMS სისტემა რეალურ დროში აფიქსირებს ისეთ კრიტიკულ პარამეტრებს, როგორიცაა ამიაკის (NH3), ფრეონის ან ნახშირორჟანგის (CO2) გაჟონვა სამაცივრე სისტემებში, ქვაბში წნევის კრიტიკული ზრდა ან წყლის დონის ვარდნა. სისტემა ავტომატურად ბლოკავს პროცესს აფეთქების ან გაყინვის საფრთხის წინ.",
+          "**ადამიანური შეცდომის მინიმიზაცია:** ავტომატიკა გამორიცხავს „დამავიწყდა გადამეკეტა/ჩამერთო“ ფაქტორს. მაგალითად, ფარმაცევტულ საწყობებში (GDP სტანდარტით), ავტომატიზაცია უზრუნველყოფს ტემპერატურისა და ტენიანობის (RH < 60%) მკაცრ კონტროლს და ავტომატურ რეპორტინგს (Data Logging), რაც გამორიცხავს ძვირადღირებული პროდუქციის გაფუჭებას.",
+          "**პროგნოზირებადი შენარჩუნება (Predictive Maintenance):** ინჟინერს აღარ უწევს სისტემის დაზიანების ლოდინი. ავტომატიკა ატყობინებს პერსონალს ძრავის ვიბრაციის ზრდის, ფილტრის დაბინძურების ან კომპრესორის არაეფექტური მუშაობის შესახებ მანამ, სანამ სისტემა მწყობრიდან გამოვა."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "რეზიუმე მენეჯმენტისთვის"
+      },
+      {
+        "type": "p",
+        "text": "თანამედროვე ავტომატიზაციის სისტემები (BMS, HVAC, Steam & Refrigeration Control) არ არის ფუფუნება — ეს არის გადარჩენისა და ბაზარზე კონკურენტუნარიანობის შენარჩუნების აუცილებელი პირობა."
+      },
+      {
+        "type": "h3",
+        "text": "რას იღებს საწარმო"
+      },
+      {
+        "type": "list",
+        "items": [
+          "მინიმუმ **20-40%-ით ნაკლებ ენერგოხარჯებს**.",
+          "აღჭურვილობის ექსპლუატაციის ვადის (Life-cycle) **გახანგრძლივებას**.",
+          "საოპერაციო პროცესების **გამჭვირვალობასა და სრულ კონტროლს** დისტანციურად (სმარტფონიდან ან ცენტრალური პულტიდან).",
+          "**უსაფრთხო სამუშაო გარემოს** და დაზღვეულ რისკებს."
+        ]
+      },
+      {
+        "type": "note",
+        "text": "ავტომატიზაციაში დღეს განხორციელებული სწორი ინვესტიცია (სწორად შერჩეული კონტროლერებითა და ალგორითმებით), ხვალ თქვენი საწარმოს ყველაზე მაღალრენტაბელურ აქტივად იქცევა."
+      }
+    ]
+  },
+  "en": {
+    "t": "Automation and Automatic Control",
+    "d": "Automation of HVAC, refrigeration, steam and water supply systems (BMS, SCADA) for energy efficiency, safety and economic growth.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Automation of Industrial Systems: Energy Efficiency, Safety and Economic Growth"
+      },
+      {
+        "type": "p",
+        "text": "In modern industrial and commercial facilities, **HVAC (heating, ventilation and air conditioning), refrigeration, steam and water supply systems** are the \"heartbeat\" of the business. Continuous and precise operation of these systems is directly linked to product quality (e.g. pharmaceutical GDP standards, the food industry) and to operating costs."
+      },
+      {
+        "type": "p",
+        "text": "Today, managers and chief engineers face one key question: **how do we reduce energy costs while increasing productivity and safety?** The answer lies in integrated automation and modern building/process management systems (BMS, SCADA), such as Tridium Niagara 4 or an architecture based on modern DDC controllers."
+      },
+      {
+        "type": "h2",
+        "text": "1. Modern Means of Process Control"
+      },
+      {
+        "type": "p",
+        "text": "Automation no longer means just switching a system \"on/off\". Modern automation is an intelligent network that analyses load in real time:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**HVAC and climate control:** variable speed drives (VSD/VFD) on air handling unit (AHU) motors; integration of CAV and VAV (variable air volume) systems, which supply air only where it is needed and only in the volume required at that particular moment.",
+          "**Refrigeration:** automatic modulation of compressor operation according to the heat load. Floating head pressure control and Smart Defrost modes that save electricity and extend compressor life.",
+          "**Industrial steam:** full automation of modulating burners on steam boilers, O2 trim for ideal fuel combustion, and precise control of condensate recovery systems.",
+          "**Water supply and water treatment:** full automation of reverse osmosis (RO), filtration and recirculation systems (e.g. automatic start of filter backwashing triggered by differential pressure sensors)."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. The Economic Case for Automation (ROI)"
+      },
+      {
+        "type": "p",
+        "text": "For management, the most interesting part is the numbers. Investment in automation (CAPEX) pays for itself in the shortest possible time through reduced operating expenses (OPEX)."
+      },
+      {
+        "type": "h3",
+        "text": "Table 1: Economic Effect of Conventional vs. Automated Control"
+      },
+      {
+        "type": "table",
+        "head": [
+          "System / area",
+          "Conventional control (inefficient)",
+          "Automated control (BMS/IoT)",
+          "Economic effect and benefit"
+        ],
+        "rows": [
+          [
+            "**Ventilation systems (AHU)**",
+            "Constant speed (100% load), manual on/off switching.",
+            "VSD motors, VAV terminals and control via CO2/temperature sensors.",
+            "**30–50% reduction** in electricity consumption."
+          ],
+          [
+            "**Industrial boilers (steam/hot water)**",
+            "Mechanical adjustment, condensate lost to the drain.",
+            "Digital burner management, automatic return of 80%+ of condensate to the boiler.",
+            "**10–15% savings** on natural gas; lower water chemistry costs."
+          ],
+          [
+            "**Refrigeration plants**",
+            "Fixed condensing pressure regardless of temperature.",
+            "\"Floating head pressure\" control based on outdoor temperature.",
+            "**20% reduction** in energy costs in winter and in the transitional seasons."
+          ],
+          [
+            "**Water treatment (RO / filtration)**",
+            "Timer-based manual backwashing.",
+            "Sensor-based control (TDS, pressure drop). Precise control of recovery rate.",
+            "Minimized water losses and reduced downtime."
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Concrete Examples of Return on Investment (ROI)"
+      },
+      {
+        "type": "h3",
+        "text": "Example 1: Automating Ventilation Systems (AHU) Using the Fan Laws"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Baseline:** a plant operates 4 air handling units (AHU) rated at 15 kW each, which, under the old system, run at full load 24/7 (8,760 hours per year).",
+          "**Problem:** the annual electricity cost (at a tariff of 0.30 GEL/kWh) is approximately 157,000 GEL.",
+          "**Solution:** integration of DDC controllers and VSD (variable speed drive) systems on the supply fans. Depending on the load, the system will run at an average of 70–80% of capacity.",
+          "**Result:** according to the laws of aerodynamics, reducing motor speed by 20% cuts energy consumption by almost 50%. The new annual cost drops to ~80,000 GEL.",
+          "**Economic justification:** annual savings amount to **~77,000 GEL**. The cost of modernizing the system pays back in **less than 1 year**."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Example 2: Optimizing an Industrial Steam and Condensate System"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Baseline:** a factory uses a 5 t/h steam boiler. Condensate is partially lost, and the condition of the steam traps is checked manually.",
+          "**Problem:** feedwater enters the boiler at 20°C, which requires an enormous amount of energy to bring it to the boil.",
+          "**Solution:** installation of an automatic condensate recovery unit and integration of steam trap monitoring into the SCADA system.",
+          "**Result:** condensate at 85–90°C returns to the boiler. Every 6°C rise in feedwater temperature saves 1% of fuel.",
+          "**Economic justification:** natural gas consumption falls by approximately 10–12%. For a medium-sized plant, this means direct savings of tens of thousands of GEL per year."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "3. Safety and Reliability (Predictive Maintenance)"
+      },
+      {
+        "type": "p",
+        "text": "Beyond savings, automation is the main guarantee of safety:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Accident prevention and monitoring:** the BMS records critical parameters in real time, such as ammonia (NH3), refrigerant or carbon dioxide (CO2) leaks in refrigeration systems, a critical rise in boiler pressure or a drop in water level. The system automatically interlocks the process before a risk of explosion or freezing arises.",
+          "**Minimizing human error:** automation eliminates the \"I forgot to shut it off / switch it on\" factor. For example, in pharmaceutical warehouses (under the GDP standard), automation ensures strict control of temperature and humidity (RH < 60%) and automatic reporting (data logging), which prevents spoilage of expensive products.",
+          "**Predictive maintenance:** engineers no longer have to wait for the system to fail. The automation notifies staff of increased motor vibration, filter clogging or inefficient compressor operation before the system breaks down."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Summary for Management"
+      },
+      {
+        "type": "p",
+        "text": "Modern automation systems (BMS, HVAC, Steam & Refrigeration Control) are not a luxury — they are an essential condition for survival and for staying competitive in the market."
+      },
+      {
+        "type": "h3",
+        "text": "What the Business Gains"
+      },
+      {
+        "type": "list",
+        "items": [
+          "At least **20–40% lower energy costs**.",
+          "**Extended** equipment service life (life cycle).",
+          "**Transparency and full remote control** of operating processes (from a smartphone or a central control panel).",
+          "A **safe working environment** and mitigated risks."
+        ]
+      },
+      {
+        "type": "note",
+        "text": "The right investment in automation made today (with properly selected controllers and algorithms) will become your business's most profitable asset tomorrow."
+      }
+    ]
+  }
+}

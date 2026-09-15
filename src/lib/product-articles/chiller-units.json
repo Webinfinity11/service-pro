@@ -1,0 +1,742 @@
+{
+  "ka": {
+    "t": "მაცივარ-აგრეგატები",
+    "d": "ინდუსტრიული მაცივარ-საწყობები და სამაცივრე აგრეგატები: დაპროექტება, BMS ინტეგრაცია, ტემპერატურის მონიტორინგი და მაცივარაგენტის შერჩევა.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "ინდუსტრიული მაცივარ-საწყობები და სამაცივრე აგრეგატები: მომავლის სტანდარტები"
+      },
+      {
+        "type": "p",
+        "text": "თანამედროვე მაცივარ-საწყობი აღარ არის მხოლოდ \"ცივი ოთახი\". ეს არის რთული, მაღალტექნოლოგიური საინჟინრო ნაგებობა, სადაც ტემპერატურის, ტენიანობისა და ჰაერის ნაკადების ზუსტი მართვა პროდუქციის უსაფრთხოების მთავარი გარანტია."
+      },
+      {
+        "type": "image",
+        "src": "/img/products/chiller-units/doc-01.jpeg",
+        "alt": "მაცივარ-საწყობის შიდა სტრუქტურა და პანელები",
+        "width": 374,
+        "height": 267
+      },
+      {
+        "type": "h2",
+        "text": "რას უნდა მიექცეს განსაკუთრებული ყურადღება დაპროექტებისას?"
+      },
+      {
+        "type": "p",
+        "text": "წარმატებული სამაცივრე მეურნეობის მოწყობა იწყება სწორი საინჟინრო გათვლებით. ინვესტორებმა და პროექტის ავტორებმა რამდენიმე კრიტიკული ფაქტორი უნდა გაითვალისწინონ:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**მკაცრი ინდუსტრიული სტანდარტები:** სპეციალიზებული ობიექტების (მაგალითად, ფარმაცევტული საწყობების) დაპროექტებისას აუცილებელია **GDP (Good Distribution Practice)** სტანდარტების დაცვა. ეს მოითხოვს ტემპერატურული რეჟიმის უწყვეტ, დოკუმენტირებულ მონიტორინგსა და სისტემის აბსოლუტურ საიმედოობას.",
+          "**სიმძლავრისა და არქიტექტურის ზუსტი გათვლა:** მხოლოდ კომპრესორის შერჩევა საკმარისი არ არის. დიდი მოცულობის საწყობებში ეფექტურია მძლავრი ჩილერების, მოცულობითი ბუფერული ავზებისა და სავენტილაციო არხების (Duct layouts) სწორი ქსელის ინტეგრაცია, რათა გამოირიცხოს \"მკვდარი ზონები\" და ტემპერატურის მერყეობა.",
+          "**ჰაერის ნაკადების სტაბილურობა:** საუკეთესო შედეგებისთვის, ვენტილაციის სისტემაში ხშირად ინტეგრირდება კომერციული დანიშნულების **CAV (Constant Air Volume)** რეგულატორები, რაც უზრუნველყოფს კამერებში ჰაერის მუდმივ და თანაბარ მიწოდებას.",
+          "**თბოიზოლაცია:** კამერის კედლებისთვის გამოიყენება მაღალი სიმკვრივის PIR ან PUR სენდვიჩ-პანელები, რომლებიც მინიმუმამდე ამცირებენ სითბურ დანაკარგებს."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "დადებითი და უარყოფითი მხარეები"
+      },
+      {
+        "type": "p",
+        "text": "როგორც ნებისმიერ ტექნოლოგიურ გადაწყვეტას, თანამედროვე სამაცივრე სისტემებსაც აქვთ თავისი სპეციფიკა:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "მახასიათებელი",
+          "აღწერა"
+        ],
+        "rows": [
+          [
+            "**დადებითი (უპირატესობები)**",
+            "**ენერგოეფექტურობა:** თანამედროვე ინვერტორული კომპრესორები 30%-მდე ზოგავენ ელექტროენერგიას. / **ცენტრალიზებული მართვა:** სრული ინტეგრაცია BMS (Building Management System) ქსელებთან. / **პროდუქციის უსაფრთხოება:** ტემპერატურის 0.1°C სიზუსტით შენარჩუნება."
+          ],
+          [
+            "**უარყოფითი (გამოწვევები)**",
+            "**მაღალი საწყისი კაპიტალი:** თანამედროვე ავტომატიკა და ხარისხიანი აგრეგატები სოლიდურ ინვესტიციას მოითხოვს. / **მომსახურების სირთულე:** საჭიროებს მაღალკვალიფიციურ საინჟინრო პერსონალს სერვისისა და მონიტორინგისთვის."
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "მოწინავე მწარმოებლები და ინდუსტრიის ლიდერები"
+      },
+      {
+        "type": "p",
+        "text": "ბაზარზე წარმატებული საწარმოები ირჩევენ მხოლოდ დროით გამოცდილ ბრენდებს. სისტემა ძირითადად ორი ნაწილისგან შედგება:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**გარე აგრეგატები (კომპრესორები და კონდენსატორები):** ინდუსტრიულ სტანდარტად მიჩნეულია ისეთი გიგანტების ნაწარმი, როგორებიცაა **Bitzer** (გერმანია), **Copeland** (აშშ) და **Danfoss** (დანია). მათი აგრეგატები უძლებს ექსტრემალურ დატვირთვას და მუშაობს შეუფერხებლად.",
+          "**შიდა ბლოკები (ამაორთქლებლები) და იზოლაცია:** ჰაერის ეფექტური გაგრილებისთვის ლიდერობენ **Güntner** და **Alfa Laval**. ხოლო თბოიზოლაციის კუთხით, მსოფლიოში აღიარებულია **Kingspan**-ისა და **Ruukki**-ის სენდვიჩ-პანელები."
+        ]
+      },
+      {
+        "type": "note",
+        "text": "**წარმატებული პრაქტიკა:** თანამედროვე ფარმაცევტული ჰაბები და მსხვილი სადისტრიბუციო ცენტრები იყენებენ **დუბლირებულ (Redundant) სისტემებს**. მაგალითად, როდესაც ძირითადი ჩილერი გადის გეგმიურ შემოწმებას, სისტემა ავტომატურად რთავს სარეზერვო აგრეგატს, ხოლო დიდი მოცულობის ბუფერული ავზები ინარჩუნებენ სისტემაში სიცივის მარაგს გარდამავალ პერიოდში, რაც სრულად გამორიცხავს პროდუქციის გაფუჭების რისკს."
+      },
+      {
+        "type": "h2",
+        "text": "როგორ ხდება სამაცივრე აგრეგატების ინტეგრაცია BMS (Building Management System) სისტემებთან და რა უპირატესობას იძლევა ეს?"
+      },
+      {
+        "type": "p",
+        "text": "სამაცივრე აგრეგატების BMS-თან (შენობის მართვის სისტემა) ინტეგრაცია არის ის ნაბიჯი, რომელიც იზოლირებულ სამაცივრე მოწყობილობას შენობის ერთიან, \"ინტელექტუალურ\" ორგანიზმად აქცევს. ეს განსაკუთრებით კრიტიკულია დიდი ინდუსტრიული ობიექტებისთვის, სადაც ერთდროულად მუშაობს ჩილერები, CAV და VAV რეგულატორები, ვენტილაცია და გათბობის სისტემები."
+      },
+      {
+        "type": "h3",
+        "text": "როგორ ხდება ინტეგრაცია - ტექნიკური მხარე"
+      },
+      {
+        "type": "p",
+        "text": "ინტეგრაცია ხორციელდება საერთო საკომუნიკაციო ენის — პროტოკოლების გამოყენებით. ყველაზე გავრცელებული სტანდარტებია:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Modbus (RTU / TCP-IP):** ინდუსტრიული სტანდარტი. ძლიერი, მარტივი და სანდო პროტოკოლი, რომელსაც იყენებს სამაცივრე აგრეგატების უმეტესობა მონაცემთა გადასაცემად.",
+          "**BACnet:** სპეციალურად შენობის ავტომატიზაციისთვის შექმნილი პროტოკოლი. მისი საშუალებით ადვილად ხდება სამაცივრე კამერების დაკავშირება ვენტილაციასა და სახანძრო უსაფრთხოების სისტემებთან."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**ფიზიკური კავშირი:** სამაცივრე აგრეგატის (მაგალითად, Bitzer-ის ან Danfoss-ის კომპრესორის) კონტროლერი სპეციალური კაბელით უერთდება BMS სისტემის ცენტრალურ პროცესორს ან ქსელურ გადამრთველს. BMS სისტემა კითხულობს კონტროლერის მონაცემებს (ტემპერატურა, წნევა, ძრავის სიჩქარე) და უკან უგზავნის მართვის ბრძანებებს."
+      },
+      {
+        "type": "h3",
+        "text": "BMS ინტეგრაციის მთავარი უპირატესობები"
+      },
+      {
+        "type": "table",
+        "head": [
+          "უპირატესობა",
+          "პრაქტიკული შედეგი ინვესტორისა და ინჟინრისთვის"
+        ],
+        "rows": [
+          [
+            "**ცენტრალიზებული კონტროლი ერთი წერტილიდან**",
+            "ოპერატორს შეუძლია ერთ ეკრანზე მართოს ყველა ჩილერი, ბუფერული ავზის ტემპერატურა და ჰაერის ნაკადები, ნაცვლად თითოეულ დანადგართან ფიზიკურად მისვლისა."
+          ],
+          [
+            "**ენერგიის მასშტაბური დაზოგვა**",
+            "BMS აანალიზებს შენობაში არსებულ საერთო მოთხოვნას. მაგალითად, თუ საწყობში ტემპერატურა სტაბილურია, სისტემა ავტომატურად ამცირებს ჩილერის სიმძლავრეს ან თიშავს დამატებით კომპრესორებს, რაც მინიმუმამდე ამცირებს ელექტროენერგიის ხარჯს."
+          ],
+          [
+            "**პროაქტიული სერვისი და განგაშის (Alarm) სისტემა**",
+            "სისტემა არა მხოლოდ გატყობინებთ ავარიისას (მაგ. მაცივარაგენტის (ფრეონის) გაჟონვა ან წნევის ვარდნა), არამედ ხედავს პრობლემის წინაპირობებს. ოპერატორი იღებს შეტყობინებას, რომ კომპრესორი ზედმეტად ხურდება, სანამ ის რეალურად გაფუჭდება, რაც თავიდან აგარიდებთ ტექნიკის ძვირადღირებულ შეკეთებასა და პროდუქციის გაფუჭებას."
+          ],
+          [
+            "**მონაცემთა არქივაცია და რეპორტინგი**",
+            "ფარმაცევტული და კვების ობიექტებისთვის სავალდებულოა ტემპერატურული რეჟიმის ისტორიის შენახვა (GDP სტანდარტები). BMS სისტემა ავტომატურად ინახავს თვეების და წლების განმავლობაში შეგროვებულ ტემპერატურულ გრაფიკებს, რომელთა წარდგენაც მარტივია აუდიტორებისთვის."
+          ],
+          [
+            "**სინერგია სხვა სისტემებთან**",
+            "ხანძრის განგაშის დროს BMS-ს შეუძლია ავტომატურად გათიშოს სავენტილაციო არხები და სამაცივრე აგრეგატები, რათა თავიდან აიცილოს ცეცხლის გავრცელება."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "ინტეგრირებული BMS არის ის აუცილებელი კომპონენტი, რომელიც განასხვავებს თანამედროვე, საიმედო მაცივარ-საწყობს უბრალო ცივი სივრცისგან."
+      },
+      {
+        "type": "h2",
+        "text": "რა ალტერნატიული მეთოდებით ხდება ტემპერატურის ზუსტი მონიტორინგი და კონტროლი მცირე მოცულობის ცივ ოთახებში და ინდუსტრიულ მაცივარ-კამერებში სადაც არ არის BMS სისტემა"
+      },
+      {
+        "type": "p",
+        "text": "მცირე ზომის ინდუსტრიულ მაცივარ-კამერებში სრული BMS სისტემის ინსტალაცია ხშირად ფინანსურად გაუმართლებელია, თუმცა ტემპერატურის ზუსტი კონტროლი და მონაცემთა აღრიცხვა კრიტიკულად მნიშვნელოვანი რჩება. ასეთ შემთხვევებში გამოიყენება ლოკალური ავტომატიზაციისა და მონიტორინგის ალტერნატიული მეთოდები."
+      },
+      {
+        "type": "h3",
+        "text": "1. ლოკალური მიკროპროცესორული კონტროლერები"
+      },
+      {
+        "type": "p",
+        "text": "ეს არის სამაცივრე კამერის \"ტვინი\". ისეთი ბრენდების ინდუსტრიული კონტროლერები, როგორებიცაა **Dixell**, **Eliwell** ან **Danfoss** (მაგალითად, ERC ან Optyma სერიები), უშუალოდ მართავენ აგრეგატს."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**ფუნქცია:** ისინი დამოუკიდებლად არეგულირებენ კომპრესორის ჩართვა/გამორთვას, ვენტილატორების ბრუნვას და გალღობის (Defrost) ციკლებს ტემპერატურული სენსორებიდან მიღებული ინფორმაციის საფუძველზე.",
+          "**უპირატესობა:** აქვთ ციფრული ეკრანი პარამეტრების მარტივად მისათითებლად და ინტეგრირებული აკუსტიკური განგაშის (Buzzer) ფუნქცია ოთახში ტემპერატურის დასაშვებ ნორმაზე მეტად ცვლილებისას."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. დამოუკიდებელი მონაცემთა ლოგერები (Dataloggers)"
+      },
+      {
+        "type": "p",
+        "text": "ფარმაცევტული საწყობების ან სხვა მგრძნობიარე პროდუქტების შენახვისას აუცილებელია **GDP (Good Distribution Practice)** სტანდარტების დაცვა, რაც ითხოვს ტემპერატურის უწყვეტ, დოკუმენტირებულ და ჩარევისგან დაცულ მონიტორინგს."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**როგორ მუშაობს:** ლოგერი მონტაჟდება კამერის შიგნით და მითითებული ინტერვალით (მაგ. ყოველ 15 წუთში) იწერს ტემპერატურასა და ტენიანობას შიდა მეხსიერებაში.",
+          "**საიმედოობა:** მონაცემთა ამოღება ხდება USB პორტით, Bluetooth-ით ან Wi-Fi-ს საშუალებით. ლოგერი დამოუკიდებელია მაცივრის დენის წყაროსგან (მუშაობს საკუთარ ელემენტზე), რაც გამორიცხავს მონაცემების დაკარგვას ძაბვის ვარდნისას. სისტემა ავტომატურად აგენერირებს ურღვევ PDF რეპორტებს აუდიტისთვის."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. IOT და ღრუბლოვანი (Cloud) ტელემეტრია"
+      },
+      {
+        "type": "p",
+        "text": "ეს არის გარდამავალი საფეხური ლოკალურ კონტროლერსა და რთულ BMS-ს შორის, რომელიც იდეალურია მცირე და საშუალო ბიზნესისთვის."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**ტექნოლოგია:** კამერის მართვის ფარში ყენდება მცირე ზომის GSM ან Wi-Fi მოდული (Gateway), რომელიც უერთდება ლოკალურ კონტროლერს.",
+          "**შედეგი:** მონაცემები რეალურ რეჟიმში იგზავნება მწარმოებლის ღრუბლოვან სერვერზე. ტემპერატურული გადახრის ან ელექტროენერგიის გათიშვის შემთხვევაში, პასუხისმგებელი ინჟინერი ან მფლობელი მომენტალურად იღებს SMS, Email ან Push-შეტყობინებას სმარტფონზე, რაც კრიტიკული ავარიების და პროდუქციის გაფუჭების პრევენციის საუკეთესო საშუალებაა."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "თქვენი ობიექტის სპეციფიკიდან გამომდინარე, შეგიძლიათ გამოიყენოთ ქვემოთ მოცემული ინტერაქტიული ხელსაწყო, რათა შეარჩიოთ მონიტორინგის ოპტიმალური სისტემა:"
+      },
+      {
+        "type": "h3",
+        "text": "ცივი ოთახის აღჭურვილობის შერჩევა"
+      },
+      {
+        "type": "table",
+        "head": [
+          "ტექნოლოგია",
+          "ძირითადი დანიშნულება",
+          "პლუსები",
+          "მინუსები"
+        ],
+        "rows": [
+          [
+            "**კომპრესორის აქტიური მართვა:** მიკროპროცესორული კონტროლერი",
+            "კავშირის ტიპი: ლოკალური USB/Bluetooth. ტემპერატურის რეგულირება და კომპრესორის პირდაპირი მართვა",
+            "აქტიური დაცვა, ავტომატური მართვა",
+            "რთული მონტაჟი, შეზღუდული მეხსიერება"
+          ],
+          [
+            "**GDP / აუდიტის რეპორტინგი:** GDP თავსებადი დამოუკიდებელი ლოგერი",
+            "კავშირის ტიპი: ლოკალური USB/Bluetooth. ტემპერატურის უსაფრთხო ჩაწერა და აუდიტის რეპორტინგი",
+            "მარტივი ვალიდაცია, მაღალი სიზუსტე",
+            "არ გააჩნია მართვის ფუნქციები"
+          ],
+          [
+            "**IoT მოდული (Gateway)**",
+            "კავშირის ტიპი: დისტანციური. დისტანციური მონიტორინგი რეალურ დროში და შეტყობინებები",
+            "მუდმივი წვდომა ნებისმიერი ადგილიდან",
+            "დამოკიდებულია ინტერნეტ კავშირზე"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "მცირე ზომის მაცივარ-კამერისთვის საჭირო გაგრილების სიმძლავრის ზუსტი საინჟინრო გამოთვლა"
+      },
+      {
+        "type": "p",
+        "text": "მცირე ზომის მაცივარ-კამერისთვის საჭირო გაგრილების სიმძლავრის (კვტ) ზუსტი საინჟინრო გამოთვლა მოითხოვს კამერაში არსებული ყველა სითბური დატვირთვის (Heat Load) ჯამის პოვნას. მიზანია დავადგინოთ, რა რაოდენობის სითბო უნდა გამოიტანოს აგრეგატმა კამერიდან დროის კონკრეტულ მონაკვეთში (ჩვეულებრივ, 24 საათში), რათა სასურველი ტემპერატურა შენარჩუნდეს."
+      },
+      {
+        "type": "p",
+        "text": "გამოთვლა ოთხი ძირითადი კომპონენტის ჯამს ეფუძნება."
+      },
+      {
+        "type": "h3",
+        "text": "სითბური დატვირთვის 4 კრიტიკული კომპონენტი"
+      },
+      {
+        "type": "p",
+        "text": "ჯამური საჭირო სიმძლავრე გამოიხატება შემდეგი ფორმულით:"
+      },
+      {
+        "type": "p",
+        "text": "ეს კალკულატორი საბაზისო წარმოდგენას შეგიქმნით, თუმცა რეალური პროექტისთვის საინჟინრო პროგრამების (მაგალითად, Bitzer Software ან Danfoss Coolselector) გამოყენებაა მიღებული."
+      },
+      {
+        "type": "h2",
+        "text": "საინჟინრო განსხვავება ინდუსტრიულ მაცივრებში სინთეტიკურ მაცივარაგენტებს, ამიაკსა და CO2 - ის გამოყენებას შორის"
+      },
+      {
+        "type": "p",
+        "text": "ინდუსტრიულ მაცივრებში მაცივარაგენტის შერჩევა მხოლოდ ტემპერატურის მიღწევის საკითხი არ არის — ის კარნახობს სისტემის მთლიან საინჟინრო არქიტექტურას, მილსადენების მასალას, უსაფრთხოების ნორმებსა და ენერგოეფექტურობას."
+      },
+      {
+        "type": "p",
+        "text": "სინთეტიკურ მაცივარაგენტებს, ამიაკსა (NH3) და CO2-ს რადიკალურად განსხვავებული თერმოდინამიკური და ქიმიური თვისებები აქვთ."
+      },
+      {
+        "type": "h3",
+        "text": "1. ამიაკი (NH3 / R717) - ინდუსტრიული გიგანტი"
+      },
+      {
+        "type": "p",
+        "text": "ამიაკი 100 წელზე მეტია ინდუსტრიული გაგრილების ოქროს სტანდარტად რჩება, თუმცა მისი სპეციფიკა მკაცრ საინჟინრო მიდგომას მოითხოვს."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**თერმოდინამიკა:** აქვს სითბოს შთანთქმის უმაღლესი კოეფიციენტი (ლატენტური სითბო). ამიაკის სისტემა იგივე სიმძლავრის მისაღებად ბევრად ნაკლებ ელექტროენერგიას მოიხმარს, ვიდრე სინთეტიკური მაცივარაგენტის (ე.წ. ფრეონის).",
+          "**მასალების შეზღუდვა:** ამიაკი **კოროზიულია სპილენძისა და თითბერის მიმართ**. შესაბამისად, ამიაკის სისტემაში გამოიყენება მხოლოდ ფოლადის ან უჟანგავი ფოლადის მილები და სპეციფიკური, მასიური კომპრესორები.",
+          "**ზეთის მართვა:** ამიაკი არ ერევა კომპრესორის ზეთს, ამიტომ სისტემა მოითხოვს ზეთის რთულ გამომყოფებს (Oil separators).",
+          "**უსაფრთხოება:** არის მაღალტოქსიკური. მოითხოვს უსაფრთხოების რთულ სისტემებს: გაჟონვის სენსორებს, ავტომატურ სავენტილაციო შახტებსა და, ზოგჯერ, წყლის სკრაბერებს (წყალი შთანთქავს ამიაკს ავარიისას)."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. CO2 (ნახშირორჟანგი / R744) - ულტრა-მაღალი წნევები"
+      },
+      {
+        "type": "p",
+        "text": "ბოლო წლებში ეკოლოგიური რეგულაციების გამო CO2-მა განიცადა უზარმაზარი რენესანსი, განსაკუთრებით სუპერმარკეტებსა და დიდ საწყობებში."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**თერმოდინამიკა:** გამოირჩევა ძალიან მაღალი მოცულობითი სიმძლავრით (Volumetric capacity). ეს ნიშნავს, რომ კომპრესორები და მილები შეიძლება იყოს ბევრად მცირე ზომის, ვიდრე სინთეტიკური მაცივარაგენტების ან ამიაკის შემთხვევაში.",
+          "**საინჟინრო გამოწვევა (წნევა):** CO2-ის სისტემები მუშაობენ ექსტრემალურად მაღალ წნევაზე. თუ სინთეთიკური მაცივარაგენტების სისტემაში სამუშაო წნევა 15-20 ბარია, CO2-ის ტრანსკრიტიკულ სისტემაში (ზაფხულში) წნევამ შეიძლება **90-120 ბარს** მიაღწიოს. ამიტომაც მისი მილსადენების დასამზადებლად გამოიყენება სპეციალური K65 შენადნობის სპილენძი ან სქელკედლიანი ფოლადი.",
+          "**ტრანსკრიტიკული ციკლი:** 31°C-ზე ზემოთ CO2 კარგავს კონდენსაციის უნარს (არ თხევადდება). ცხელ კლიმატში სისტემა გადადის ტრანსკრიტიკულ რეჟიმში, რაც ართულებს საინჟინრო ციკლს და საჭიროებს გაზის გამაციებლებს (Gas coolers) კონდენსატორების ნაცვლად."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. სინთეტიკური მაცივარაგენტები (ე.წ. ფრეონი) (HFC/HCFC მაგ. R404A, R134a, R507) - კომერციული სტანდარტი"
+      },
+      {
+        "type": "p",
+        "text": "სინთეტიკური მაცივარაგენტები ყველაზე გავრცელებულია მათი სიმარტივისა და უსაფრთხოების გამო."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**საინჟინრო სიმარტივე:** მუშაობს დაბალ და საშუალო წნევებზე. თავსებადია სტანდარტულ სპილენძის მილებთან, რაც საგრძნობლად აიაფებს ინსტალაციას.",
+          "**ზეთის მართვა:** ფრეონი კარგად ერევა სინთეტიკურ (POE) ზეთებს, რაც კომპრესორში მის მარტივად დაბრუნებას უზრუნველყოფს.",
+          "**ეკოლოგიური ჩიხი:** მათი მთავარი პრობლემა მაღალი გლობალური დათბობის პოტენციალია (GWP). ევროპული რეგულაციებით (F-Gas directive) მათი გამოყენება ნელ-ნელა იკრძალება, რაც ახალი ინდუსტრიული პროექტებისთვის მათ არაპერსპექტიულს ხდის."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "შემაჯამებელი საინჟინრო შედარება"
+      },
+      {
+        "type": "table",
+        "head": [
+          "მახასიათებელი",
+          "სინთეტიკური მაცივარაგენტი (HFC)",
+          "ამიაკი (NH3)",
+          "CO2 (R744)"
+        ],
+        "rows": [
+          [
+            "**სამუშაო წნევა**",
+            "დაბალი/საშუალო (15-25 Bar)",
+            "საშუალო (15-20 Bar)",
+            "ექსტრემალურად მაღალი (40-120 Bar)"
+          ],
+          [
+            "**მილების მასალა**",
+            "სპილენძი",
+            "მხოლოდ ფოლადი / უჟანგავი ფოლადი",
+            "სპეციალური K65 სპილენძი / ფოლადი"
+          ],
+          [
+            "**ეფექტურობა (COP)**",
+            "საშუალო",
+            "უმაღლესი",
+            "მაღალი (ცივ კლიმატში), საშუალო (ცხელში)"
+          ],
+          [
+            "**ტოქსიკურობა/აალებადობა**",
+            "უსაფრთხო",
+            "ტოქსიკური, ოდნავ აალებადი",
+            "უსაფრთხო (მაღალი კონცენტრაციით საშიშია)"
+          ],
+          [
+            "**საწყისი ინვესტიცია (CAPEX)**",
+            "დაბალი",
+            "ძალიან მაღალი",
+            "მაღალი"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "ქვემოთ მოცემული ინტერაქტიული პანელით შეგიძლიათ თვალსაჩინოდ შეადაროთ ეს სამი სისტემა სხვადასხვა პარამეტრის მიხედვით:"
+      }
+    ]
+  },
+  "en": {
+    "t": "Refrigeration Units",
+    "d": "Industrial cold stores and refrigeration units: design, BMS integration, temperature monitoring and refrigerant selection.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Industrial Cold Stores and Refrigeration Units: The Standards of the Future"
+      },
+      {
+        "type": "p",
+        "text": "A modern cold store is no longer just a \"cold room\". It is a complex, high-tech engineering facility in which precise control of temperature, humidity and airflow is the main guarantee of product safety."
+      },
+      {
+        "type": "image",
+        "src": "/img/products/chiller-units/doc-01.jpeg",
+        "alt": "Internal structure and panels of a cold store",
+        "width": 374,
+        "height": 267
+      },
+      {
+        "type": "h2",
+        "text": "What Deserves Special Attention During Design?"
+      },
+      {
+        "type": "p",
+        "text": "A successful refrigeration facility starts with correct engineering calculations. Investors and project designers must take several critical factors into account:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Strict industry standards:** when designing specialized facilities (for example, pharmaceutical warehouses), compliance with **GDP (Good Distribution Practice)** standards is mandatory. This requires continuous, documented monitoring of the temperature regime and absolute system reliability.",
+          "**Accurate calculation of capacity and system architecture:** selecting a compressor alone is not enough. In large warehouses, what works is the proper integration of high-capacity chillers, large buffer tanks and a correctly designed network of ventilation ducts (duct layouts), so as to eliminate \"dead zones\" and temperature fluctuations.",
+          "**Airflow stability:** for best results, commercial-grade **CAV (Constant Air Volume)** regulators are often integrated into the ventilation system, ensuring a constant and even supply of air to the chambers.",
+          "**Thermal insulation:** high-density PIR or PUR sandwich panels are used for the chamber walls, reducing heat losses to a minimum."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Advantages and Disadvantages"
+      },
+      {
+        "type": "p",
+        "text": "Like any technological solution, modern refrigeration systems have their own specific features:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Characteristic",
+          "Description"
+        ],
+        "rows": [
+          [
+            "**Advantages**",
+            "**Energy efficiency:** modern inverter compressors save up to 30% of electricity. / **Centralized control:** full integration with BMS (Building Management System) networks. / **Product safety:** temperature maintained to an accuracy of 0.1°C."
+          ],
+          [
+            "**Disadvantages (challenges)**",
+            "**High initial capital:** modern automation and high-quality units require a substantial investment. / **Complex servicing:** requires highly qualified engineering staff for service and monitoring."
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Leading Manufacturers and Industry Leaders"
+      },
+      {
+        "type": "p",
+        "text": "Successful businesses in the market choose only time-tested brands. The system consists of two main parts:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Outdoor units (compressors and condensers):** products from giants such as **Bitzer** (Germany), **Copeland** (USA) and **Danfoss** (Denmark) are regarded as the industry standard. Their units withstand extreme loads and operate without interruption.",
+          "**Indoor units (evaporators) and insulation:** **Güntner** and **Alfa Laval** lead in efficient air cooling, while in thermal insulation the sandwich panels of **Kingspan** and **Ruukki** are recognized worldwide."
+        ]
+      },
+      {
+        "type": "note",
+        "text": "**Best practice:** modern pharmaceutical hubs and large distribution centres use **redundant systems**. For example, when the main chiller undergoes scheduled inspection, the system automatically starts the standby unit, while large buffer tanks maintain the cold reserve in the system during the transition, which completely eliminates the risk of product spoilage."
+      },
+      {
+        "type": "h2",
+        "text": "How Are Refrigeration Units Integrated with a BMS (Building Management System), and What Are the Benefits?"
+      },
+      {
+        "type": "p",
+        "text": "Integrating refrigeration units with a BMS (building management system) is the step that turns isolated refrigeration equipment into part of a single, \"intelligent\" building organism. This is especially critical for large industrial facilities, where chillers, CAV and VAV regulators, ventilation and heating systems all operate at the same time."
+      },
+      {
+        "type": "h3",
+        "text": "How Integration Works: The Technical Side"
+      },
+      {
+        "type": "p",
+        "text": "Integration is carried out using a common communication language — protocols. The most widely used standards are:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Modbus (RTU / TCP-IP):** the industrial standard. A robust, simple and reliable protocol used by most refrigeration units for data transmission.",
+          "**BACnet:** a protocol designed specifically for building automation. It makes it easy to link cold rooms with ventilation and fire safety systems."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**Physical connection:** the controller of the refrigeration unit (for example, a Bitzer or Danfoss compressor) is connected by a dedicated cable to the BMS central processor or network switch. The BMS reads the controller's data (temperature, pressure, motor speed) and sends control commands back."
+      },
+      {
+        "type": "h3",
+        "text": "Key Benefits of BMS Integration"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Benefit",
+          "Practical result for the investor and the engineer"
+        ],
+        "rows": [
+          [
+            "**Centralized control from a single point**",
+            "The operator can manage all chillers, buffer tank temperatures and airflows from one screen, instead of physically going to each unit."
+          ],
+          [
+            "**Large-scale energy savings**",
+            "The BMS analyses the overall demand in the building. For example, if the temperature in the warehouse is stable, the system automatically reduces chiller capacity or switches off additional compressors, keeping electricity costs to a minimum."
+          ],
+          [
+            "**Proactive service and alarm system**",
+            "The system not only alerts you in the event of a failure (e.g. a refrigerant (freon) leak or a pressure drop), but also detects the warning signs of a problem. The operator is notified that a compressor is overheating before it actually fails, which saves you from costly equipment repairs and product spoilage."
+          ],
+          [
+            "**Data archiving and reporting**",
+            "Pharmaceutical and food facilities are required to keep a history of the temperature regime (GDP standards). The BMS automatically stores temperature charts collected over months and years, which are easy to present to auditors."
+          ],
+          [
+            "**Synergy with other systems**",
+            "In the event of a fire alarm, the BMS can automatically shut down ventilation ducts and refrigeration units to prevent the spread of fire."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "An integrated BMS is the essential component that distinguishes a modern, reliable cold store from a mere cold space."
+      },
+      {
+        "type": "h2",
+        "text": "What Alternative Methods Are Used for Precise Temperature Monitoring and Control in Small Cold Rooms and Industrial Refrigeration Chambers Without a BMS?"
+      },
+      {
+        "type": "p",
+        "text": "In small industrial refrigeration chambers, installing a full BMS is often not financially justified, yet precise temperature control and data recording remain critically important. In such cases, alternative methods of local automation and monitoring are used."
+      },
+      {
+        "type": "h3",
+        "text": "1. Local Microprocessor Controllers"
+      },
+      {
+        "type": "p",
+        "text": "This is the \"brain\" of the cold room. Industrial controllers from brands such as **Dixell**, **Eliwell** or **Danfoss** (for example, the ERC or Optyma series) control the unit directly."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Function:** they independently regulate compressor on/off switching, fan operation and defrost cycles based on information from temperature sensors.",
+          "**Advantage:** they have a digital display for easy parameter setting and a built-in audible alarm (buzzer) that sounds when the room temperature deviates beyond the permitted range."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Standalone Data Loggers"
+      },
+      {
+        "type": "p",
+        "text": "When storing pharmaceuticals or other sensitive products, compliance with **GDP (Good Distribution Practice)** standards is mandatory, which requires continuous, documented and tamper-proof temperature monitoring."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**How it works:** the logger is installed inside the chamber and records temperature and humidity to its internal memory at a set interval (e.g. every 15 minutes).",
+          "**Reliability:** data is retrieved via USB, Bluetooth or Wi-Fi. The logger is independent of the refrigerator's power supply (it runs on its own battery), which rules out data loss during power failures. The system automatically generates tamper-proof PDF reports for audits."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. IoT and Cloud Telemetry"
+      },
+      {
+        "type": "p",
+        "text": "This is an intermediate step between a local controller and a complex BMS, ideal for small and medium-sized businesses."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Technology:** a small GSM or Wi-Fi module (gateway) is installed in the chamber control panel and connected to the local controller.",
+          "**Result:** data is sent in real time to the manufacturer's cloud server. In the event of a temperature deviation or a power outage, the responsible engineer or owner instantly receives an SMS, email or push notification on their smartphone, which is the best way to prevent critical failures and product spoilage."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Depending on the specifics of your facility, you can use the interactive tool below to choose the optimal monitoring system:"
+      },
+      {
+        "type": "h3",
+        "text": "Selecting Cold Room Equipment"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Technology",
+          "Main purpose",
+          "Pros",
+          "Cons"
+        ],
+        "rows": [
+          [
+            "**Active compressor control:** microprocessor controller",
+            "Connection type: local USB/Bluetooth. Temperature regulation and direct compressor control",
+            "Active protection, automatic control",
+            "Complex installation, limited memory"
+          ],
+          [
+            "**GDP / audit reporting:** GDP-compliant standalone logger",
+            "Connection type: local USB/Bluetooth. Secure temperature recording and audit reporting",
+            "Easy validation, high accuracy",
+            "No control functions"
+          ],
+          [
+            "**IoT module (gateway)**",
+            "Connection type: remote. Real-time remote monitoring and notifications",
+            "Constant access from anywhere",
+            "Depends on an internet connection"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Precise Engineering Calculation of the Cooling Capacity Required for a Small Refrigeration Chamber"
+      },
+      {
+        "type": "p",
+        "text": "A precise engineering calculation of the cooling capacity (kW) required for a small refrigeration chamber involves finding the sum of all heat loads present in the chamber. The aim is to determine how much heat the unit must remove from the chamber over a given period (usually 24 hours) to maintain the desired temperature."
+      },
+      {
+        "type": "p",
+        "text": "The calculation is based on the sum of four main components."
+      },
+      {
+        "type": "h3",
+        "text": "The 4 Critical Components of Heat Load"
+      },
+      {
+        "type": "p",
+        "text": "The total required capacity is expressed by the following formula:"
+      },
+      {
+        "type": "p",
+        "text": "This calculator will give you a basic idea; however, for a real project it is standard practice to use engineering software (for example, Bitzer Software or Danfoss Coolselector)."
+      },
+      {
+        "type": "h2",
+        "text": "Engineering Differences Between Synthetic Refrigerants, Ammonia and CO2 in Industrial Refrigeration"
+      },
+      {
+        "type": "p",
+        "text": "In industrial refrigeration, choosing a refrigerant is not just a matter of reaching the target temperature — it dictates the entire engineering architecture of the system, the piping material, safety regulations and energy efficiency."
+      },
+      {
+        "type": "p",
+        "text": "Synthetic refrigerants, ammonia (NH3) and CO2 have radically different thermodynamic and chemical properties."
+      },
+      {
+        "type": "h3",
+        "text": "1. Ammonia (NH3 / R717): The Industrial Giant"
+      },
+      {
+        "type": "p",
+        "text": "For more than 100 years ammonia has remained the gold standard of industrial refrigeration, although its specific properties demand a rigorous engineering approach."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Thermodynamics:** it has the highest heat absorption coefficient (latent heat). An ammonia system consumes much less electricity to deliver the same capacity than one using a synthetic refrigerant (so-called freon).",
+          "**Material restrictions:** ammonia **is corrosive to copper and brass**. Accordingly, ammonia systems use only steel or stainless steel pipes and specific, heavy-duty compressors.",
+          "**Oil management:** ammonia does not mix with compressor oil, so the system requires complex oil separators.",
+          "**Safety:** it is highly toxic. It requires complex safety systems: leak sensors, automatic ventilation shafts and, in some cases, water scrubbers (water absorbs ammonia in the event of an accident)."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. CO2 (Carbon Dioxide / R744): Ultra-High Pressures"
+      },
+      {
+        "type": "p",
+        "text": "In recent years, driven by environmental regulations, CO2 has undergone a huge renaissance, especially in supermarkets and large warehouses."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Thermodynamics:** it has a very high volumetric capacity. This means that compressors and pipes can be much smaller than with synthetic refrigerants or ammonia.",
+          "**Engineering challenge (pressure):** CO2 systems operate at extremely high pressures. While the working pressure in a synthetic refrigerant system is 15–20 bar, in a transcritical CO2 system (in summer) the pressure can reach **90–120 bar**. That is why its piping is made from special K65 alloy copper or thick-walled steel.",
+          "**Transcritical cycle:** above 31°C, CO2 loses its ability to condense (it does not liquefy). In hot climates the system switches to transcritical mode, which complicates the refrigeration cycle and requires gas coolers instead of condensers."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Synthetic Refrigerants (So-Called Freon) (HFC/HCFC, e.g. R404A, R134a, R507): The Commercial Standard"
+      },
+      {
+        "type": "p",
+        "text": "Synthetic refrigerants are the most widespread because of their simplicity and safety."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Engineering simplicity:** they operate at low and medium pressures. They are compatible with standard copper pipes, which makes installation considerably cheaper.",
+          "**Oil management:** freon mixes well with synthetic (POE) oils, which ensures easy oil return to the compressor.",
+          "**Environmental dead end:** their main problem is a high global warming potential (GWP). Under European regulations (the F-Gas directive), their use is being gradually banned, which makes them unviable for new industrial projects."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Summary Engineering Comparison"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Characteristic",
+          "Synthetic refrigerant (HFC)",
+          "Ammonia (NH3)",
+          "CO2 (R744)"
+        ],
+        "rows": [
+          [
+            "**Working pressure**",
+            "Low/medium (15–25 bar)",
+            "Medium (15–20 bar)",
+            "Extremely high (40–120 bar)"
+          ],
+          [
+            "**Pipe material**",
+            "Copper",
+            "Steel / stainless steel only",
+            "Special K65 copper / steel"
+          ],
+          [
+            "**Efficiency (COP)**",
+            "Medium",
+            "Highest",
+            "High (in cold climates), medium (in hot climates)"
+          ],
+          [
+            "**Toxicity/flammability**",
+            "Safe",
+            "Toxic, mildly flammable",
+            "Safe (dangerous at high concentrations)"
+          ],
+          [
+            "**Initial investment (CAPEX)**",
+            "Low",
+            "Very high",
+            "High"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Using the interactive panel below, you can visually compare these three systems across various parameters:"
+      }
+    ]
+  }
+}

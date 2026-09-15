@@ -1,0 +1,602 @@
+{
+  "ka": {
+    "t": "წყლის გამწმენდი სისტემები",
+    "d": "საყოფაცხოვრებო და ინდუსტრიული წყლის დამარბილებელი და გამწმენდი სისტემები, გამდინარე წყლების გამწმენდი ნაგებობები და წყლის რეცირკულაციის სისტემები.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "თანამედროვე წყლის გამწმენდი და სარეცირკულაციო სისტემები"
+      },
+      {
+        "type": "h2",
+        "text": "შესავალი: წყლის გაწმენდის მნიშვნელობა ჯანმრთელობისა და ეკოლოგიისთვის"
+      },
+      {
+        "type": "p",
+        "text": "წყალი სიცოცხლისა და ინდუსტრიული განვითარების ფუნდამენტური რესურსია. მისი სათანადო გაწმენდა კრიტიკულად მნიშვნელოვანია ადამიანის ჯანმრთელობისთვის, რადგან დაუბინძურებელი სასმელი წყალი გამორიცხავს მძიმე ლითონებით, პათოგენური მიკროორგანიზმებითა და ტოქსიკური ნივთიერებებით ინტოქსიკაციას. გარდა ამისა, წყლის წმენდა და შემდგომი რეცირკულაცია წარმოადგენს ეკოლოგიური წონასწორობის შენარჩუნების მთავარ ინსტრუმენტს, რომელიც იცავს ბუნებრივ წყალსატევებსა და ნიადაგს დეგრადაციისგან."
+      },
+      {
+        "type": "h2",
+        "text": "1. წყლის დამარბილებელი და გამწმენდი სისტემების კლასიფიკაცია"
+      },
+      {
+        "type": "p",
+        "text": "დანიშნულებისა და ტექნოლოგიური საჭიროების მიხედვით, გამწმენდი მოწყობილობები ორ ძირითად კატეგორიად იყოფა: საყოფაცხოვრებო და ინდუსტრიულ სისტემებად."
+      },
+      {
+        "type": "h3",
+        "text": "საყოფაცხოვრებო წყლის გამწმენდი სისტემები"
+      },
+      {
+        "type": "p",
+        "text": "ეს სისტემები ორიენტირებულია სასმელი წყლის ორგანოლეპტიკური მახასიათებლების (გემო, სუნი, ფერი) გაუმჯობესებასა და მიკრობიოლოგიურ უსაფრთხოებაზე. მათში ძირითადად გამოიყენება:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**მექანიკური ფილტრები:** აკავებს უხეშ მინარევებს, როგორიცაა ქვიშა, ჟანგი და მიკროპლასტიკი.",
+          "**ნახშირის ფილტრები:** აქტიურად შთანთქავს ქლორსა და ორგანულ ნაერთებს.",
+          "**წერტილოვანი უკუოსმოსის (RO) სისტემები:** ახდენს წყლის მოლეკულურ დონეზე გაწმენდას, აშორებს გახსნილ მარილებსა და მძიმე მეტალებს."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "ინდუსტრიული წყლის გამწმენდი სისტემები"
+      },
+      {
+        "type": "p",
+        "text": "შექმნილია მაღალი წარმადობისთვის და უზრუნველყოფს ტექნოლოგიური პროცესებისთვის (მაგ: გათბობა-გაგრილების სისტემები, კვების მრეწველობა, ფარმაცია) წყლის სპეციფიკურ მომზადებას."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**წყლის დამარბილებელი კასკადები:** იყენებენ იონგამცვლელ ფისებს კალციუმისა და მაგნიუმის იონების (სიხისტის მარილების) ნატრიუმით ჩასანაცვლებლად. ეს სასიცოცხლოდ მნიშვნელოვანია ქვაბების, ჩილერებისა და სხვა ძვირადღირებული დანადგარების ნადებისგან დასაცავად.",
+          "**მძლავრი ინდუსტრიული უკუოსმოსის (RO) და ულტრაფილტრაციის სისტემები:** უზრუნველყოფენ წყლის სრულ დემინერალიზაციასა და სპეციფიკური გამტარობის მიღწევას ინდუსტრიული სტანდარტების შესაბამისად."
+        ]
+      },
+      {
+        "type": "table",
+        "head": [
+          "მახასიათებელი",
+          "საყოფაცხოვრებო სისტემები",
+          "ინდუსტრიული სისტემები"
+        ],
+        "rows": [
+          [
+            "**წარმადობა**",
+            "დაბალი (დღეში რამდენიმე ათეულიდან ასეულ ლიტრამდე)",
+            "ძალიან მაღალი (საათში რამდენიმე კუბური მეტრიდან)"
+          ],
+          [
+            "**სამიზნე ფოკუსი**",
+            "ქლორი, მძიმე ლითონები, ბაქტერიები, გემო/სუნი",
+            "სიხისტე, სპეციფიკური ქიმიური მინარევები, ელექტროგამტარობა"
+          ],
+          [
+            "**სერვისი და მოვლა**",
+            "მარტივი კარტრიჯების ხელით შეცვლა (წელიწადში 1-2-ჯერ)",
+            "მუდმივი მონიტორინგი, სენსორული კონტროლი, ავტომატიზებული რეცხვა (CIP)"
+          ],
+          [
+            "**ინფრასტრუქტურა**",
+            "კომპაქტური, მონტაჟდება უშუალოდ მოხმარების წერტილში",
+            "მოითხოვს სპეციალურ საინჟინრო სივრცეს, მილსადენებსა და სატუმბ სადგურებს"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-01.jpeg",
+        "alt": "მარტივი საყოფაცხოვრებო წყლის ფილტრი ცვლადი კარტრიჯით",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-02.png",
+        "alt": "წყლის დარბილების პროცესის საფეხურები",
+        "width": 1024,
+        "height": 676,
+        "localized": true
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-03.png",
+        "alt": "წყლის დამარბილებელი კლასიკური სისტემა",
+        "width": 1024,
+        "height": 1024,
+        "localized": true
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-04.jpeg",
+        "alt": "ინდუსტრიული წყლის დამარბილებელი სისტემა",
+        "width": 1250,
+        "height": 1032
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-05.jpeg",
+        "alt": "ინდუსტრიული უკუოსმოსის საფილტრაციო სისტემა",
+        "width": 1110,
+        "height": 601
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-06.png",
+        "alt": "ინდუსტრიული უკუოსმოსის სისტემის სქემატური გამოსახულება",
+        "width": 1024,
+        "height": 302,
+        "localized": true
+      },
+      {
+        "type": "h2",
+        "text": "2. გამდინარე წყლების გამწმენდი ნაგებობები (Wastewater Treatment)"
+      },
+      {
+        "type": "p",
+        "text": "გამდინარე წყლების სწორი მართვა პირდაპირ კავშირშია ეკოლოგიურ უსაფრთხოებასთან. დაუმუშავებელი ინდუსტრიული ან საყოფაცხოვრებო ფეკალური მასების ბუნებრივ გარემოში მოხვედრა იწვევს წყალსატევების ევტროფიკაციას, ფლორისა და ფაუნის განადგურებას და საშიში ეპიდემიების გავრცელებას."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**საყოფაცხოვრებო გამდინარე წყლების სისტემები:** ძირითადად მოიცავს სეპტიკურ ავზებსა და მცირე ზომის ლოკალურ ბიოლოგიურ გამწმენდ სადგურებს. ისინი ამუშავებენ ფეკალურ და საყოფაცხოვრებო ჩამდინარე წყლებს სპეციფიკური მიკროორგანიზმების (აერობული და ანაერობული ბაქტერიების) დახმარებით.",
+          "**ინდუსტრიული გამდინარე წყლების სისტემები:** გაცილებით რთული ინფრასტრუქტურაა და მოითხოვს ფიზიკურ-ქიმიურ ჩარევას (კოაგულაცია, ფლოკულაცია, ნეიტრალიზაცია), რათა წყალს მოშორდეს ტოქსიკური ნივთიერებები, მძიმე მეტალები, ზეთები და ნავთობპროდუქტები, სანამ ის ბუნებრივ გარემოში ან მუნიციპალურ ქსელში ჩაეშვება."
+        ]
+      },
+      {
+        "type": "table",
+        "head": [
+          "სისტემის ტიპი",
+          "დადებითი მხარეები (უპირატესობები)",
+          "უარყოფითი მხარეები / გამოწვევები"
+        ],
+        "rows": [
+          [
+            "**საყოფაცხოვრებო**",
+            "სუნის ეფექტური პრევენცია, ნიადაგის ინფილტრაციის დაცვა, ეკოლოგიური სისუფთავე.",
+            "ესაჭიროება რეგულარული ასენიზაცია (სეპტიკების შემთხვევაში) და დაცვა ქიმიური სარეცხი საშუალებების ზედმეტი კონცენტრაციისგან."
+          ],
+          [
+            "**ინდუსტრიული**",
+            "მძიმე დაბინძურების აღკვეთა, გარემოსდაცვით რეგულაციებთან სრული შესაბამისობა.",
+            "მაღალი კაპიტალური და საექსპლუატაციო (ენერგო/ქიმიური) ხარჯები, ესაჭიროება კვალიფიციური საინჟინრო პერსონალი."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "ქვემოთ მოცემულ ვიდეო-მოდულში შეგიძლიათ იხილოთ გამდინარე წყლების წმენდის ოთხი ძირითადი ეტაპი (პირველადი, მეორადი, მესამეული და ფინალური), რაც ნათლად აჩვენებს, თუ როგორ ხდება დაბინძურებული წყლის უსაფრთხო მდგომარეობამდე მიყვანა ბუნებაში დაბრუნებამდე:"
+      },
+      {
+        "type": "note",
+        "text": "**საყურადღებოა:** როგორც ვიდეოშია ნაჩვენები, ბიოლოგიური აერაციისა და ულტრაიისფერი დეზინფექციის ეტაპების გარეშე, თანამედროვე ეკოლოგიური სტანდარტების დაკმაყოფილება შეუძლებელია."
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-07.png",
+        "alt": "მუნიციპალური/ინდუსტრიული გამდინარე წყლების გამწმენდი ნაგებობა",
+        "width": 1024,
+        "height": 679
+      },
+      {
+        "type": "h2",
+        "text": "3. წყლის მეორადი დამუშავებისა და რეცირკულაციის სრული ციკლი (წყლის ხელახალი მოხმარება)"
+      },
+      {
+        "type": "p",
+        "text": "თანამედროვე საწარმოებში ტექნოლოგიური წყლების ხელახალი გაწმენდისა და რეცირკულაციის (ე.წ. ZLD - Zero Liquid Discharge) სისტემების დანერგვა საინჟინრო ევოლუციისა და მდგრადი განვითარების პიკია. ეს პროცესი გულისხმობს უკვე გამოყენებული წყლის ისეთ დონეზე გაწმენდას, რომ შესაძლებელი გახდეს მისი საწარმოო ციკლში ხელახლა დაბრუნება."
+      },
+      {
+        "type": "h3",
+        "text": "რეცირკულაციის კასკადური წმენდის სრული ციკლის ძირითადი ეტაპები"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**მექანიკური დამუშავება (ცხაურები და ცხიმმჭერები):** აშორებს მსხვილ ფიზიკურ მინარევებსა და ზედაპირულ ზეთებს.",
+          "**ბიოლოგიური და ქიმიური რეაქტორები (აერაციის აუზები):** სპეციალური ბაქტერიები ან ქიმიური კოაგულანტები შლიან რთულ ორგანულ და არაორგანულ ნაერთებს.",
+          "**მემბრანული ტექნოლოგიები (ულტრაფილტრაცია და უკუოსმოსი):** ფილტრაციის ყველაზე ფაქიზი ეტაპი, სადაც ხდება უმცირესი ნაწილაკებისა და გახსნილი მარილების გამოცალკევება.",
+          "**დეზინფექცია (UV / ოზონაცია):** ანადგურებს წინა ეტაპებზე გადარჩენილ პათოგენურ მიკროორგანიზმებს.",
+          "**სარეცირკულაციო სატუმბი სისტემები:** იდეალურად გასუფთავებულ, პარამეტრებში მოყვანილ წყალს აბრუნებს საწარმოო ტრასაში."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "ეკონომიკური სარგებელი და უპირატესობები ინდუსტრიული საწარმოებისთვის"
+      },
+      {
+        "type": "p",
+        "text": "მიუხედავად იმისა, რომ რეცირკულაციის სისტემების დანერგვა მოითხოვს საწყის კაპიტალურ ინვესტიციას, მისი ეკონომიკური უკუგება საწარმოსთვის კოლოსალურია:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**რესურსების რადიკალური დაზოგვა:** ნედლი წყლის მოხმარება და მუნიციპალურ ქსელში ჩაშვების მოცულობა მცირდება 80-95%-ით, რაც პირდაპირ და მნიშვნელოვნად ამცირებს კომუნალურ გადასახადებს.",
+          "**საჯარიმო სანქციების პრევენცია:** საწარმო სრულად აკმაყოფილებს მკაცრ გარემოსდაცვით რეგულაციებს და იზღვევს თავს დაბინძურებაზე დაწესებული მაღალი საჯარიმო სანქციებისგან.",
+          "**ნედლეულის აღდგენა:** რიგ შემთხვევებში (მაგალითად, გალვანურ ან ქიმიურ წარმოებაში), რეცირკულაციის პროცესში შესაძლებელი ხდება ძვირადღირებული ქიმიკატების ან ძვირფასი ლითონების გამოყოფა და მათი წარმოებაში ხელახალი გამოყენება.",
+          "**საოპერაციო დამოუკიდებლობა:** საწარმო ნაკლებად ხდება დამოკიდებული მუნიციპალური წყალმომარაგების სტაბილურობაზე ან ბუნებრივი წყაროების დებიტზე, რაც უზრუნველყოფს უწყვეტ საწარმოო პროცესს."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. ავტომობილების სამრეცხაოებისთვის გამდინარე წყლის ხელახალი გამოყენებისათვის წმენდისა და რეცირკულაციის სისტემები"
+      },
+      {
+        "type": "p",
+        "text": "ავტომობილების სამრეცხაოები (როგორც თვითმომსახურების, ისე გვირაბული და ავტომატური ტიპის) კომერციულ სექტორში წყლის ერთ-ერთ ყველაზე მსხვილ მომხმარებლებს წარმოადგენენ. სტანდარტულად, ერთი ავტომობილის გარეცხვას საშუალოდ 150-დან 300 ლიტრამდე სუფთა წყალი სჭირდება."
+      },
+      {
+        "type": "p",
+        "text": "წყლის ხელახალი წმენდვისა და რეცირკულაციის (ე.წ. Reclaim Systems) დანერგვა ავტოსამრეცხაოებისთვის აღარ წარმოადგენს მხოლოდ ეკოლოგიურ ტრენდს — ეს არის კრიტიკულად მნიშვნელოვანი ეკონომიკური ინსტრუმენტი, რომელიც ბიზნესს უმცირებს საოპერაციო ხარჯებს და აქცევს მას ეკო-მეგობრულად."
+      },
+      {
+        "type": "h3",
+        "text": "როგორ მუშაობს ავტოსამრეცხაოს წყლის რეცირკულაციის სისტემა?"
+      },
+      {
+        "type": "p",
+        "text": "გამოყენებული (საპნიანი და ტალახიანი) წყლის ხელახალი გამოყენებისთვის მომზადება რამდენიმე თანმიმდევრულ, მაღალტექნოლოგიურ ეტაპს მოიცავს:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**პირველადი დალექვა (ტალახისა და ქვიშის დამჭერები):** გამოყენებული წყალი ჩაედინება მიწისქვეშა ან მიწისზედა რეზერვუარებში, სადაც გრავიტაციის ხარჯზე ხდება უხეში ნაწილაკების (ქვიშა, ხრეში, ტალახი) ფსკერზე დალექვა.",
+          "**ნავთობპროდუქტებისა და ზეთის სეპარაცია:** სპეციალური სეპარატორები (ცხიმმჭერები) წყლის ზედაპირიდან აშორებენ საავტომობილო ზეთებსა და საწვავის ნარჩენებს, რათა არ მოხდეს შემდგომი ფილტრების დაბინძურება.",
+          "**მულტიმედიური და ნახშირის ფილტრაცია:** ტუმბოს მეშვეობით წყალი მიეწოდება ქვიშისა და აქტივირებული ნახშირის ფილტრებს. ამ ეტაპზე წყალს შორდება წვრილი შეწონილი ნაწილაკები, მძიმე მეტალები და უმჯობესდება მისი ფერი.",
+          "**ბიოლოგიური/ქიმიური დამუშავება და დეზინფექცია (ოზონი ან UV):** ვინაიდან დამდგარ წყალში სწრაფად მრავლდება ბაქტერიები (რაც იწვევს უსიამოვნო სუნს), წყალი გადის ოზონაციას ან ულტრაიისფერი სხივებით (UV) დეზინფექციას. ეს ეტაპი კლავს მიკროორგანიზმებს და წყალს სრულიად უსუნოს ხდის.",
+          "**სუფთა წყლის აკუმულაცია და დაბრუნება ქსელში:** იდეალურად გაფილტრული და სტერილიზებული წყალი გროვდება სუფთა წყლის ავზში და მაღალი წნევის ტუმბოებით ხელახლა მიეწოდება სამრეცხაო აპარატებს (ძირითადი რეცხვის პროცესისთვის)."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "ეკონომიკური სარგებელი ბიზნესისთვის"
+      },
+      {
+        "type": "p",
+        "text": "წყლის რეცირკულაციის სისტემის დანერგვით, ავტოსამრეცხაოებს შეუძლიათ გამოყენებული წყლის **80%-დან 90%-მდე** გადაარჩინონ და ხელახლა გამოიყენონ (მხოლოდ ფინალური გადავლებისთვის, ე.წ. \"ოსმოსისთვის\" გამოიყენება ახალი წყალი)."
+      },
+      {
+        "type": "p",
+        "text": "ქვემოთ მოცემული ცხრილი ნათლად აჩვენებს იმ ეკონომიკურ სარგებელს, რაც მოაქვს სისტემის დანერგვას საშუალო დატვირთვის სამრეცხაოსთვის:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "მახასიათებელი",
+          "რეცირკულაციის გარეშე (სტანდარტული სისტემა)",
+          "რეცირკულაციის სისტემით (Reclaim System)",
+          "ეკონომიკური და ეკოლოგიური ეფექტი"
+        ],
+        "rows": [
+          [
+            "**სუფთა წყლის ხარჯი 1 ავტომობილზე**",
+            "~ 200 ლიტრი",
+            "~ 30 - 40 ლიტრი (მხოლოდ ფინალური გავლებისთვის)",
+            "წყლის გადასახადის **80-85%-იანი დაზოგვა**."
+          ],
+          [
+            "**საკანალიზაციო დანახარჯები**",
+            "მაღალი (მოხმარებული წყლის 100% ჩაედინება კანალიზაციაში)",
+            "მინიმალური (კანალიზაციაში ჩადის მხოლოდ მცირე დანაკარგი)",
+            "საკანალიზაციო გადასახადის რადიკალური შემცირება."
+          ],
+          [
+            "**ქიმიკატების (შამპუნების) ხარჯი**",
+            "სტანდარტული (100% ირეცხება კანალიზაციაში)",
+            "მცირდება 15-20%-ით",
+            "სარეცხი საშუალებების ნაწილი რჩება სარეცირკულაციო წყალში."
+          ],
+          [
+            "**გარემოსდაცვითი რეგულაციები და ჯარიმები**",
+            "მაღალი რისკი (დაბინძურებული წყლის პირდაპირი ჩაშვების გამო)",
+            "რისკი ნულოვანია (სისტემა აკმაყოფილებს ეკო-სტანდარტებს)",
+            "ბიზნესის დაცულობა და \"მწვანე\" (Eco-Friendly) იმიჯი."
+          ],
+          [
+            "**ინვესტიციის ამოღების დრო (ROI)**",
+            "—",
+            "საშუალოდ 1-დან 2 წლამდე (დატვირთვის მიხედვით)",
+            "სწრაფი უკუგება და შემდგომი წმინდა მოგების ზრდა."
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "text": "**მნიშვნელოვანი ფაქტი:** ტრადიციული ავტოსამრეცხაო, რომელიც დღეში 100 ავტომობილს ემსახურება, რეცირკულაციის სისტემის მეშვეობით წელიწადში დაახლოებით **6,000 ტონა (6 მილიონი ლიტრი)** სასმელ წყალს ზოგავს, რაც ფინანსურ ეკვივალენტში ბიზნესისთვის ათი ათასობით ლარის ეკონომიაა."
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-08.png",
+        "alt": "ავტო სამრეცხაოს გამდინარე წყლის ხელახალი გამოყენებისათვის წმენდისა და რეცირკულაციის სისტემა",
+        "width": 1024,
+        "height": 559,
+        "localized": true
+      }
+    ]
+  },
+  "en": {
+    "t": "Water Treatment Systems",
+    "d": "Domestic and industrial water softening and treatment systems, wastewater treatment plants and water recirculation systems.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Modern Water Treatment and Recirculation Systems"
+      },
+      {
+        "type": "h2",
+        "text": "Introduction: Why Water Treatment Matters for Health and the Environment"
+      },
+      {
+        "type": "p",
+        "text": "Water is a fundamental resource for life and for industrial development. Proper treatment is critically important for human health, because uncontaminated drinking water rules out poisoning by heavy metals, pathogenic microorganisms and toxic substances. In addition, water treatment and subsequent recirculation are the main tool for maintaining ecological balance, protecting natural water bodies and soil from degradation."
+      },
+      {
+        "type": "h2",
+        "text": "1. Classification of Water Softening and Treatment Systems"
+      },
+      {
+        "type": "p",
+        "text": "Depending on their purpose and the technological requirements, treatment units fall into two main categories: domestic and industrial systems."
+      },
+      {
+        "type": "h3",
+        "text": "Domestic Water Treatment Systems"
+      },
+      {
+        "type": "p",
+        "text": "These systems focus on improving the organoleptic properties of drinking water (taste, odour, colour) and on its microbiological safety. They mainly use:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Mechanical filters:** retain coarse impurities such as sand, rust and microplastics.",
+          "**Carbon filters:** actively adsorb chlorine and organic compounds.",
+          "**Point-of-use reverse osmosis (RO) systems:** purify water at the molecular level, removing dissolved salts and heavy metals."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Industrial Water Treatment Systems"
+      },
+      {
+        "type": "p",
+        "text": "Designed for high capacity, they provide application-specific water conditioning for technological processes (e.g. heating and cooling systems, the food industry, pharmaceuticals)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Water softening cascades:** use ion-exchange resins to replace calcium and magnesium ions (hardness salts) with sodium. This is vital for protecting boilers, chillers and other expensive equipment from scale.",
+          "**High-capacity industrial reverse osmosis (RO) and ultrafiltration systems:** provide complete demineralization of water and achieve the specific conductivity required by industrial standards."
+        ]
+      },
+      {
+        "type": "table",
+        "head": [
+          "Characteristic",
+          "Domestic systems",
+          "Industrial systems"
+        ],
+        "rows": [
+          [
+            "**Capacity**",
+            "Low (from several tens to hundreds of litres per day)",
+            "Very high (from several cubic metres per hour)"
+          ],
+          [
+            "**Target focus**",
+            "Chlorine, heavy metals, bacteria, taste/odour",
+            "Hardness, specific chemical impurities, electrical conductivity"
+          ],
+          [
+            "**Service and maintenance**",
+            "Simple manual cartridge replacement (1–2 times a year)",
+            "Continuous monitoring, sensor-based control, automated cleaning (CIP)"
+          ],
+          [
+            "**Infrastructure**",
+            "Compact, installed directly at the point of use",
+            "Requires a dedicated plant room, pipework and pumping stations"
+          ]
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-01.jpeg",
+        "alt": "Simple domestic water filter with a replaceable cartridge",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-04.jpeg",
+        "alt": "Industrial water softening system",
+        "width": 1250,
+        "height": 1032
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-05.jpeg",
+        "alt": "Industrial reverse osmosis filtration system",
+        "width": 1110,
+        "height": 601
+      },
+      {
+        "type": "h2",
+        "text": "2. Wastewater Treatment Plants"
+      },
+      {
+        "type": "p",
+        "text": "Proper wastewater management is directly linked to environmental safety. When untreated industrial or domestic sewage enters the natural environment, it causes eutrophication of water bodies, destruction of flora and fauna, and the spread of dangerous epidemics."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Domestic wastewater systems:** mainly include septic tanks and small local biological treatment plants. They treat sewage and domestic wastewater with the help of specific microorganisms (aerobic and anaerobic bacteria).",
+          "**Industrial wastewater systems:** a far more complex infrastructure that requires physico-chemical treatment (coagulation, flocculation, neutralization) to remove toxic substances, heavy metals, oils and petroleum products from the water before it is discharged into the natural environment or the municipal network."
+        ]
+      },
+      {
+        "type": "table",
+        "head": [
+          "System type",
+          "Advantages",
+          "Disadvantages / challenges"
+        ],
+        "rows": [
+          [
+            "**Domestic**",
+            "Effective odour prevention, protection against soil infiltration, environmental cleanliness.",
+            "Requires regular desludging (in the case of septic tanks) and protection from excessive concentrations of chemical detergents."
+          ],
+          [
+            "**Industrial**",
+            "Prevention of heavy pollution, full compliance with environmental regulations.",
+            "High capital and operating (energy/chemical) costs; requires qualified engineering staff."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In the video module below you can see the four main stages of wastewater treatment (primary, secondary, tertiary and final), which clearly show how polluted water is brought to a safe condition before being returned to nature:"
+      },
+      {
+        "type": "note",
+        "text": "**Please note:** as shown in the video, meeting modern environmental standards is impossible without the biological aeration and ultraviolet disinfection stages."
+      },
+      {
+        "type": "image",
+        "src": "/img/products/water-treatment/doc-07.png",
+        "alt": "Municipal/industrial wastewater treatment plant",
+        "width": 1024,
+        "height": 679
+      },
+      {
+        "type": "h2",
+        "text": "3. The Complete Cycle of Secondary Treatment and Recirculation (Water Reuse)"
+      },
+      {
+        "type": "p",
+        "text": "In modern plants, introducing systems for re-treating and recirculating process water (so-called ZLD – Zero Liquid Discharge) represents the peak of engineering evolution and sustainable development. The process involves treating used water to a level at which it can be returned to the production cycle."
+      },
+      {
+        "type": "h3",
+        "text": "Main Stages of the Complete Cascade Treatment Cycle for Recirculation"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Mechanical treatment (screens and grease traps):** removes coarse physical impurities and surface oils.",
+          "**Biological and chemical reactors (aeration tanks):** special bacteria or chemical coagulants break down complex organic and inorganic compounds.",
+          "**Membrane technologies (ultrafiltration and reverse osmosis):** the finest stage of filtration, where the smallest particles and dissolved salts are separated.",
+          "**Disinfection (UV / ozonation):** destroys pathogenic microorganisms that survived the previous stages.",
+          "**Recirculation pumping systems:** return perfectly cleaned water, brought to the required parameters, to the production line."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Economic Benefits and Advantages for Industrial Plants"
+      },
+      {
+        "type": "p",
+        "text": "Although introducing recirculation systems requires an initial capital investment, the economic return for the plant is enormous:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Radical resource savings:** raw water consumption and the volume discharged into the municipal network fall by 80–95%, which directly and significantly reduces utility bills.",
+          "**Avoiding penalties:** the plant fully complies with strict environmental regulations and protects itself from the heavy fines imposed for pollution.",
+          "**Raw material recovery:** in some cases (for example, in electroplating or chemical production), the recirculation process makes it possible to separate expensive chemicals or precious metals and reuse them in production.",
+          "**Operational independence:** the plant becomes less dependent on the stability of the municipal water supply or on the yield of natural sources, which ensures an uninterrupted production process."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Wastewater Treatment and Recirculation Systems for Water Reuse at Car Washes"
+      },
+      {
+        "type": "p",
+        "text": "Car washes (self-service as well as tunnel and automatic types) are among the largest water consumers in the commercial sector. As a rule, washing a single vehicle requires an average of 150 to 300 litres of clean water."
+      },
+      {
+        "type": "p",
+        "text": "Introducing water re-treatment and recirculation (so-called reclaim systems) at car washes is no longer just an environmental trend — it is a critically important economic tool that cuts the business's operating costs and makes it eco-friendly."
+      },
+      {
+        "type": "h3",
+        "text": "How Does a Car Wash Water Recirculation System Work?"
+      },
+      {
+        "type": "p",
+        "text": "Preparing used (soapy and muddy) water for reuse involves several successive high-tech stages:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Primary settling (mud and sand traps):** used water flows into underground or above-ground tanks, where coarse particles (sand, gravel, mud) settle to the bottom by gravity.",
+          "**Oil and petroleum product separation:** special separators (grease traps) remove motor oils and fuel residues from the water surface so that downstream filters are not contaminated.",
+          "**Multimedia and carbon filtration:** a pump feeds the water to sand and activated carbon filters. At this stage, fine suspended particles and heavy metals are removed from the water and its colour is improved.",
+          "**Biological/chemical treatment and disinfection (ozone or UV):** since bacteria multiply rapidly in standing water (causing unpleasant odours), the water undergoes ozonation or ultraviolet (UV) disinfection. This stage kills microorganisms and makes the water completely odourless.",
+          "**Clean water storage and return to the system:** perfectly filtered and sterilized water collects in a clean water tank and is fed back to the washing equipment by high-pressure pumps (for the main wash process)."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Economic Benefits for the Business"
+      },
+      {
+        "type": "p",
+        "text": "By introducing a water recirculation system, car washes can recover and reuse **80% to 90%** of the water used (fresh water is used only for the final rinse, the so-called \"osmosis\" rinse)."
+      },
+      {
+        "type": "p",
+        "text": "The table below clearly shows the economic benefit the system brings to a car wash with an average workload:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Characteristic",
+          "Without recirculation (standard system)",
+          "With a recirculation system (reclaim system)",
+          "Economic and environmental effect"
+        ],
+        "rows": [
+          [
+            "**Clean water consumption per vehicle**",
+            "~ 200 litres",
+            "~ 30 – 40 litres (for the final rinse only)",
+            "**80–85% savings** on water bills."
+          ],
+          [
+            "**Sewerage costs**",
+            "High (100% of the water used is discharged to the sewer)",
+            "Minimal (only a small loss goes to the sewer)",
+            "Radical reduction in sewerage charges."
+          ],
+          [
+            "**Chemical (shampoo) consumption**",
+            "Standard (100% is washed into the sewer)",
+            "Reduced by 15–20%",
+            "Part of the detergent remains in the recirculated water."
+          ],
+          [
+            "**Environmental regulations and fines**",
+            "High risk (due to direct discharge of polluted water)",
+            "Zero risk (the system meets eco-standards)",
+            "Protection of the business and a \"green\" (eco-friendly) image."
+          ],
+          [
+            "**Payback period (ROI)**",
+            "—",
+            "On average 1 to 2 years (depending on workload)",
+            "Fast payback and subsequent growth in net profit."
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "text": "**Key fact:** a conventional car wash serving 100 vehicles a day saves approximately **6,000 tonnes (6 million litres)** of drinking water per year with a recirculation system, which for the business translates into savings of tens of thousands of GEL."
+      }
+    ]
+  }
+}

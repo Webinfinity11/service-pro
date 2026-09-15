@@ -182,7 +182,7 @@ export const products: Product[] = [
   },
   {
     slug: "thermal-insulation",
-    t: "თბოსაიზოლაციო სისტემები და საშუალებები",
+    t: "თბოიზოლაცია",
     d: "შენობის სრული თბოიზოლირება (სახურავი, კედლები, იატაკი) პოლიურეთანის (PIR) ქაფით ან ფილებით; ორთქლის, ცხელი და გაცივებული წყლის მილსადენების, თბომცვლელებისა და საწარმოო-ტექნოლოგიური მოწყობილობების თბოიზოლაცია პრეფაბრიკული მილებითა და მეტალის გარსაცმებით. ჩამკეტ-მარეგულირებელი არმატურის თბოიზოლირება სწრაფად მოხსნადი „ჯეკეტებით“.",
     img: "/img/products/thermal-insulation.jpg",
     children: ["insulation-jackets", "pir-spray-foam", "pir-boards", "prefabricated-pipes"],
@@ -226,6 +226,21 @@ export const products: Product[] = [
     t: "თბოუზრუნველყოფის აგრეგატები",
     d: "ორთქლის ქვაბები, ორთქლის სადგურის მოწყობილობები, წყლის გამწმენდი სისტემები.",
     img: "/img/products/steam-units.jpg",
+    gallery: [],
+  },
+  {
+    slug: "water-treatment",
+    t: "წყლის გამწმენდი სისტემები",
+    d: "წყლის ფილტრაციის, დარბილების და წმენდის სისტემები.",
+    img: "/img/products/water-treatment/cover.png",
+    gallery: [],
+  },
+  {
+    slug: "automation",
+    t: "ავტომატიზაცია და ავტომატური კონტროლი",
+    d: "HVAC, წყალმომარაგების და ორთქლის სისტემების ავტომატური მართვა და კონტროლი.",
+    // Placeholder photo until the client sends automation shots.
+    img: "/img/products/hvac/05.jpg",
     gallery: [],
   },
   {

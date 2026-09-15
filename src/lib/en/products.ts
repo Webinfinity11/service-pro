@@ -60,7 +60,7 @@ export const productsEn: Record<string, ItemText> = {
     d: "Refrigeration units and refrigeration systems.",
   },
   "thermal-insulation": {
-    t: "Thermal Insulation Systems and Materials",
+    t: "Thermal Insulation",
     d: "Complete building insulation (roof, walls, floor) with polyurethane (PIR) spray foam or boards; insulation of steam, hot and chilled water pipelines, heat exchangers and process equipment with prefabricated pipe sections and metal cladding. Insulation of shut-off and control valves with quick-release removable jackets.",
   },
   "decorative-glass": {
