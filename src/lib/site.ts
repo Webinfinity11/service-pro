@@ -3,9 +3,11 @@ export const YEARS = new Date().getFullYear() - FOUNDED;
 
 export const contact = {
   company: 'შპს „სერვის პრო“',
-  phone: "+995 599 50 02 30",
-  phoneHref: "tel:+995599500230",
-  email: "gugakevanishvili@gmail.com",
+  phone: "+995 598 99 22 33",
+  phoneHref: "tel:+995598992233",
+  /** Official WhatsApp — the same number as the office phone. */
+  whatsapp: "https://wa.me/995598992233",
+  email: "info@service-pro.ge",
   address: "თბილისი, ბესარიონ ჟღენტის ქუჩა",
   mapQuery: "ბესარიონ ჟღენტის ქუჩა, თბილისი",
   facebook: "https://www.facebook.com/",

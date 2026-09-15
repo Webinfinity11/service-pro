@@ -5,6 +5,7 @@ import Partners from "@/components/Partners";
 import Reveal from "@/components/Reveal";
 import SectionHead from "@/components/SectionHead";
 import Stats from "@/components/Stats";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 import ServiceCard from "@/components/ServiceCard";
 import { FOUNDED, gallery, getContent } from "@/lib/content";
 import { pageMeta } from "@/lib/meta";
@@ -236,6 +237,20 @@ export default async function Home() {
                         className="display text-2xl text-white transition-colors hover:text-red-soft sm:text-3xl"
                       >
                         {contact.phone}
+                      </a>
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="tag text-white/45">WhatsApp</dt>
+                    <dd className="mt-2">
+                      <a
+                        href={contact.whatsapp}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 text-white transition-colors hover:text-[#25D366]"
+                      >
+                        <WhatsAppIcon className="h-5 w-5 text-[#25D366]" />
+                        {t.contact.whatsapp}
                       </a>
                     </dd>
                   </div>

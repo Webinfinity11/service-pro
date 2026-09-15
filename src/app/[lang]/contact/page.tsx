@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import PageHeader from "@/components/PageHeader";
 import Reveal from "@/components/Reveal";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 import { getContent } from "@/lib/content";
 import { pageMeta } from "@/lib/meta";
 
@@ -37,6 +38,17 @@ export default async function Contact() {
                 className="display text-2xl transition-colors hover:text-red-ink sm:text-3xl"
               >
                 {contact.phone}
+              </a>
+            </Row>
+            <Row label="WhatsApp">
+              <a
+                href={contact.whatsapp}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-3 rounded-cta bg-[#25D366] px-5 py-3 font-semibold text-white transition-colors hover:bg-[#1ebe5b]"
+              >
+                <WhatsAppIcon className="h-5 w-5" />
+                {t.contact.whatsapp}
               </a>
             </Row>
             <Row label={t.common.email}>
