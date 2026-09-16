@@ -150,21 +150,6 @@ export const servicesEn: Record<string, ItemText> = {
       },
     ],
   },
-  "concrete-drilling": {
-    t: "Concrete Drilling",
-    d: "Concrete drilling, reinforced concrete cutting and large-diameter core openings in reinforced concrete using specialist high-tech equipment.",
-    intro: [
-      {
-        p: "Concrete drilling and cutting are used to create openings for building services or any other purpose in reinforced concrete walls, floors and ceilings of every kind. The work is carried out with a specialist core drilling rig that cuts precise-diameter openings through reinforced concrete quickly, without demolition or vibration. It is mainly used to route ventilation shafts, water supply and sewer risers, electrical lines and other services through reinforced concrete slabs and walls.",
-      },
-      {
-        p: "Openings of the required diameter are also cut to weaken a building's load-bearing elements ahead of demolition. In addition, openings in reinforced concrete are made for decorative and other purposes.",
-      },
-      {
-        p: "Service Pro LLC has expert-level specialists and state-of-the-art equipment for this work. Core drilling may look simple and safe at first glance, but without specialist knowledge, tools and equipment it carries considerable risks — it should only be carried out by professionals and companies with professional-grade machinery.",
-      },
-    ],
-  },
   laminate: {
     t: "Laminate Flooring Installation",
     d: "Installation of laminate flooring.",

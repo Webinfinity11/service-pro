@@ -14,7 +14,7 @@ const ka = {
     about:
       "შპს „სერვის პრო“ — საინჟინრო გუნდი 1996 წლიდან. თბოტექნიკა, ვენტილაცია, კონდიცირება, წყალ-კანალიზაცია, იზოლაცია, პანელოვანი სისტემები და ტექნოლოგიური დაგეგმარება.",
     services:
-      "HVAC, ჰაერის ფილტრები (G4, F7/F9, HEPA), წყალმომარაგება-კანალიზაცია, ელექტროობა, თბო-, ჰიდრო- და ხმის იზოლაცია, სენდვიჩ და დეკორატიული პანელები, შეკიდული ჭერები, იატაკები, ბეტონის ბურღვა, ტექნოლოგიური დაგეგმარება.",
+      "HVAC, ჰაერის ფილტრები (G4, F7/F9, HEPA), წყალმომარაგება-კანალიზაცია, ელექტროობა, თბო-, ჰიდრო- და ხმის იზოლაცია, სენდვიჩ და დეკორატიული პანელები, შეკიდული ჭერები, იატაკები, ტექნოლოგიური დაგეგმარება.",
     products:
       "ჰაერის ფილტრები (G4, F7/F9, HEPA, ULPA), ვინილის იატაკები და LVT, სამშენებლო ქიმია, ტექსტილის ჰაერსადენები, სენდვიჩ და დეკორატიული პანელები, მაცივარ-აგრეგატები, თბოსაიზოლაციო სისტემები, HVAC აგრეგატები, შეკიდული ჭერები.",
     projects:
@@ -202,7 +202,7 @@ const en: Dict = {
     about:
       "Service Pro LLC — an engineering team since 1996. Heating, ventilation, air conditioning, water and sewerage, insulation, panel systems and process planning.",
     services:
-      "HVAC, air filters (G4, F7/F9, HEPA), water supply and sewerage, electrical works, thermal, waterproofing and acoustic insulation, sandwich and decorative panels, suspended ceilings, flooring, concrete drilling, process planning.",
+      "HVAC, air filters (G4, F7/F9, HEPA), water supply and sewerage, electrical works, thermal, waterproofing and acoustic insulation, sandwich and decorative panels, suspended ceilings, flooring, process planning.",
     products:
       "Air filters (G4, F7/F9, HEPA, ULPA), vinyl flooring and LVT, construction chemicals, textile air ducts, sandwich and decorative panels, refrigeration units, thermal insulation systems, HVAC units, suspended ceilings.",
     projects:
