@@ -42,44 +42,80 @@ const ka: Record<string, Partial<ItemText>> = {
         text: "ჩვენი 30 წლიანი გამოცდილების მქონე საინჟინრო ჯგუფი გთავაზობთ შენობის ფუნქციონალური დატვირთვისამებრ შეგირჩიოთ ჰაერის ფილტრები, შენობაში არსებული ზონალობის მიხედვით განგისაზღვროთ ფილტრაციის საჭირო კლასი, მოგაწოდოთ შესაბამისი კლასისა და ხარისხის ფილტრები და უზრუნველყოს მათი მონტაჟი და ან შეცვლა საჭიროებისამებრ.",
       },
       {
-        type: "p",
-        text: "ჰაერის ფილტრი სავენტილაციო სისტემის ის ელემენტია, რომელიც პირდაპირ განსაზღვრავს შენობაში შემავალი ჰაერის ხარისხს. სწორად შერჩეული და დროულად შეცვლილი ფილტრი იცავს როგორც ადამიანებს, ისე თავად დანადგარს — არასწორად შერჩეული ან გადავსებული ფილტრი კი ორივეს აზიანებს.",
+        type: "h2",
+        text: "ჰაერის უმაღლესი ხარისხი ნებისმიერი ტიპის ობიექტისთვის: სავენტილაციო ფილტრების სრული სერვისი",
       },
-      { type: "h2", text: "სერვისის ეტაპები" },
+      {
+        type: "p",
+        text: "სუფთა ჰაერი არ არის ფუფუნება — ეს ჯანსაღი, უსაფრთხო და პროდუქტიული გარემოს ფუნდამენტია. ჩვენი ორგანიზაცია გთავაზობთ სავენტილაციო სისტემის ჰაერის ფილტრების მართვის სრულ ციკლს, რაც გათავისუფლებთ ტექნიკური საზრუნავისგან და გაძლევთ გარანტიას, რომ თქვენი შენობის „ფილტვები“ უნაკლოდ მუშაობს.",
+      },
+      {
+        type: "p",
+        text: "ჩვენი გუნდი უზრუნველყოფს ფილტრაციის სისტემების მუშაობის უწყვეტობას ეტაპიდან — „იდეა“, ეტაპამდე — „შედეგი“.",
+      },
+      { type: "h2", text: "სერვისის სრული ციკლი (360°)" },
+      {
+        type: "p",
+        text: "ჩვენ არ ვართ მხოლოდ მომწოდებლები; ჩვენ ვართ თქვენი პარტნიორები სუფთა ჰაერის უზრუნველყოფაში. ჩვენი სამუშაო პროცესი მოიცავს ოთხ ძირითად ეტაპს:",
+      },
       {
         type: "list",
         items: [
-          "**ობიექტის დათვალიერება და ზონალობის განსაზღვრა:** რომელ სივრცეს რა სისუფთავის ჰაერი სჭირდება — საოპერაციო, პალატა, ლაბორატორია, საწარმოო ხაზი, სავაჭრო დარბაზი თუ ოფისი.",
-          "**ფილტრაციის კლასის შერჩევა:** უხეში წმენდის **G4** წინასწარი ფილტრაციისთვის, წვრილი წმენდის **F7/F9** ძირითადი საფეხურისთვის, აბსოლუტური **HEPA (H13/H14)** და ულტრა-აბსოლუტური **ULPA** კრიტიკული სივრცეებისთვის — ISO 16890, EN 779 და EN 1822 სტანდარტების მიხედვით.",
-          "**მოწოდება:** შერჩეული კლასისა და ზომის ფილტრების მოწოდება ევროპელი მწარმოებლებისგან, მათ შორის არასტანდარტული ზომებით.",
-          "**მონტაჟი და ჰერმეტულობის შემოწმება:** ფილტრის ჩასმა კასეტაში ან ბოქსში, ჩარჩოს ჰერმეტულობის შემოწმება — რადგან ფილტრის გვერდიდან გამავალი ჰაერი მთელ ფილტრაციას აზრს უკარგავს.",
-          "**პერიოდული შეცვლა გრაფიკით:** ფილტრების მდგომარეობის კონტროლი, ძველი ფილტრის ამოღება და ახლით ჩანაცვლება ობიექტისთვის შედგენილი გრაფიკის მიხედვით.",
+          "**პროფესიონალური შერჩევა და აუდიტი:** ვსწავლობთ თქვენი ობიექტის სპეციფიკას, ვენტილაციის სისტემის დატვირთვასა და ჰაერის დაბინძურების დონეს. ამის საფუძველზე ვარჩევთ ფილტრის ოპტიმალურ ტიპსა და კლასს (G, M, F, HEPA და ა.შ.).",
+          "**სწრაფი და საიმედო მოწოდება:** უზრუნველვყოფთ უმაღლესი ხარისხის, სერტიფიცირებული ფილტრების იმპორტსა და ობიექტზე დროულ მიწოდებას, შეფერხებების გარეშე.",
+          "**სტანდარტების დაცვით მონტაჟი:** ჩვენი მაღალკვალიფიციური ტექნიკოსები ახორციელებენ ფილტრების ინსტალაციას სისტემის ჰერმეტულობისა და მწარმოებლის ყველა სტანდარტის მკაცრი დაცვით.",
+          "**გეგმიური ჩანაცვლება და მონიტორინგი:** ვადგენთ ფილტრების დაბინძურების გრაფიკს და უზრუნველვყოფთ მათ დროულად შეცვლას. თქვენ აღარ მოგიწევთ ვადების კონტროლი — ამაზე ჩვენ ვიზრუნებთ.",
         ],
       },
       airFilterWork,
-      { type: "h2", text: "ვისთვის არის ჰაერის ფილტრაცია კრიტიკული" },
+      { type: "h2", text: "ობიექტები, რომლებსაც ვემსახურებით" },
       {
-        type: "list",
-        items: [
-          "**კლინიკები და საავადმყოფოები:** საოპერაციო ბლოკები, ინტენსიური თერაპიის და საიზოლაციო პალატები, სტერილიზაციის განყოფილებები — HEPA H13/H14 ფილტრაცია ჰოსპიტალური ინფექციებისა და ჯვარედინი დაბინძურების პრევენციისთვის.",
-          "**ლაბორატორიები და ფარმაცევტული ობიექტები:** სუფთა ოთახები, მედიკამენტების საწყობები — მრავალსაფეხურიანი ფილტრაცია GDP მოთხოვნებთან ერთად.",
-          "**კვების ობიექტები:** საწარმოები, საკონდიტროები, სამზარეულოები და კვების ქსელები — პროდუქტის ვარგისიანობა პირდაპირ არის დამოკიდებული საწარმოო ხაზზე მიწოდებული ჰაერის სისუფთავეზე.",
-          "**ოფისები, სასტუმროები და სავაჭრო ცენტრები:** F7/F9 კასკადი ქუჩის სმოგის, PM2.5 ნაწილაკებისა და ალერგენების შესაკავებლად.",
+        type: "p",
+        text: "თითოეულ ინდუსტრიას ჰაერის ფილტრაციის ინდივიდუალური სტანდარტები აქვს. ჩვენი გამოცდილება ფარავს ყველა ძირითად სექტორს:",
+      },
+      {
+        type: "table",
+        head: ["სექტორი", "ფილტრაციის მთავარი ამოცანა და ჩვენი გამოსავალი"],
+        rows: [
+          [
+            "**ჯანდაცვის სექტორი**",
+            "სტერილური გარემოს შექმნა, ბაქტერიებისა და ვირუსების გავრცელების პრევენცია HEPA და ULPA ფილტრების გამოყენებით (მაგ: კლინიკები, საავადმყოფოები, ლაბორატორიები).",
+          ],
+          [
+            "**კვების ობიექტები**",
+            "პროდუქტის უსაფრთხოებისა და ვარგისიანობის ვადის დაცვა — საწარმოო ხაზზე მიწოდებული ჰაერის მრავალსაფეხურიანი ფილტრაცია (მაგ: კვების საწარმოები, საკონდიტროები, სამზარეულოები).",
+          ],
+          [
+            "**ინდუსტრიული ობიექტები**",
+            "მძიმე მტვრის, ქიმიური ნაწილაკებისა და გამონაბოლქვისგან სამუშაო სივრცის დაცვა. უსაფრთხოების ნორმების დაკმაყოფილება (მაგ: საწარმოები, ქარხნები).",
+          ],
+          [
+            "**კომერციული სივრცეები**",
+            "მომხმარებლებისა და თანამშრომლებისთვის კომფორტული მიკროკლიმატის შექმნა, HVAC სისტემის ენერგოეფექტურობის გაზრდა (მაგ: მოლები, ოფისები, სასტუმროები).",
+          ],
+          [
+            "**საგანმანათლებლო დაწესებულებები**",
+            "ვირუსების კონცენტრაციის შემცირება და სუფთა ჰაერის მიწოდება, რაც პირდაპირ მოქმედებს მოსწავლეთა/სტუდენტთა კონცენტრაციასა და ჯანმრთელობაზე.",
+          ],
+          [
+            "**საყოფაცხოვრებო კომპლექსები**",
+            "ურბანული დაბინძურებისგან, სმოგისა და ალერგენებისგან საცხოვრებელი სივრცის დაცვა.",
+          ],
         ],
       },
-      { type: "h2", text: "რატომ არ არის ფილტრის შეცვლა წვრილმანი" },
+      { type: "h2", text: "რატომ უნდა აგვირჩიოთ ჩვენ" },
       {
         type: "list",
         items: [
-          "**ენერგია:** გადავსებული ფილტრი ზრდის წნევის ვარდნას, ვენტილატორი მეტ დენს ხარჯავს — ფილტრზე დაზოგილი თანხა ელექტროენერგიის ანგარიშში ბრუნდება.",
-          "**ჰაერის ხარჯი:** ფილტრის გადავსებისას სისტემაში შემავალი ჰაერის რაოდენობა ეცემა და ვენტილაცია პროექტით გათვლილ რეჟიმს ვეღარ იჭერს.",
-          "**ჰიგიენა:** ტენიან და დაბინძურებულ ფილტრზე მიკროორგანიზმები მრავლდებიან — ფილტრი დაცვის ბარიერიდან თავად ხდება დაბინძურების წყარო.",
-          "**დანადგარის რესურსი:** წინასწარი ფილტრაციის გარეშე ბინძურდება კალორიფერები, ამაორთქლებლები და ვენტილატორები, რაც ამცირებს AHU-ს რესურსს და ზრდის სერვისის ხარჯს.",
+          "**დროისა და რესურსების დაზოგვა:** სრული ციკლის სერვისი ნიშნავს, რომ თქვენ ურთიერთობთ მხოლოდ ერთ კონტრაქტორთან — ჩვენთან.",
+          "**ენერგოეფექტურობა:** სწორად შერჩეული და დროულად შეცვლილი ფილტრი ამცირებს ვენტილაციის სისტემის ძრავის დატვირთვას, რაც ზოგავს ელექტროენერგიას.",
+          "**მუდმივი მარაგი და მხარდაჭერა:** ჩვენს პარტნიორ ქარხანას აქვს მუდმივად განახლებადი საწყობი, რათა თქვენი სისტემა წამითაც არ გაჩერდეს.",
+          "**ინდივიდუალური მიდგომა:** არ არსებობს შაბლონური გამოსავალი. ყველა ობიექტისთვის ვქმნით მორგებულ შეთავაზებას.",
         ],
       },
       {
         type: "note",
-        text: "ფილტრების კლასების, სტანდარტებისა და ტექნიკური მახასიათებლების დეტალური მიმოხილვა — შემაჯამებელი ცხრილითა და სქემებით — იხილეთ პროდუქტების განყოფილებაში.",
+        text: "**ენდეთ პროფესიონალებს — ისუნთქეთ თავისუფლად!** დაგვიკავშირდით დღესვე ობიექტის აუდიტისა და კონსულტაციისთვის.",
       },
       {
         type: "link",
@@ -158,46 +194,82 @@ const en: Record<string, Partial<ItemText>> = {
     content: [
       {
         type: "p",
-        text: "Our engineering team, with 30 years of experience, selects air filters to match how the building is actually used, sets the filtration class required for each zone, supplies filters of the right class and quality, and installs or replaces them as needed.",
+        text: "Our engineering team, with 30 years of experience, selects air filters to match how the building is actually used, sets the filtration class required for each zone of the building, supplies filters of the right class and quality, and installs or replaces them as needed.",
+      },
+      {
+        type: "h2",
+        text: "The highest air quality for any type of facility: a complete ventilation filter service",
       },
       {
         type: "p",
-        text: "The air filter is the element of a ventilation system that directly determines the quality of the air entering the building. A correctly specified filter, replaced on time, protects both the people inside and the equipment itself — the wrong filter, or a clogged one, damages both.",
+        text: "Clean air is not a luxury — it is the foundation of a healthy, safe and productive environment. We offer the full cycle of air filter management for your ventilation system, taking the technical worry off your hands and guaranteeing that your building's \"lungs\" work flawlessly.",
       },
-      { type: "h2", text: "How the service works" },
+      {
+        type: "p",
+        text: "Our team keeps your filtration system running without interruption, from the idea through to the result.",
+      },
+      { type: "h2", text: "The full service cycle (360°)" },
+      {
+        type: "p",
+        text: "We are not merely suppliers; we are your partners in delivering clean air. Our process covers four main stages:",
+      },
       {
         type: "list",
         items: [
-          "**Site survey and zoning:** establishing how clean the air has to be in each space — operating theatre, ward, laboratory, production line, sales floor or office.",
-          "**Choosing the filtration class:** coarse **G4** for pre-filtration, fine **F7/F9** for the main stage, absolute **HEPA (H13/H14)** and ultra-absolute **ULPA** for critical spaces — to the ISO 16890, EN 779 and EN 1822 standards.",
-          "**Supply:** filters of the chosen class and size from European manufacturers, including non-standard sizes.",
-          "**Installation and seal check:** fitting the filter into its cassette or box and checking the frame seal — air that slips past the edge of a filter defeats the whole filtration stage.",
-          "**Scheduled replacement:** monitoring filter condition and replacing spent filters on a schedule drawn up for the facility.",
+          "**Professional selection and audit:** we study the specifics of your facility, the load on the ventilation system and the level of air pollution, and on that basis choose the optimal filter type and class (G, M, F, HEPA and so on).",
+          "**Fast, reliable supply:** we import top-quality certified filters and deliver them to site on time, without hold-ups.",
+          "**Installation to standard:** our highly qualified technicians install the filters in strict accordance with the system's sealing requirements and every manufacturer standard.",
+          "**Scheduled replacement and monitoring:** we draw up a filter loading schedule and replace filters on time. You no longer have to track the dates — we take care of that.",
         ],
       },
-      { type: "h2", text: "Where air filtration is critical" },
+      { type: "h2", text: "The facilities we serve" },
       {
-        type: "list",
-        items: [
-          "**Clinics and hospitals:** operating theatres, intensive care and isolation rooms, sterilisation departments — HEPA H13/H14 filtration to prevent hospital-acquired infection and cross-contamination.",
-          "**Laboratories and pharmaceutical facilities:** cleanrooms and medicine stores — multi-stage filtration alongside GDP requirements.",
-          "**Food facilities:** production plants, bakeries, kitchens and food retail — shelf life depends directly on the cleanliness of the air supplied to the production line.",
-          "**Offices, hotels and shopping centres:** an F7/F9 cascade to hold back street smog, PM2.5 particles and allergens.",
+        type: "p",
+        text: "Every industry has its own air filtration standards. Our experience covers all the main sectors:",
+      },
+      {
+        type: "table",
+        head: ["Sector", "The main filtration task and our answer to it"],
+        rows: [
+          [
+            "**Healthcare**",
+            "Creating a sterile environment and preventing the spread of bacteria and viruses with HEPA and ULPA filters (e.g. clinics, hospitals, laboratories).",
+          ],
+          [
+            "**Food facilities**",
+            "Protecting product safety and shelf life through multi-stage filtration of the air supplied to the production line (e.g. food plants, bakeries, kitchens).",
+          ],
+          [
+            "**Industrial facilities**",
+            "Protecting the working space from heavy dust, chemical particles and exhaust, and meeting safety requirements (e.g. plants and factories).",
+          ],
+          [
+            "**Commercial spaces**",
+            "Creating a comfortable microclimate for customers and staff and improving the energy efficiency of the HVAC system (e.g. malls, offices, hotels).",
+          ],
+          [
+            "**Educational institutions**",
+            "Reducing the concentration of viruses and supplying clean air, which directly affects pupils' and students' concentration and health.",
+          ],
+          [
+            "**Residential complexes**",
+            "Protecting living spaces from urban pollution, smog and allergens.",
+          ],
         ],
       },
-      { type: "h2", text: "Why a filter change is not a detail" },
+      { type: "h2", text: "Why choose us" },
       {
         type: "list",
         items: [
-          "**Energy:** a clogged filter raises the pressure drop and the fan draws more power — what you save on the filter comes back on the electricity bill.",
-          "**Airflow:** as the filter loads up, the volume of air entering the system falls and the ventilation no longer holds the design regime.",
-          "**Hygiene:** micro-organisms multiply on a damp, dirty filter, turning the protective barrier into a source of contamination.",
-          "**Equipment life:** without pre-filtration the coils, evaporators and fans foul up, shortening the life of the air handling unit and pushing up service costs.",
+          "**Saving time and resources:** a full-cycle service means you deal with a single contractor — us.",
+          "**Energy efficiency:** a correctly specified filter, replaced on time, reduces the load on the ventilation fan motor and saves electricity.",
+          "**Constant stock and support:** our partner factory keeps a continuously replenished warehouse, so your system never stands still.",
+          "**An individual approach:** there is no off-the-shelf answer. We build a tailored proposal for every facility.",
         ],
       },
       {
         type: "note",
-        text: "For a detailed review of filter classes, standards and technical characteristics — with a summary table and diagrams — see the products section.",
+        text: "**Trust the professionals — breathe freely.** Get in touch today for a site audit and consultation.",
       },
       {
         type: "link",
