@@ -25,7 +25,69 @@ const refrigerationSteps: ContentBlock = {
   localized: true,
 };
 
+const airFilterWork: ContentBlock = {
+  type: "image",
+  src: "/img/services/air-filters/doc-01.png",
+  alt: "ჰაერის ფილტრის შეცვლა AHU-ში, HEPA ფილტრის ბოქსი და დამოუკიდებელი ჰაერის რეკუპერატორი",
+  width: 1024,
+  height: 559,
+  localized: true,
+};
+
 const ka: Record<string, Partial<ItemText>> = {
+  "air-filters": {
+    content: [
+      {
+        type: "p",
+        text: "ჩვენი 30 წლიანი გამოცდილების მქონე საინჟინრო ჯგუფი გთავაზობთ შენობის ფუნქციონალური დატვირთვისამებრ შეგირჩიოთ ჰაერის ფილტრები, შენობაში არსებული ზონალობის მიხედვით განგისაზღვროთ ფილტრაციის საჭირო კლასი, მოგაწოდოთ შესაბამისი კლასისა და ხარისხის ფილტრები და უზრუნველყოს მათი მონტაჟი და ან შეცვლა საჭიროებისამებრ.",
+      },
+      {
+        type: "p",
+        text: "ჰაერის ფილტრი სავენტილაციო სისტემის ის ელემენტია, რომელიც პირდაპირ განსაზღვრავს შენობაში შემავალი ჰაერის ხარისხს. სწორად შერჩეული და დროულად შეცვლილი ფილტრი იცავს როგორც ადამიანებს, ისე თავად დანადგარს — არასწორად შერჩეული ან გადავსებული ფილტრი კი ორივეს აზიანებს.",
+      },
+      { type: "h2", text: "სერვისის ეტაპები" },
+      {
+        type: "list",
+        items: [
+          "**ობიექტის დათვალიერება და ზონალობის განსაზღვრა:** რომელ სივრცეს რა სისუფთავის ჰაერი სჭირდება — საოპერაციო, პალატა, ლაბორატორია, საწარმოო ხაზი, სავაჭრო დარბაზი თუ ოფისი.",
+          "**ფილტრაციის კლასის შერჩევა:** უხეში წმენდის **G4** წინასწარი ფილტრაციისთვის, წვრილი წმენდის **F7/F9** ძირითადი საფეხურისთვის, აბსოლუტური **HEPA (H13/H14)** და ულტრა-აბსოლუტური **ULPA** კრიტიკული სივრცეებისთვის — ISO 16890, EN 779 და EN 1822 სტანდარტების მიხედვით.",
+          "**მოწოდება:** შერჩეული კლასისა და ზომის ფილტრების მოწოდება ევროპელი მწარმოებლებისგან, მათ შორის არასტანდარტული ზომებით.",
+          "**მონტაჟი და ჰერმეტულობის შემოწმება:** ფილტრის ჩასმა კასეტაში ან ბოქსში, ჩარჩოს ჰერმეტულობის შემოწმება — რადგან ფილტრის გვერდიდან გამავალი ჰაერი მთელ ფილტრაციას აზრს უკარგავს.",
+          "**პერიოდული შეცვლა გრაფიკით:** ფილტრების მდგომარეობის კონტროლი, ძველი ფილტრის ამოღება და ახლით ჩანაცვლება ობიექტისთვის შედგენილი გრაფიკის მიხედვით.",
+        ],
+      },
+      airFilterWork,
+      { type: "h2", text: "ვისთვის არის ჰაერის ფილტრაცია კრიტიკული" },
+      {
+        type: "list",
+        items: [
+          "**კლინიკები და საავადმყოფოები:** საოპერაციო ბლოკები, ინტენსიური თერაპიის და საიზოლაციო პალატები, სტერილიზაციის განყოფილებები — HEPA H13/H14 ფილტრაცია ჰოსპიტალური ინფექციებისა და ჯვარედინი დაბინძურების პრევენციისთვის.",
+          "**ლაბორატორიები და ფარმაცევტული ობიექტები:** სუფთა ოთახები, მედიკამენტების საწყობები — მრავალსაფეხურიანი ფილტრაცია GDP მოთხოვნებთან ერთად.",
+          "**კვების ობიექტები:** საწარმოები, საკონდიტროები, სამზარეულოები და კვების ქსელები — პროდუქტის ვარგისიანობა პირდაპირ არის დამოკიდებული საწარმოო ხაზზე მიწოდებული ჰაერის სისუფთავეზე.",
+          "**ოფისები, სასტუმროები და სავაჭრო ცენტრები:** F7/F9 კასკადი ქუჩის სმოგის, PM2.5 ნაწილაკებისა და ალერგენების შესაკავებლად.",
+        ],
+      },
+      { type: "h2", text: "რატომ არ არის ფილტრის შეცვლა წვრილმანი" },
+      {
+        type: "list",
+        items: [
+          "**ენერგია:** გადავსებული ფილტრი ზრდის წნევის ვარდნას, ვენტილატორი მეტ დენს ხარჯავს — ფილტრზე დაზოგილი თანხა ელექტროენერგიის ანგარიშში ბრუნდება.",
+          "**ჰაერის ხარჯი:** ფილტრის გადავსებისას სისტემაში შემავალი ჰაერის რაოდენობა ეცემა და ვენტილაცია პროექტით გათვლილ რეჟიმს ვეღარ იჭერს.",
+          "**ჰიგიენა:** ტენიან და დაბინძურებულ ფილტრზე მიკროორგანიზმები მრავლდებიან — ფილტრი დაცვის ბარიერიდან თავად ხდება დაბინძურების წყარო.",
+          "**დანადგარის რესურსი:** წინასწარი ფილტრაციის გარეშე ბინძურდება კალორიფერები, ამაორთქლებლები და ვენტილატორები, რაც ამცირებს AHU-ს რესურსს და ზრდის სერვისის ხარჯს.",
+        ],
+      },
+      {
+        type: "note",
+        text: "ფილტრების კლასების, სტანდარტებისა და ტექნიკური მახასიათებლების დეტალური მიმოხილვა — შემაჯამებელი ცხრილითა და სქემებით — იხილეთ პროდუქტების განყოფილებაში.",
+      },
+      {
+        type: "link",
+        href: "/products/air-filters",
+        text: "ჰაერის ფილტრები — კლასები, სტანდარტები და ასორტიმენტი",
+      },
+    ],
+  },
   refrigeration: {
     d: "სამაცივრე სისტემების და მაცივარ-საწყობების პროექტირება, მოწოდება, მონტაჟი, სრული დიაგნოსტიკა და სერვისი — მაცივარაგენტის ლაბორატორიული ანალიზით და პორტალზე ატვირთვით.",
     content: [
@@ -92,6 +154,58 @@ const ka: Record<string, Partial<ItemText>> = {
 };
 
 const en: Record<string, Partial<ItemText>> = {
+  "air-filters": {
+    content: [
+      {
+        type: "p",
+        text: "Our engineering team, with 30 years of experience, selects air filters to match how the building is actually used, sets the filtration class required for each zone, supplies filters of the right class and quality, and installs or replaces them as needed.",
+      },
+      {
+        type: "p",
+        text: "The air filter is the element of a ventilation system that directly determines the quality of the air entering the building. A correctly specified filter, replaced on time, protects both the people inside and the equipment itself — the wrong filter, or a clogged one, damages both.",
+      },
+      { type: "h2", text: "How the service works" },
+      {
+        type: "list",
+        items: [
+          "**Site survey and zoning:** establishing how clean the air has to be in each space — operating theatre, ward, laboratory, production line, sales floor or office.",
+          "**Choosing the filtration class:** coarse **G4** for pre-filtration, fine **F7/F9** for the main stage, absolute **HEPA (H13/H14)** and ultra-absolute **ULPA** for critical spaces — to the ISO 16890, EN 779 and EN 1822 standards.",
+          "**Supply:** filters of the chosen class and size from European manufacturers, including non-standard sizes.",
+          "**Installation and seal check:** fitting the filter into its cassette or box and checking the frame seal — air that slips past the edge of a filter defeats the whole filtration stage.",
+          "**Scheduled replacement:** monitoring filter condition and replacing spent filters on a schedule drawn up for the facility.",
+        ],
+      },
+      { type: "h2", text: "Where air filtration is critical" },
+      {
+        type: "list",
+        items: [
+          "**Clinics and hospitals:** operating theatres, intensive care and isolation rooms, sterilisation departments — HEPA H13/H14 filtration to prevent hospital-acquired infection and cross-contamination.",
+          "**Laboratories and pharmaceutical facilities:** cleanrooms and medicine stores — multi-stage filtration alongside GDP requirements.",
+          "**Food facilities:** production plants, bakeries, kitchens and food retail — shelf life depends directly on the cleanliness of the air supplied to the production line.",
+          "**Offices, hotels and shopping centres:** an F7/F9 cascade to hold back street smog, PM2.5 particles and allergens.",
+        ],
+      },
+      { type: "h2", text: "Why a filter change is not a detail" },
+      {
+        type: "list",
+        items: [
+          "**Energy:** a clogged filter raises the pressure drop and the fan draws more power — what you save on the filter comes back on the electricity bill.",
+          "**Airflow:** as the filter loads up, the volume of air entering the system falls and the ventilation no longer holds the design regime.",
+          "**Hygiene:** micro-organisms multiply on a damp, dirty filter, turning the protective barrier into a source of contamination.",
+          "**Equipment life:** without pre-filtration the coils, evaporators and fans foul up, shortening the life of the air handling unit and pushing up service costs.",
+        ],
+      },
+      {
+        type: "note",
+        text: "For a detailed review of filter classes, standards and technical characteristics — with a summary table and diagrams — see the products section.",
+      },
+      {
+        type: "link",
+        href: "/products/air-filters",
+        text: "Air filters — classes, standards and range",
+      },
+    ],
+  },
   refrigeration: {
     d: "Design, supply and installation of refrigeration systems and cold stores, plus full diagnostics and service — including laboratory refrigerant analysis and reporting to the national portal.",
     content: [

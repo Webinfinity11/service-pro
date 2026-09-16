@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Reveal from "./Reveal";
+import { getContent } from "@/lib/content";
 import JacketCalculator from "./widgets/JacketCalculator";
 import RecuperatorCurve from "./widgets/RecuperatorCurve";
 import SteamCalculator from "./widgets/SteamCalculator";
@@ -35,7 +37,9 @@ function Rich({ text }: { text: string }) {
  * paragraphs, bullet lists, data tables, inline diagrams and calculators.
  * Set in a single readable column; tables and widgets may run wider.
  */
-export default function ProductArticle({ blocks }: { blocks: ContentBlock[] }) {
+export default async function ProductArticle({ blocks }: { blocks: ContentBlock[] }) {
+  const { L } = await getContent();
+
   // Section numbers for the h2 headings, counted up front.
   const numbers = blocks.reduce<number[]>((acc, b, i) => {
     acc[i] = (acc[i - 1] ?? 0) + (b.type === "h2" ? 1 : 0);
@@ -132,6 +136,23 @@ export default function ProductArticle({ blocks }: { blocks: ContentBlock[] }) {
                   />
                 </div>
               </figure>
+            );
+          case "link":
+            return (
+              <Reveal key={i} className="mt-10">
+                <Link
+                  href={L(b.href)}
+                  className="group flex items-center justify-between gap-4 rounded-cta border border-line bg-white px-6 py-5 text-ink transition-colors hover:border-red-ink"
+                >
+                  <span className="display-ge text-[1.0625rem] leading-snug">{b.text}</span>
+                  <span
+                    aria-hidden
+                    className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-paper transition-colors group-hover:bg-red-ink group-hover:text-white"
+                  >
+                    →
+                  </span>
+                </Link>
+              </Reveal>
             );
           case "widget": {
             const Widget = widgets[b.name];

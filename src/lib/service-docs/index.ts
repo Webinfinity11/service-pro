@@ -2,7 +2,6 @@
 import type { ItemText } from "../catalog";
 import deckFlooring from "./deck-flooring.json";
 import electrical from "./electrical.json";
-import hvac from "./hvac.json";
 import insulation from "./insulation.json";
 import sandwichPanels from "./sandwich-panels.json";
 import steamUnits from "./steam-units.json";
@@ -14,7 +13,6 @@ import xRayProtection from "./x-ray-protection.json";
 export const serviceDocs = {
   "deck-flooring": deckFlooring,
   "electrical": electrical,
-  "hvac": hvac,
   "insulation": insulation,
   "sandwich-panels": sandwichPanels,
   "steam-units": steamUnits,

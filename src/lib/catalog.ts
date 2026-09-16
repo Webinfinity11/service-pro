@@ -18,6 +18,9 @@ export type ContentBlock =
   | { type: "list"; items: string[] }
   | { type: "table"; head: string[]; rows: string[][] }
   | { type: "image"; src: string; alt: string; width: number; height: number; localized?: boolean }
+  /** Internal cross-link, e.g. from a product article to the matching service. `href` is an
+   *  unprefixed site path — the article localises it. */
+  | { type: "link"; href: string; text: string }
   | { type: "widget"; name: WidgetName };
 
 export type Item = {

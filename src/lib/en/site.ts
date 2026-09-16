@@ -36,7 +36,7 @@ export const heroStatLabelsEn: string[] = [
 export const homeServicesEn: { title: string; items: string[] }[] = [
   {
     title: "HVAC — heating, ventilation, air conditioning",
-    items: ["Air handling units (AHU)", "Heat recovery units and ductwork", "Automatic control systems"],
+    items: ["Air handling units (AHU)", "Air filters — G4, F7/F9, HEPA", "Heat recovery units and ductwork", "Automatic control systems"],
   },
   {
     title: "Plumbing and electrical",

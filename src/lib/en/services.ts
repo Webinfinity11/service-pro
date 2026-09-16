@@ -94,6 +94,10 @@ export const servicesEn: Record<string, ItemText> = {
       },
     ],
   },
+  "air-filters": {
+    t: "Air Filters — Selection, Installation and Replacement",
+    d: "Selection, supply, installation and scheduled replacement of air filters in ventilation and HVAC systems — G4, F7/F9, HEPA (H13/H14) and ULPA classes for clinics, hospitals, laboratories, pharmaceutical and food facilities.",
+  },
   "textile-ducts": {
     t: "Textile Air Ducts",
     d: "Supply and installation of textile air ducts.",

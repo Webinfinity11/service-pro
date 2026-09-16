@@ -257,7 +257,7 @@ export const products: Product[] = [
     t: "HVAC — გათბობა, ვენტილაცია, ჰაერის კონდიცირება",
     d: "გათბობა, ვენტილაცია, ჰაერის კონდიცირების სისტემები, მათ შორის: ჰაერის დამუშავების აგრეგატები (AHU); რეკუპერატორები; ჰაერსადენები; ავტომატური კონტროლის მოწყობილობები.",
     img: "/img/products/hvac.jpg",
-    children: ["ahu", "air-filters", "recuperators", "textile-ducts"],
+    children: ["ahu", "recuperators", "textile-ducts"],
     intro: [
       { p: "გათბობა, ვენტილაცია და ჰაერის კონდიცირება კომფორტის ის კომპონენტებია, რომლებსაც არ გააჩნიათ ხარისხის, მრავალფეროვნებისა და ღირებულების ზღვარი. შესაძლებელია ყველა ეს კომპონენტი წარმოდგენილი იყოს როგორც ცალკე სისტემა ან მოწყობილობა, ასევე ერთმანეთში ინტეგრირებული მაღალეფექტური, ცენტრალიზებული და ავტომატურად მართვადი სისტემა, რომელსაც კომპიუტერული პროგრამა ადამიანის ჩარევის გარეშე ამუშავებს." },
       { h: "დაზოგე ენერგია და ფული", p: "მიმდინარე ეკოლოგიური და ენერგეტიკული გამოწვევები გვაიძულებენ სულ უფრო მეტად დავხვეწოთ და განვავითაროთ სითბური ენერგიის უკუგების მეთოდები და მოწყობილობები. დედამიწაზე ენერგო რესურსების შემცირების ტენდენცია ენერგომატარებლებზე ფასების მუდმივ მატებას იწვევს. რეკუპერაციის გარეშე ფაქტიურად წარმოუდგენელი გახდა საშუალო და მსხვილი სიდიდის ობიექტების სითბოთი და სიცივით უზრუნველყოფა." },
@@ -272,6 +272,20 @@ export const products: Product[] = [
       { src: "/img/products/hvac/05.jpg" },
       { src: "/img/products/hvac/06.jpg" },
       { src: "/img/products/hvac/07.jpg" },
+    ],
+  },
+  {
+    slug: "air-filters",
+    t: "ჰაერის ფილტრები",
+    d: "ჰაერის ფილტრები სავენტილაციო და HVAC სისტემებისთვის — უხეში (G4), წვრილი (F7/F9), აბსოლუტური (HEPA H13/H14) და ულტრა-აბსოლუტური (ULPA) კლასები კლინიკების, საავადმყოფოების, ლაბორატორიების, ფარმაცევტული და კვების ობიექტებისთვის.",
+    img: "/img/products/air-filters/cover.jpg",
+    gallery: [
+      { src: "/img/products/air-filters/04.jpg" },
+      { src: "/img/products/air-filters/05.jpg" },
+      { src: "/img/products/air-filters/01.png" },
+      { src: "/img/products/air-filters/02.jpg" },
+      { src: "/img/products/air-filters/03.jpg" },
+      { src: "/img/products/air-filters/06.jpg" },
     ],
   },
   {
@@ -468,21 +482,6 @@ export const subProducts: Product[] = [
     gallery: [
       { src: "/img/products/ahu/01.jpg" },
       { src: "/img/products/ahu/02.jpg" },
-    ],
-  },
-  {
-    slug: "air-filters",
-    t: "ჰაერის ფილტრები",
-    d: "ჰაერის ფილტრები HVAC სისტემებისთვის — ჰაერის სისუფთავე და ჯანსაღი გარემო შენობის შიგნით.",
-    img: "/img/products/air-filters/01.png",
-    parent: "hvac",
-    gallery: [
-      { src: "/img/products/air-filters/01.png" },
-      { src: "/img/products/air-filters/02.jpg" },
-      { src: "/img/products/air-filters/03.jpg" },
-      { src: "/img/products/air-filters/04.jpg" },
-      { src: "/img/products/air-filters/05.jpg" },
-      { src: "/img/products/air-filters/06.jpg" },
     ],
   },
   {

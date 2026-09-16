@@ -1,7 +1,7 @@
 {
   "ka": {
     "t": "ჰაერის ფილტრები",
-    "d": "თანამედროვე სამყაროში შიდა სივრცეების ჰაერის ხარისხი (IAQ) უმნიშვნელოვანესი ფაქტორია. სავენტილაციო სისტემებში ინტეგრირებული ჰაერის ფილტრები არამხოლოდ უზრუნველყოფენ კომფორტულ…",
+    "d": "ჰაერის ფილტრები სავენტილაციო და HVAC სისტემებისთვის — უხეში (G4), წვრილი (F7/F9), აბსოლუტური (HEPA H13/H14) და ულტრა-აბსოლუტური (ULPA) კლასები. შერჩევა, მოწოდება და მონტაჟი კლინიკების, საავადმყოფოების, ლაბორატორიების, ფარმაცევტული და კვების ობიექტებისთვის.",
     "content": [
       {
         "type": "h2",
@@ -213,6 +213,207 @@
       {
         "type": "p",
         "text": "**დასკვნა:** სავენტილაციო სისტემაში სწორად შერჩეული ჰაერის ფილტრების კასკადი (მაგ: G4 წინასწარი წმენდისთვის + F7 ძირითადი წმენდისთვის + HEPA სპეციფიკური სივრცეებისთვის) არის გრძელვადიანი ინვესტიცია ადამიანების ჯანმრთელობაში, პროდუქციის უსაფრთხოებასა და ტექნიკის გამართულ მუშაობაში."
+      },
+      {
+        "type": "link",
+        "href": "/services/air-filters",
+        "text": "ჰაერის ფილტრების შერჩევა, მონტაჟი და შეცვლა — სერვისი"
+      }
+    ]
+  },
+  "en": {
+    "t": "Air Filters",
+    "d": "Air filters for ventilation and HVAC systems — coarse (G4), fine (F7/F9), absolute (HEPA H13/H14) and ultra-absolute (ULPA) classes. Selection, supply and installation for clinics, hospitals, laboratories, pharmaceutical and food facilities.",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Air filtration in ventilation systems: clean air as a guarantee of health and safety"
+      },
+      {
+        "type": "p",
+        "text": "Indoor air quality (IAQ) is a critical factor in any modern building. Air filters built into a ventilation system do more than keep the space comfortable — they are the first line of defence against invisible hazards: dust, allergens, bacteria and viruses."
+      },
+      {
+        "type": "p",
+        "text": "Below are the main categories of air filter, their filtration classes and where each one belongs across different industries."
+      },
+      {
+        "type": "h2",
+        "text": "Filtration classes and what they are for"
+      },
+      {
+        "type": "p",
+        "text": "Air filters are grouped by their efficiency and by the size of the particles they can capture. Under the international standards (ISO 16890, EN 779, EN 1822) they fall into the following classes:"
+      },
+      {
+        "type": "h3",
+        "text": "1. Coarse filters (G class: e.g. G4)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Function:** the first barrier (pre-filter). Captures large particles — dust, hair, insects and sand (>10 micrometres).",
+          "**Where it is used:** mainly to protect the ventilation equipment itself (fans, heating coils) from contamination and to extend the life of the higher-class filters behind it."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "2. Fine filters (F class: e.g. F7, F9)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Function:** captures fine particles invisible to the eye (1 to 2.5 micrometres) such as smog, pollen, spores and some types of bacteria.",
+          "**Where it is used:** the main filter stage in commercial buildings, offices and residential complexes where high air quality is required."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "3. Absolute filters (HEPA — High Efficiency Particulate Air)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Function:** captures 99.95% to 99.995% (classes H13, H14) of airborne particles 0.3 micrometres in size. That includes viruses, fine bacteria and toxic dust.",
+          "**Where it is used:** critical for cleanrooms, operating theatres and laboratories."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Ultra-absolute filters (ULPA — Ultra Low Penetration Air)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Function:** delivers effectively complete sterility, capturing 99.999% and more of particles 0.12 micrometres in size (classes U15, U16).",
+          "**Where it is used:** nanotechnology, microelectronics manufacturing and specific pharmaceutical processes."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How the filter stages work together"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**G4** — a simple mesh structure.",
+          "**F7/F9** — a pocket filter structure that increases the filtration area.",
+          "**HEPA/ULPA** — a densely pleated glass-fibre paper structure (V-bank or panel) that blocks micro-particles."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Summary table: air filtration classes"
+      },
+      {
+        "type": "p",
+        "text": "The table below sets out the specification and field of use of each class:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Filter class",
+          "Type / standard",
+          "Efficiency / particle size",
+          "Main target contaminants",
+          "Typical field of use"
+        ],
+        "rows": [
+          [
+            "**G4**",
+            "Coarse",
+            "> 10 µm",
+            "Dust, insects, hair",
+            "Domestic air conditioning, pre-filtration"
+          ],
+          [
+            "**F7**",
+            "Fine (ePM2.5)",
+            "1 – 2.5 µm (65–80%)",
+            "Fine dust, allergens",
+            "Offices, shopping centres, hotels"
+          ],
+          [
+            "**F9**",
+            "Fine (ePM1)",
+            "< 1 µm (>80%)",
+            "Fine smog, some bacteria",
+            "General hospital areas, pre-protection for laboratories"
+          ],
+          [
+            "**HEPA (H13/H14)**",
+            "Absolute",
+            "0.3 µm (>99.95%)",
+            "Viruses, all types of bacteria, aerosols",
+            "Operating theatres, pharmaceutical stores, cleanrooms"
+          ],
+          [
+            "**ULPA (U15+)**",
+            "Ultra-absolute",
+            "0.12 µm (>99.999%)",
+            "Nanoparticles, radioactive dust",
+            "Microelectronics, virology laboratories"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Where air filters matter most"
+      },
+      {
+        "type": "h2",
+        "text": "Healthcare"
+      },
+      {
+        "type": "p",
+        "text": "In medical facilities air quality is directly tied to patient safety. In operating theatres and intensive care units, **HEPA** filters are vital in preventing hospital-acquired infections (HAI) and cross-contamination. They create a sterile environment in which the circulation of airborne pathogens is reduced to a minimum."
+      },
+      {
+        "type": "h2",
+        "text": "Pharmaceuticals, logistics, food and other industries"
+      },
+      {
+        "type": "p",
+        "text": "Strict hygiene standards apply well beyond healthcare. In pharmaceutical warehouses, where Good Distribution Practice (GDP) must be observed alongside specific temperature and humidity regimes, multi-stage air filtration is critical to rule out microbiological contamination of medicines. The requirements are just as strict in food production, where shelf life depends directly on the cleanliness of the air supplied to the production line."
+      },
+      {
+        "type": "h2",
+        "text": "A practical comparison: with filtration and without"
+      },
+      {
+        "type": "p",
+        "text": "Two real-world scenarios show what filtration actually changes:"
+      },
+      {
+        "type": "h2",
+        "text": "Case 1: an isolation room in a modern clinic"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Equipped (HEPA H14):** the air entering the room is fully cleaned. Pathogens released by the patient are captured by the extract system, so what leaves the building is clean air — protecting both staff and the surroundings.",
+          "**Not equipped (or only G4):** viruses and bacteria circulate freely through the ventilation ducts, spreading infection quickly into other rooms and corridors."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Case 2: a densely occupied city office"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Equipped (a cascade of F7/F9 filters):** despite heavy traffic fumes and smog outside, the air inside is clean. Staff are not troubled by allergies, fatigue or loss of concentration, and productivity rises.",
+          "**Not equipped:** street smog, PM2.5 particles and allergens enter the building unchecked. The risk of respiratory illness is high, and the inside of the ventilation system fouls quickly, driving up energy use and maintenance costs."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**In short:** a correctly specified cascade of air filters in a ventilation system (for example G4 for pre-filtration + F7 for the main stage + HEPA where the space demands it) is a long-term investment in people's health, product safety and the reliable operation of the equipment itself."
+      },
+      {
+        "type": "link",
+        "href": "/services/air-filters",
+        "text": "Air filter selection, installation and replacement — our service"
       }
     ]
   }

@@ -162,7 +162,7 @@ export const productsEn: Record<string, ItemText> = {
   },
   "air-filters": {
     t: "Air Filters",
-    d: "Air filters for HVAC systems — clean air and a healthy indoor environment.",
+    d: "Air filters for ventilation and HVAC systems — coarse (G4), fine (F7/F9), absolute (HEPA H13/H14) and ultra-absolute (ULPA) classes for clinics, hospitals, laboratories, pharmaceutical and food facilities.",
   },
   recuperators: {
     t: "Heat Recovery Units",
