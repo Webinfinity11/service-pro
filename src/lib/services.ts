@@ -553,7 +553,7 @@ export const serviceCatalog = makeCatalog({
     all: "ყველა სერვისი",
     order: "შეფასება და ვადები",
     cta: "გჭირდებათ სამუშაოების შეფასება?",
-    missing: "არ იპოვეთ საჭირო სერვისი?",
+    missing: "ვერ იპოვეთ საჭირო სერვისი?",
   },
   top: services,
   sub: subServices,

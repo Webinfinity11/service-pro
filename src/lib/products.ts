@@ -512,7 +512,7 @@ export const productCatalog = makeCatalog({
     all: "ყველა პროდუქტი",
     order: "ფასი და მოწოდების ვადა",
     cta: "გჭირდებათ ფასი კონკრეტულ პროდუქტზე?",
-    missing: "არ იპოვეთ საჭირო პროდუქტი?",
+    missing: "ვერ იპოვეთ საჭირო პროდუქტი?",
   },
   top: products,
   sub: subProducts,

@@ -7,14 +7,12 @@ export default async function PageHeader({
   title,
   lead,
   image,
-  count,
   trail = [],
 }: {
   eyebrow: string;
   title: string;
   lead?: string;
   image: string;
-  count?: string;
   /** Crumbs between "მთავარი" and the current page. */
   trail?: { href: string; label: string }[];
 }) {
@@ -47,19 +45,12 @@ export default async function PageHeader({
           <span className="text-white/70">{eyebrow}</span>
         </nav>
 
-        <div className="mt-8 flex flex-wrap items-end justify-between gap-8">
-          <div className="max-w-2xl">
-            <h1 className="display-ge text-[clamp(1.9rem,5vw,3.4rem)] text-white">
-              {title}
-            </h1>
-            {lead && (
-              <p className="mt-5 max-w-xl leading-relaxed text-white/60">{lead}</p>
-            )}
-          </div>
-          {count && (
-            <p className="display flex items-baseline gap-2 text-white/40">
-              <span className="text-[clamp(2.5rem,6vw,4rem)]">{count}</span>
-            </p>
+        <div className="mt-8 max-w-2xl">
+          <h1 className="display-ge text-[clamp(1.9rem,5vw,3.4rem)] text-white">
+            {title}
+          </h1>
+          {lead && (
+            <p className="mt-5 max-w-xl leading-relaxed text-white/60">{lead}</p>
           )}
         </div>
       </div>

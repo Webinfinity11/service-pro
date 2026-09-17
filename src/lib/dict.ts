@@ -128,7 +128,7 @@ const ka = {
     video: "ვიდეო",
     sameCategory: "ამავე კატეგორიიდან",
     backToCategory: "კატეგორიაზე დაბრუნება",
-    onRequest: "+ მოთხოვნით",
+    onRequest: "+ მოთხოვნისამებრ",
     alternative: "მოგვწერეთ — შეგირჩევთ ალტერნატივას.",
   },
   cta: {

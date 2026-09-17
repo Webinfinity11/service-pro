@@ -19,7 +19,6 @@ export default async function Projects() {
         title={t.projects.title}
         lead={t.projects.lead}
         image="/img/hero/hero-2.jpg"
-        count={String(projects.completed.length + projects.ongoing.length)}
       />
 
       <section className="wrap py-20 lg:py-24">

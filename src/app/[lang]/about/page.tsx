@@ -39,7 +39,6 @@ export default async function About() {
         title={t.about.brand}
         lead={t.about.lead(tagline, FOUNDED)}
         image="/img/hero/hero-1.jpg"
-        count={t.about.years(YEARS)}
       />
 
       {/* ── Story ─────────────────────────────────────────────── */}

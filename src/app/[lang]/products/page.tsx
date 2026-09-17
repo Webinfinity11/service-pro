@@ -22,7 +22,6 @@ export default async function Products() {
         title={t.products.title}
         lead={t.products.lead}
         image="/img/products/hvac.jpg"
-        count={String(count)}
       />
 
       <section className="wrap py-20 lg:py-24">

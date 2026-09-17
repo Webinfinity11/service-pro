@@ -23,7 +23,6 @@ export default async function Services() {
         title={t.services.title}
         lead={cooperation.title}
         image="/img/hero/hero-2.jpg"
-        count={String(count)}
       />
 
       {/* ── Every service, one card each ─────────────────────── */}

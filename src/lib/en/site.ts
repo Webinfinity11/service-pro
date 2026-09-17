@@ -2,8 +2,8 @@
 
 export const contactEn = {
   company: "Service Pro LLC",
-  address: "Besarion Zhgenti Street, Tbilisi",
-  mapQuery: "Besarion Zhgenti Street, Tbilisi",
+  address: "Nutsubidze Plateau, II Microdistrict, 1st Quarter #3a, Tbilisi",
+  mapQuery: "Nutsubidze Plateau II Microdistrict, 1st Quarter 3a, Tbilisi",
 };
 
 export const navEn: Record<string, string> = {

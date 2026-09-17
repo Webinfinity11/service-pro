@@ -8,8 +8,8 @@ export const contact = {
   /** Official WhatsApp — the same number as the office phone. */
   whatsapp: "https://wa.me/995598992233",
   email: "info@service-pro.ge",
-  address: "თბილისი, ბესარიონ ჟღენტის ქუჩა",
-  mapQuery: "ბესარიონ ჟღენტის ქუჩა, თბილისი",
+  address: "თბილისი, ნუცუბიძის ფერდობი II მ/რ, პირველი კვარტალი #3ა",
+  mapQuery: "ნუცუბიძის ფერდობი II მიკრორაიონი, პირველი კვარტალი 3ა, თბილისი",
   facebook: "https://www.facebook.com/",
   youtube: "https://www.youtube.com/",
 };
