@@ -98,7 +98,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
                 "@type": "PostalAddress",
                 streetAddress:
                   lang === "en"
-                    ? "Nutsubidze Plateau, II Microdistrict, 1st Quarter #3a"
+                    ? "Nutsubidze Plateau, II Microdistrict, 1st Block #3a"
                     : "ნუცუბიძის ფერდობი II მ/რ, პირველი კვარტალი #3ა",
                 addressLocality: lang === "en" ? "Tbilisi" : "თბილისი",
                 addressCountry: "GE",
